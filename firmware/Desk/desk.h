@@ -14,6 +14,9 @@ typedef struct {
     uint8_t count, cursor;
     uint32_t sum;
     float average, angle, norm;
+    float reference[3], direction[3], stable_min, stable_max;
+    bool acceleration_valid, confirming, stable;
+    uint32_t confirm_since, stable_since;
 } desk;
 
 void desk_init(desk *state, uint32_t now);
@@ -22,6 +25,8 @@ void desk_light(desk *state, bool success, uint16_t raw, uint32_t now);
 void desk_update(desk *state, uint32_t now);
 void desk_auto(desk *state);
 void desk_adjust(desk *state);
+void desk_imu(desk *state, bool success, const float acceleration[3], uint32_t now);
+bool desk_zero(desk *state, uint32_t now);
 const char *desk_mode_name(desk_mode mode);
 void channel_sample(channel_health *health, bool success, uint32_t now);
 #endif
