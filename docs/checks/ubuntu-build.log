@@ -1,0 +1,104 @@
+Started UTC: 2026-10-04T09:35:33.717666+00:00
+Host OS: Ubuntu 24.04.5 LTS x86_64
+Project path in command output replaced with $PROJECT_DIR. Timestamps and build output are actual.
+$ docker --version
+Docker version 29.1.3, build 29.1.3-0ubuntu3~24.04.2
+Exit code: 0
+$ make clean
+make -C firmware clean
+rm -fR build
+Exit code: 0
+$ make build
+docker build -t stm32c0-wokwi-build:local docker
+DEPRECATED: The legacy builder is deprecated and will be removed in a future release.
+            Install the buildx component to build images with BuildKit:
+            https://docs.docker.com/go/buildx/
+
+Sending build context to Docker daemon  2.048kB
+
+Step 1/4 : FROM ubuntu:22.04
+ ---> b8b6ee6aa931
+Step 2/4 : ARG DEBIAN_FRONTEND=noninteractive
+ ---> Using cache
+ ---> 2a3bade6f42e
+Step 3/4 : RUN apt-get update && apt-get install -y --no-install-recommends     make     gcc-arm-none-eabi     binutils-arm-none-eabi     libnewlib-arm-none-eabi     ca-certificates     && rm -rf /var/lib/apt/lists/*
+ ---> Using cache
+ ---> a03a80407cf5
+Step 4/4 : WORKDIR /workspace
+ ---> Using cache
+ ---> 557e5bf48a35
+Successfully built 557e5bf48a35
+Successfully tagged stm32c0-wokwi-build:local
+docker run --rm -v "$PROJECT_DIR:/workspace" -w /workspace \
+	--user "1000:1000" stm32c0-wokwi-build:local \
+	make -C firmware all
+make: Entering directory '/workspace/firmware'
+mkdir -p build		
+arm-none-eabi-gcc -c -mcpu=cortex-m0plus -mthumb   -DUSE_HAL_DRIVER -DSTM32C031xx -ICore/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32C0xx/Include -IDrivers/CMSIS/Include -Og -Wall -fdata-sections -ffunction-sections -g -gdwarf-2 -MMD -MP -MF"build/main.d" -Wa,-a,-ad,-alms=build/main.lst Core/Src/main.c -o build/main.o
+arm-none-eabi-gcc -c -mcpu=cortex-m0plus -mthumb   -DUSE_HAL_DRIVER -DSTM32C031xx -ICore/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32C0xx/Include -IDrivers/CMSIS/Include -Og -Wall -fdata-sections -ffunction-sections -g -gdwarf-2 -MMD -MP -MF"build/stm32c0xx_it.d" -Wa,-a,-ad,-alms=build/stm32c0xx_it.lst Core/Src/stm32c0xx_it.c -o build/stm32c0xx_it.o
+arm-none-eabi-gcc -c -mcpu=cortex-m0plus -mthumb   -DUSE_HAL_DRIVER -DSTM32C031xx -ICore/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32C0xx/Include -IDrivers/CMSIS/Include -Og -Wall -fdata-sections -ffunction-sections -g -gdwarf-2 -MMD -MP -MF"build/stm32c0xx_hal_msp.d" -Wa,-a,-ad,-alms=build/stm32c0xx_hal_msp.lst Core/Src/stm32c0xx_hal_msp.c -o build/stm32c0xx_hal_msp.o
+arm-none-eabi-gcc -c -mcpu=cortex-m0plus -mthumb   -DUSE_HAL_DRIVER -DSTM32C031xx -ICore/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32C0xx/Include -IDrivers/CMSIS/Include -Og -Wall -fdata-sections -ffunction-sections -g -gdwarf-2 -MMD -MP -MF"build/syscalls.d" -Wa,-a,-ad,-alms=build/syscalls.lst Core/Src/syscalls.c -o build/syscalls.o
+arm-none-eabi-gcc -c -mcpu=cortex-m0plus -mthumb   -DUSE_HAL_DRIVER -DSTM32C031xx -ICore/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32C0xx/Include -IDrivers/CMSIS/Include -Og -Wall -fdata-sections -ffunction-sections -g -gdwarf-2 -MMD -MP -MF"build/sysmem.d" -Wa,-a,-ad,-alms=build/sysmem.lst Core/Src/sysmem.c -o build/sysmem.o
+arm-none-eabi-gcc -c -mcpu=cortex-m0plus -mthumb   -DUSE_HAL_DRIVER -DSTM32C031xx -ICore/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32C0xx/Include -IDrivers/CMSIS/Include -Og -Wall -fdata-sections -ffunction-sections -g -gdwarf-2 -MMD -MP -MF"build/stm32c0xx_hal.d" -Wa,-a,-ad,-alms=build/stm32c0xx_hal.lst Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal.c -o build/stm32c0xx_hal.o
+arm-none-eabi-gcc -c -mcpu=cortex-m0plus -mthumb   -DUSE_HAL_DRIVER -DSTM32C031xx -ICore/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32C0xx/Include -IDrivers/CMSIS/Include -Og -Wall -fdata-sections -ffunction-sections -g -gdwarf-2 -MMD -MP -MF"build/stm32c0xx_hal_cortex.d" -Wa,-a,-ad,-alms=build/stm32c0xx_hal_cortex.lst Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_cortex.c -o build/stm32c0xx_hal_cortex.o
+arm-none-eabi-gcc -c -mcpu=cortex-m0plus -mthumb   -DUSE_HAL_DRIVER -DSTM32C031xx -ICore/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32C0xx/Include -IDrivers/CMSIS/Include -Og -Wall -fdata-sections -ffunction-sections -g -gdwarf-2 -MMD -MP -MF"build/stm32c0xx_hal_rcc.d" -Wa,-a,-ad,-alms=build/stm32c0xx_hal_rcc.lst Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_rcc.c -o build/stm32c0xx_hal_rcc.o
+arm-none-eabi-gcc -c -mcpu=cortex-m0plus -mthumb   -DUSE_HAL_DRIVER -DSTM32C031xx -ICore/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32C0xx/Include -IDrivers/CMSIS/Include -Og -Wall -fdata-sections -ffunction-sections -g -gdwarf-2 -MMD -MP -MF"build/stm32c0xx_hal_rcc_ex.d" -Wa,-a,-ad,-alms=build/stm32c0xx_hal_rcc_ex.lst Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_rcc_ex.c -o build/stm32c0xx_hal_rcc_ex.o
+arm-none-eabi-gcc -c -mcpu=cortex-m0plus -mthumb   -DUSE_HAL_DRIVER -DSTM32C031xx -ICore/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32C0xx/Include -IDrivers/CMSIS/Include -Og -Wall -fdata-sections -ffunction-sections -g -gdwarf-2 -MMD -MP -MF"build/stm32c0xx_hal_flash.d" -Wa,-a,-ad,-alms=build/stm32c0xx_hal_flash.lst Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_flash.c -o build/stm32c0xx_hal_flash.o
+arm-none-eabi-gcc -c -mcpu=cortex-m0plus -mthumb   -DUSE_HAL_DRIVER -DSTM32C031xx -ICore/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32C0xx/Include -IDrivers/CMSIS/Include -Og -Wall -fdata-sections -ffunction-sections -g -gdwarf-2 -MMD -MP -MF"build/stm32c0xx_hal_flash_ex.d" -Wa,-a,-ad,-alms=build/stm32c0xx_hal_flash_ex.lst Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_flash_ex.c -o build/stm32c0xx_hal_flash_ex.o
+arm-none-eabi-gcc -c -mcpu=cortex-m0plus -mthumb   -DUSE_HAL_DRIVER -DSTM32C031xx -ICore/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32C0xx/Include -IDrivers/CMSIS/Include -Og -Wall -fdata-sections -ffunction-sections -g -gdwarf-2 -MMD -MP -MF"build/stm32c0xx_hal_gpio.d" -Wa,-a,-ad,-alms=build/stm32c0xx_hal_gpio.lst Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_gpio.c -o build/stm32c0xx_hal_gpio.o
+arm-none-eabi-gcc -c -mcpu=cortex-m0plus -mthumb   -DUSE_HAL_DRIVER -DSTM32C031xx -ICore/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32C0xx/Include -IDrivers/CMSIS/Include -Og -Wall -fdata-sections -ffunction-sections -g -gdwarf-2 -MMD -MP -MF"build/stm32c0xx_hal_dma.d" -Wa,-a,-ad,-alms=build/stm32c0xx_hal_dma.lst Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_dma.c -o build/stm32c0xx_hal_dma.o
+arm-none-eabi-gcc -c -mcpu=cortex-m0plus -mthumb   -DUSE_HAL_DRIVER -DSTM32C031xx -ICore/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32C0xx/Include -IDrivers/CMSIS/Include -Og -Wall -fdata-sections -ffunction-sections -g -gdwarf-2 -MMD -MP -MF"build/stm32c0xx_hal_dma_ex.d" -Wa,-a,-ad,-alms=build/stm32c0xx_hal_dma_ex.lst Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_dma_ex.c -o build/stm32c0xx_hal_dma_ex.o
+arm-none-eabi-gcc -c -mcpu=cortex-m0plus -mthumb   -DUSE_HAL_DRIVER -DSTM32C031xx -ICore/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32C0xx/Include -IDrivers/CMSIS/Include -Og -Wall -fdata-sections -ffunction-sections -g -gdwarf-2 -MMD -MP -MF"build/stm32c0xx_hal_pwr.d" -Wa,-a,-ad,-alms=build/stm32c0xx_hal_pwr.lst Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_pwr.c -o build/stm32c0xx_hal_pwr.o
+arm-none-eabi-gcc -c -mcpu=cortex-m0plus -mthumb   -DUSE_HAL_DRIVER -DSTM32C031xx -ICore/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32C0xx/Include -IDrivers/CMSIS/Include -Og -Wall -fdata-sections -ffunction-sections -g -gdwarf-2 -MMD -MP -MF"build/stm32c0xx_hal_pwr_ex.d" -Wa,-a,-ad,-alms=build/stm32c0xx_hal_pwr_ex.lst Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_pwr_ex.c -o build/stm32c0xx_hal_pwr_ex.o
+arm-none-eabi-gcc -c -mcpu=cortex-m0plus -mthumb   -DUSE_HAL_DRIVER -DSTM32C031xx -ICore/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32C0xx/Include -IDrivers/CMSIS/Include -Og -Wall -fdata-sections -ffunction-sections -g -gdwarf-2 -MMD -MP -MF"build/stm32c0xx_hal_exti.d" -Wa,-a,-ad,-alms=build/stm32c0xx_hal_exti.lst Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_exti.c -o build/stm32c0xx_hal_exti.o
+arm-none-eabi-gcc -c -mcpu=cortex-m0plus -mthumb   -DUSE_HAL_DRIVER -DSTM32C031xx -ICore/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32C0xx/Include -IDrivers/CMSIS/Include -Og -Wall -fdata-sections -ffunction-sections -g -gdwarf-2 -MMD -MP -MF"build/stm32c0xx_hal_i2c.d" -Wa,-a,-ad,-alms=build/stm32c0xx_hal_i2c.lst Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_i2c.c -o build/stm32c0xx_hal_i2c.o
+arm-none-eabi-gcc -c -mcpu=cortex-m0plus -mthumb   -DUSE_HAL_DRIVER -DSTM32C031xx -ICore/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32C0xx/Include -IDrivers/CMSIS/Include -Og -Wall -fdata-sections -ffunction-sections -g -gdwarf-2 -MMD -MP -MF"build/stm32c0xx_hal_i2c_ex.d" -Wa,-a,-ad,-alms=build/stm32c0xx_hal_i2c_ex.lst Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_i2c_ex.c -o build/stm32c0xx_hal_i2c_ex.o
+arm-none-eabi-gcc -c -mcpu=cortex-m0plus -mthumb   -DUSE_HAL_DRIVER -DSTM32C031xx -ICore/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32C0xx/Include -IDrivers/CMSIS/Include -Og -Wall -fdata-sections -ffunction-sections -g -gdwarf-2 -MMD -MP -MF"build/stm32c0xx_hal_uart.d" -Wa,-a,-ad,-alms=build/stm32c0xx_hal_uart.lst Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_uart.c -o build/stm32c0xx_hal_uart.o
+arm-none-eabi-gcc -c -mcpu=cortex-m0plus -mthumb   -DUSE_HAL_DRIVER -DSTM32C031xx -ICore/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32C0xx/Include -IDrivers/CMSIS/Include -Og -Wall -fdata-sections -ffunction-sections -g -gdwarf-2 -MMD -MP -MF"build/stm32c0xx_hal_uart_ex.d" -Wa,-a,-ad,-alms=build/stm32c0xx_hal_uart_ex.lst Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_uart_ex.c -o build/stm32c0xx_hal_uart_ex.o
+arm-none-eabi-gcc -c -mcpu=cortex-m0plus -mthumb   -DUSE_HAL_DRIVER -DSTM32C031xx -ICore/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32C0xx/Include -IDrivers/CMSIS/Include -Og -Wall -fdata-sections -ffunction-sections -g -gdwarf-2 -MMD -MP -MF"build/system_stm32c0xx.d" -Wa,-a,-ad,-alms=build/system_stm32c0xx.lst Core/Src/system_stm32c0xx.c -o build/system_stm32c0xx.o
+arm-none-eabi-gcc -x assembler-with-cpp -c -mcpu=cortex-m0plus -mthumb   -DUSE_HAL_DRIVER -DSTM32C031xx -ICore/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc -IDrivers/STM32C0xx_HAL_Driver/Inc/Legacy -IDrivers/CMSIS/Device/ST/STM32C0xx/Include -IDrivers/CMSIS/Include -Og -Wall -fdata-sections -ffunction-sections -g -gdwarf-2 -MMD -MP -MF"build/startup_stm32c031xx.d" startup_stm32c031xx.s -o build/startup_stm32c031xx.o
+arm-none-eabi-gcc build/main.o build/stm32c0xx_it.o build/stm32c0xx_hal_msp.o build/syscalls.o build/sysmem.o build/stm32c0xx_hal.o build/stm32c0xx_hal_cortex.o build/stm32c0xx_hal_rcc.o build/stm32c0xx_hal_rcc_ex.o build/stm32c0xx_hal_flash.o build/stm32c0xx_hal_flash_ex.o build/stm32c0xx_hal_gpio.o build/stm32c0xx_hal_dma.o build/stm32c0xx_hal_dma_ex.o build/stm32c0xx_hal_pwr.o build/stm32c0xx_hal_pwr_ex.o build/stm32c0xx_hal_exti.o build/stm32c0xx_hal_i2c.o build/stm32c0xx_hal_i2c_ex.o build/stm32c0xx_hal_uart.o build/stm32c0xx_hal_uart_ex.o build/system_stm32c0xx.o build/startup_stm32c031xx.o -mcpu=cortex-m0plus -mthumb   -specs=nano.specs -TSTM32C031C6Tx_FLASH.ld  -lc -lm -lnosys  -Wl,-Map=build/firmware.map,--cref -Wl,--gc-sections -o build/firmware.elf
+arm-none-eabi-size build/firmware.elf
+   text	   data	    bss	    dec	    hex	filename
+  13464	    120	   1808	  15392	   3c20	build/firmware.elf
+arm-none-eabi-objcopy -O ihex build/firmware.elf build/firmware.hex
+arm-none-eabi-objcopy -O binary -S build/firmware.elf build/firmware.bin	
+make: Leaving directory '/workspace/firmware'
+Exit code: 0
+$ docker image inspect stm32c0-wokwi-build:local --format Image={{.Id}} OS={{.Os}} Architecture={{.Architecture}}
+Image=sha256:557e5bf48a35cf623723ee7d7352a02e5c61231a67b8c77f5677a3383fb1f6eb OS=linux Architecture=amd64
+Exit code: 0
+$ docker run --rm stm32c0-wokwi-build:local arm-none-eabi-gcc --version
+arm-none-eabi-gcc (15:10.3-2021.07-4) 10.3.1 20210621 (release)
+Copyright (C) 2020 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+Exit code: 0
+$ docker run --rm -v $PROJECT_DIR:/workspace -w /workspace stm32c0-wokwi-build:local arm-none-eabi-readelf -h firmware/build/firmware.elf
+ELF Header:
+  Magic:   7f 45 4c 46 01 01 01 00 00 00 00 00 00 00 00 00 
+  Class:                             ELF32
+  Data:                              2's complement, little endian
+  Version:                           1 (current)
+  OS/ABI:                            UNIX - System V
+  ABI Version:                       0
+  Type:                              EXEC (Executable file)
+  Machine:                           ARM
+  Version:                           0x1
+  Entry point address:               0x8003271
+  Start of program headers:          52 (bytes into file)
+  Start of section headers:          484472 (bytes into file)
+  Flags:                             0x5000200, Version5 EABI, soft-float ABI
+  Size of this header:               52 (bytes)
+  Size of program headers:           32 (bytes)
+  Number of program headers:         3
+  Size of section headers:           40 (bytes)
+  Number of section headers:         22
+  Section header string table index: 21
+Exit code: 0
+$ docker run --rm -v $PROJECT_DIR:/workspace -w /workspace stm32c0-wokwi-build:local arm-none-eabi-size firmware/build/firmware.elf
+   text	   data	    bss	    dec	    hex	filename
+  13464	    120	   1808	  15392	   3c20	firmware/build/firmware.elf
+Exit code: 0
+Finished UTC: 2026-10-04T09:35:41.777257+00:00

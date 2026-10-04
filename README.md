@@ -12,10 +12,15 @@
 
 Датчики та логіка DeskLight належать до ЛР2. Відсутність руху PIR не доводить, що людина пішла, а LDR без калібрування не підтверджує точні люкси.
 
+Підтверджено дві чисті Docker-збірки на Mac та одну на Ubuntu. На Mac ELF/HEX/BIN збігаються між запусками; між Mac та Ubuntu збігаються HEX/BIN і всі завантажувані сегменти ELF. Повний ELF відрізняється тільки шляхом збірки libgcc у .debug_str. [Реальні логи й SHA256](docs/checks/results.md).
+
+Симуляція Wokwi ще не підтверджена. PDF-звіт ще не доданий.
+
 ## Документи
 
 - [PRD та план тестування](docs/PRD.md)
 - [Компоненти, HAL-конфігурація та джерела](docs/hardware-components.md)
 - [План ЛР1/ЛР2](docs/roadmap.md)
+- [Збірка та запуск](docs/run.md)
 
 Ліцензія базового прикладу збережена в LICENSE, ліцензії ST/CMSIS у firmware/Drivers. Основа: [STM32 HAL приклад Wokwi](https://github.com/wokwi/stm32-hello-wokwi).

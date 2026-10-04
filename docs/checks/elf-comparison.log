@@ -1,0 +1,30 @@
+Inspected UTC: 2026-10-04T09:37:02.829244+00:00
+Compared current Mac build 2 ELF and copied Ubuntu ELF.
+ELF headers equal: True
+Section <null>: equal=True, Mac bytes=0, Ubuntu bytes=0, flags=0
+Section .isr_vector: equal=True, Mac bytes=192, Ubuntu bytes=192, flags=2
+Section .text: equal=True, Mac bytes=12828, Ubuntu bytes=12828, flags=6
+Section .rodata: equal=True, Mac bytes=444, Ubuntu bytes=444, flags=2
+Section .init_array: equal=True, Mac bytes=4, Ubuntu bytes=4, flags=3
+Section .fini_array: equal=True, Mac bytes=4, Ubuntu bytes=4, flags=3
+Section .data: equal=True, Mac bytes=112, Ubuntu bytes=112, flags=3
+Section .bss: equal=True, Mac bytes=0, Ubuntu bytes=0, flags=3
+Section ._user_heap_stack: equal=True, Mac bytes=0, Ubuntu bytes=0, flags=3
+Section .ARM.attributes: equal=True, Mac bytes=40, Ubuntu bytes=40, flags=0
+Section .comment: equal=True, Mac bytes=51, Ubuntu bytes=51, flags=48
+Section .debug_info: equal=True, Mac bytes=141509, Ubuntu bytes=141509, flags=0
+Section .debug_abbrev: equal=True, Mac bytes=23044, Ubuntu bytes=23044, flags=0
+Section .debug_loc: equal=True, Mac bytes=70964, Ubuntu bytes=70964, flags=0
+Section .debug_aranges: equal=True, Mac bytes=3624, Ubuntu bytes=3624, flags=0
+Section .debug_ranges: equal=True, Mac bytes=3400, Ubuntu bytes=3400, flags=0
+Section .debug_line: equal=True, Mac bytes=73028, Ubuntu bytes=73028, flags=0
+Section .debug_str: equal=False, Mac bytes=17329, Ubuntu bytes=17329, flags=48
+Mac-only debug strings: [b'/build/gcc-arm-none-eabi-A9GHXF/gcc-arm-none-eabi-10.3-2021.07/build/arm-none-eabi/thumb/v6-m/nofp/libgcc']
+Ubuntu-only debug strings: [b'/build/gcc-arm-none-eabi-hYfgK4/gcc-arm-none-eabi-10.3-2021.07/build/arm-none-eabi/thumb/v6-m/nofp/libgcc']
+Section .debug_frame: equal=True, Mac bytes=8804, Ubuntu bytes=8804, flags=0
+Section .symtab: equal=True, Mac bytes=7792, Ubuntu bytes=7792, flags=0
+Section .strtab: equal=True, Mac bytes=3465, Ubuntu bytes=3465, flags=0
+Section .shstrtab: equal=True, Mac bytes=233, Ubuntu bytes=233, flags=0
+Segment 0, type=1: header equal=True, data equal=True
+Segment 1, type=1: header equal=True, data equal=True
+Segment 2, type=1: header equal=True, data equal=True
