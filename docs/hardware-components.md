@@ -52,16 +52,14 @@ PIR не рахує людей. LDR слід розташувати біля р�
 
 [Wokwi MPU6050](https://docs.wokwi.com/parts/wokwi-mpu6050), Pin names/Attributes/Units: AD0 LOW дає 0x68, HIGH 0x69; accelX/Y/Z у g, rotationX/Y/Z у °/с. Для статичного нахилу змінюємо вектор прискорення, а не задаємо число градусів у rotationX. У стані +Z початкові значення 0,0,1 g.
 
-[TDK/InvenSense PS-MPU-6000A-00 Rev 3.4, с. 14](https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf#page=14) задає VDD 2,375..3,46 В, типовий струм gyro+accel без DMP 3,8 мА, accel-only 500 μA. Це параметри чіпа; струм regulator/LED breakout до них додається. Не подавати 5 В безпосередньо на чіп. За [с. 33, I²C interface](https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf#page=33) MPU6050 має 7-бітну адресу і I²C до 400 кГц. Проєктна ціль 100 кГц нижча за цю межу.
+[TDK/InvenSense PS-MPU-6000A-00 Rev 3.4, с. 14](https://product.tdk.com/system/files/dam/doc/product/sensor/mortion-inertial/imu/data_sheet/mpu-6000-datasheet1.pdf#page=14) задає VDD 2,375..3,46 В, типовий струм gyro+accel без DMP 3,8 мА, accel-only 500 μA. Це параметри чіпа; струм regulator/LED breakout до них додається. Не подавати 5 В безпосередньо на чіп. За [с. 33, I²C interface](https://product.tdk.com/system/files/dam/doc/product/sensor/mortion-inertial/imu/data_sheet/mpu-6000-datasheet1.pdf#page=33) MPU6050 має 7-бітну адресу і I²C до 400 кГц. Проєктна ціль 100 кГц нижча за цю межу.
 
 | Регістр ЛР2 | Призначення | Джерело |
 |---|---|---|
 | WHO_AM_I 0x75 | Очікувати 0x68 незалежно від AD0; відрізняти ідентифікатор від адреси шини | [RM-MPU-6000A-00 Rev 4.2, с. 45, §4.32](https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Register-Map1.pdf#page=45) |
-| PWR_MGMT_1 0x6B | Зняти SLEEP після reset, задати джерело clock | [Register map, §4.28](https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Register-Map1.pdf) |
-| ACCEL_CONFIG 0x1C | AFS_SEL=0, ±2 g, 16384 LSB/g | [Register map, §4.5](https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Register-Map1.pdf) |
-| ACCEL_XOUT_H..ACCEL_ZOUT_L 0x3B..0x40 | 6 байтів signed big-endian для нахилу; перевірити HAL status перед перерахунком | [Register map, §4.17](https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Register-Map1.pdf) |
+| ACCEL_CONFIG 0x1C | AFS_SEL=0, ±2 g | [Register map, с. 15, §4.5](https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Register-Map1.pdf#page=15) |
 
-Посилання InvenSense є архівними офіційними адресами: під час перевірки пряме відкриття частини PDF перенаправляло на пошук TDK; параметри с. 14 і WHO_AM_I с. 45 звірено з індексованим текстом офіційних PDF. Повну актуальну доступність PDF не підтверджено. Перед реалізацією треба зберегти доступні офіційні редакції та звірити решту register map; драйвер зараз не реалізований.
+Значення VDD та струму, WHO_AM_I і ACCEL_CONFIG звірено з індексованим текстом офіційних PDF. Повну карту регістрів поки не перевірено. Перед реалізацією фізичного датчика потрібно отримати доступну офіційну редакцію datasheet та register map, звірити послідовність виходу зі sleep, адреси вимірювань і масштаб перетворення. У ЛР1 жодної транзакції з датчиком немає.
 
 У HAL I²C API адресу 0x68 слід передавати як 0x68<<1 відповідно до коментарів DevAddress у наявному Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_i2c.c. Для читання регістрів потрібна 8-бітна адреса пам'яті. Це план, не виконана транзакція. Невеликий tilt-switch відкинуто: він дає дискретний стан, тоді як PRD потребує кута та калібрування.
 
