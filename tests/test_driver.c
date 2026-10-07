@@ -54,4 +54,5 @@ int main(void)
     assert(strcmp(io_name(IO_ID),"BAD_ID")==0);
     assert(strcmp(io_name((io_result)99),"ERROR")==0);
     puts("PASS driver: ID, configuration order, errors, signed units, unchanged failed output");
+    return 0;
 }

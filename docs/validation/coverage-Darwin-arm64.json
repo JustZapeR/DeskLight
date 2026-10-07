@@ -1,0 +1,20 @@
+{
+  "firmware/Sensors/imu.c": {
+    "lines_percent": 100.0,
+    "lines": 31,
+    "branch_taken_percent": 100.0,
+    "branches": 20
+  },
+  "firmware/Desk/desk.c": {
+    "lines_percent": 100.0,
+    "lines": 107,
+    "branch_taken_percent": 94.68,
+    "branches": 94
+  },
+  "firmware/Desk/console.c": {
+    "lines_percent": 95.0,
+    "lines": 40,
+    "branch_taken_percent": 89.47,
+    "branches": 38
+  }
+}

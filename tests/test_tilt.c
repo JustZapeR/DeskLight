@@ -50,4 +50,5 @@ int main(void)
     assert(d.tilt && desk_zero(&d,0xffffff00u+1200));
     assert(strcmp(desk_mode_name(DESK_ADJUST),"adjust")==0);
     puts("PASS tilt: 20/15 degrees, 499/500 ms, norm bounds, stability, zero, failures, stale, wrap");
+    return 0;
 }

@@ -44,6 +44,7 @@ void desk_light(desk *state, bool success, uint16_t raw, uint32_t now)
 {
     if ((uint32_t)(now-state->light_health.last) > 500) {
         state->count = state->cursor = 0; state->sum = 0;
+        channel_sample(&state->light_health,false,now);
     }
     channel_sample(&state->light_health, success && raw <= 4095, now);
     if (!success || raw > 4095) return;

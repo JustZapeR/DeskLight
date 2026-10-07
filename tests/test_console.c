@@ -43,4 +43,5 @@ int main(void)
     d.fault=true; assert(led_update(&led,&d,0xffffff00u));
     assert(!led_update(&led,&d,0xffffff00u+100) && led_update(&led,&d,0xffffff00u+200));
     puts("PASS console: commands, CRLF, overflow, LED periods and priority, concurrent UART flags");
+    return 0;
 }

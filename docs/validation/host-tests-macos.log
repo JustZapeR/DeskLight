@@ -1,0 +1,14 @@
+python3 tools/check_project.py
+PASS architecture: Desk and Sensors cannot include HAL, Core, Board or each other
+PASS wiring: sensors, voltage rails, analyzer and IOC agree
+/Library/Developer/CommandLineTools/usr/bin/make -C tests test
+build/Darwin-arm64/driver
+PASS driver: ID, configuration order, errors, signed units, unchanged failed output
+build/Darwin-arm64/desk
+PASS desk: startup, inclusive light limits, rolling average, PIR extension, modes, recovery, wrap
+build/Darwin-arm64/tilt
+PASS tilt: 20/15 degrees, 499/500 ms, norm bounds, stability, zero, failures, stale, wrap
+build/Darwin-arm64/console
+PASS console: commands, CRLF, overflow, LED periods and priority, concurrent UART flags
+build/Darwin-arm64/faults
+PASS faults: concurrent flags, independent two-sample recovery, 500/501 ms, fractional average, restart, concurrent commands

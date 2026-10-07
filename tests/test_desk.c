@@ -49,4 +49,5 @@ int main(void)
     for(uint32_t i=0;i<=400;++i) { if(i%20==0) healthy(&d,0xffffff00u+i,true,3000); }
     assert(d.mode==DESK_ACTIVE && !d.fault);
     puts("PASS desk: startup, inclusive light limits, rolling average, PIR extension, modes, recovery, wrap");
+    return 0;
 }
