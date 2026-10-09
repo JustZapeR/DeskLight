@@ -66,6 +66,24 @@ int main(void)
     char status[256];
     d.angle_valid=true; d.angle=20.125f;
     assert(desk_status(&d,12600,status,sizeof status) && strstr(status,"angle=20.125"));
+    d.angle_valid=false; d.norm=NAN;
+    assert(desk_status(&d,12601,status,sizeof status)>0);
+    assert(strstr(status,"norm_mg=invalid"));
+    const float invalid_norms[]={-1,INFINITY,1e20f};
+    for(unsigned i=0;i<3;++i) {
+        d.norm=invalid_norms[i]; desk_status(&d,12602,status,sizeof status);
+        assert(strstr(status,"norm_mg=invalid"));
+    }
+    d.norm=1.5f; desk_status(&d,12603,status,sizeof status);
+    assert(strstr(status,"norm_mg=1500"));
+    const float invalid_angles[]={NAN,-1,181};
+    d.angle_valid=true;
+    for(unsigned i=0;i<3;++i) {
+        d.angle=invalid_angles[i]; desk_status(&d,12604,status,sizeof status);
+        assert(strstr(status,"angle=invalid"));
+    }
+    d.angle=180; desk_status(&d,12605,status,sizeof status);
+    assert(strstr(status,"angle=180.000"));
     puts("PASS faults: concurrent flags, independent two-sample recovery, 500/501 ms, fractional average, restart, concurrent commands");
     return 0;
 }

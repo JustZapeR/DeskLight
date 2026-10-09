@@ -3,8 +3,10 @@
 #include <math.h>
 #include <stdio.h>
 #include <string.h>
+#include <stdbool.h>
+#include "fixtures/mpu-captured.h"
 
-typedef struct { unsigned calls, fail; io_result failure; uint8_t id; } fake;
+typedef struct { unsigned calls, fail; io_result failure; uint8_t id; bool captured; } fake;
 static io_result read_register(void *context, uint8_t address, uint8_t reg, uint8_t *data, size_t n)
 {
     fake *f = context;
@@ -13,7 +15,7 @@ static io_result read_register(void *context, uint8_t address, uint8_t reg, uint
     if (reg == 0x75) { assert(n == 1); *data = f->id; }
     else {
         static const uint8_t raw[14] = {0x80,0,0x7f,0xff,0x40,0,0xef,0x5c,0xff,0x7d,0,0x83,0,0};
-        assert(reg == 0x3b && n == 14); memcpy(data, raw, 14);
+        assert(reg == 0x3b && n == 14); memcpy(data, f->captured ? captured_mpu : raw, 14);
     }
     return IO_OK;
 }
@@ -51,8 +53,16 @@ int main(void)
         assert(imu_read(&d,&sample,bytes)==(io_result)result);
         assert(memcmp(&before,&sample,sizeof sample)==0 && memcmp(before_bytes,bytes,14)==0);
     }
+    f=(fake){.captured=true};
+    assert(imu_read(&d,&sample,bytes)==IO_OK);
+    assert(memcmp(bytes,captured_mpu,14)==0);
+    assert(sample.raw[0]==-1638 && sample.raw[2]==15564);
+    assert(fabsf(sample.acceleration[0]-(-1638.0f/16384))<1e-7f);
+    assert(fabsf(sample.acceleration[2]-(15564.0f/16384))<1e-7f);
+    assert(fabsf(sample.temperature-24)<.002f);
+    assert(sample.rate[0]==0 && sample.rate[1]==0 && sample.rate[2]==0);
     assert(strcmp(io_name(IO_ID),"BAD_ID")==0);
     assert(strcmp(io_name((io_result)99),"ERROR")==0);
-    puts("PASS driver: ID, configuration order, errors, signed units, unchanged failed output");
+    puts("PASS driver: ID, configuration order, errors, signed units, unchanged failed output, actual captured burst");
     return 0;
 }

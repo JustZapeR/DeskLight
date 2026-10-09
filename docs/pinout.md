@@ -8,7 +8,7 @@
 | PB0 | input, без AF | GPIO ← PIR OUT | CN5.3 D10 / CN10.34 | OUT 3.3 В, MCU pull-down | DS13867 табл. 12; не використовує UART чи I²C |
 | PB8 | AF6, open-drain | I²C1 SCL → MPU SCL | CN5.10 D15 / CN10.3 | pull-up 4.7 кОм до 3.3 В | DS13867 табл. 15; шина з ЛР1 |
 | PB9 | AF6, open-drain | I²C1 SDA ↔ MPU SDA | CN5.9 D14 / CN10.5 | pull-up 4.7 кОм до 3.3 В | DS13867 табл. 15; парний вивід I²C1 |
-| PA2 / PA3 | AF1 | USART2 TX / RX ↔ monitor | VCP / CN10.35 / CN7.37 | 3.3 В, без pull | DS13867 табл. 13, UM2953 §6.9; збережено UART ЛР1 |
+| PA2 / PA3 | AF1 | USART2 TX / RX ↔ monitor | VCP / CN7.35 / CN7.37 | 3.3 В, без pull | DS13867 табл. 13, UM2953 §6.9; збережено UART ЛР1 |
 | PA5 | output | LED LD4 | CN5.6 D13 / CN10.11 | HIGH увімкнено | UM2953 §6.10; немає силового виходу |
 | PA4 | output | ADC_MARK → analyzer D4 | CN8.3 A2 / CN7.32 | 3.3 В, без pull | DS13867 табл. 12; вільний службовий GPIO |
 | PC13 | input | B1 user button | CN7.23 | обв'язка плати | UM2953 табл. 12; не змінює режими DeskLight |

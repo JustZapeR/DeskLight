@@ -15,6 +15,7 @@ clean:
 
 test:
 	python3 tools/check_project.py
+	python3 tools/check_capture_fixture.py
 	$(MAKE) -C tests test
 
 coverage:

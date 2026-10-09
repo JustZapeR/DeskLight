@@ -1,6 +1,7 @@
 #include "console.h"
 #include <stdio.h>
 #include <string.h>
+#include <math.h>
 
 desk_command console_feed(desk_console *console, char byte)
 {
@@ -54,17 +55,20 @@ bool led_update(desk_led *led, const desk *state, uint32_t now)
 
 size_t desk_status(const desk *s, uint32_t now, char *output, size_t capacity)
 {
-    char angle[24];
-    if (s->angle_valid) {
+    char angle[24], norm[24];
+    if (s->angle_valid && isfinite(s->angle) && s->angle>=0 && s->angle<=180) {
         unsigned millideg=(unsigned)(s->angle*1000+.5f);
         snprintf(angle,sizeof angle,"%u.%03u",millideg/1000,millideg%1000);
     } else strcpy(angle,"invalid");
+    if (isfinite(s->norm) && s->norm>=0 && s->norm<4294967.0f)
+        snprintf(norm,sizeof norm,"%u",(unsigned)(s->norm*1000+.5f));
+    else strcpy(norm,"invalid");
     int n=snprintf(output,capacity,
         "STATUS t=%lu mode=%s pir=%u pir_valid=%u raw=%u avg=%lu.%lu light_valid=%u "
-        "dark=%u angle=%s imu_valid=%u norm_mg=%u need_light=%u tilt=%u fault=%u\r\n",
+        "dark=%u angle=%s imu_valid=%u norm_mg=%s need_light=%u tilt=%u fault=%u\r\n",
         (unsigned long)now,desk_mode_name(s->mode),s->pir,s->pir_health.valid,s->raw,
         (unsigned long)(s->sum/5),(unsigned long)(s->sum%5*2),s->light_valid,
-        s->dark,angle,s->imu_health.valid,(unsigned)(s->norm*1000+.5f),
+        s->dark,angle,s->imu_health.valid,norm,
         s->need_light,s->tilt,s->fault);
     return n>0 && (size_t)n<capacity ? (size_t)n : 0;
 }

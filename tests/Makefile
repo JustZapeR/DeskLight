@@ -8,9 +8,9 @@ test: $(BUILD)/driver $(BUILD)/desk $(BUILD)/tilt $(BUILD)/console $(BUILD)/faul
 	$(BUILD)/tilt
 	$(BUILD)/console
 	$(BUILD)/faults
-$(BUILD)/driver: test_driver.c ../firmware/Sensors/imu.c
+$(BUILD)/driver: test_driver.c ../firmware/Sensors/imu.c fixtures/mpu-captured.h ../firmware/Sensors/imu.h
 	mkdir -p $(BUILD)
-	$(CC) $(CFLAGS) $^ -lm -o $@
+	$(CC) $(CFLAGS) $(filter %.c,$^) -lm -o $@
 $(BUILD)/desk: test_desk.c ../firmware/Desk/desk.c
 	mkdir -p $(BUILD)
 	$(CC) $(CFLAGS) $^ -lm -o $@

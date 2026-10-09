@@ -1,0 +1,23 @@
+mkdir -p build/nonfinite
+cc -std=c11 -Wall -Wextra -Werror -g -fsanitize=undefined,float-cast-overflow test_driver.c ../firmware/Sensors/imu.c -lm -o build/nonfinite/driver
+mkdir -p build/nonfinite
+cc -std=c11 -Wall -Wextra -Werror -g -fsanitize=undefined,float-cast-overflow test_desk.c ../firmware/Desk/desk.c -lm -o build/nonfinite/desk
+mkdir -p build/nonfinite
+cc -std=c11 -Wall -Wextra -Werror -g -fsanitize=undefined,float-cast-overflow test_tilt.c ../firmware/Desk/desk.c -lm -o build/nonfinite/tilt
+mkdir -p build/nonfinite
+cc -std=c11 -Wall -Wextra -Werror -g -fsanitize=undefined,float-cast-overflow test_console.c ../firmware/Desk/desk.c ../firmware/Desk/console.c -lm -o build/nonfinite/console
+mkdir -p build/nonfinite
+cc -std=c11 -Wall -Wextra -Werror -g -fsanitize=undefined,float-cast-overflow test_faults.c ../firmware/Desk/desk.c ../firmware/Desk/console.c -lm -o build/nonfinite/faults
+build/nonfinite/driver
+PASS driver: ID, configuration order, errors, signed units, unchanged failed output
+build/nonfinite/desk
+PASS desk: startup, inclusive light limits, rolling average, PIR extension, modes, recovery, wrap
+build/nonfinite/tilt
+PASS tilt: 20/15 degrees, 499/500 ms, norm bounds, stability, zero, failures, stale, wrap
+build/nonfinite/console
+PASS console: commands, CRLF, overflow, LED periods and priority, concurrent UART flags
+build/nonfinite/faults
+../firmware/Desk/console.c:62:11: runtime error: nan is outside the range of representable values of type 'unsigned int'
+SUMMARY: UndefinedBehaviorSanitizer: undefined-behavior ../firmware/Desk/console.c:62:11 
+Assertion failed: (strstr(status,"norm_mg=invalid")), function main, file test_faults.c, line 71.
+make: *** [test] Abort trap: 6

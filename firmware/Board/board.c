@@ -40,14 +40,72 @@ static io_result hal_result(HAL_StatusTypeDef result)
 {
     return result==HAL_OK ? IO_OK : result==HAL_TIMEOUT ? IO_TIMEOUT : IO_ERROR;
 }
+/* TXE means the transmit data register can accept a byte. Using it also
+ * avoids the simulated C031 TXIS/last-byte NACK behavior seen in captures. */
+static io_result wait_bus(I2C_TypeDef *bus,uint32_t wanted,uint32_t began,bool receiving)
+{
+    for(;;) {
+        uint32_t flags=bus->ISR;
+        if(flags & (I2C_ISR_BERR|I2C_ISR_ARLO)) return IO_ERROR;
+        if(!receiving && (flags & I2C_ISR_NACKF)) return IO_ERROR;
+        if(flags & wanted) return IO_OK;
+        if(receiving && wanted==I2C_ISR_RXNE && (flags & I2C_ISR_NACKF)) return IO_ERROR;
+        if((uint32_t)(HAL_GetTick()-began)>=5) return IO_TIMEOUT;
+    }
+}
+static io_result exchange(I2C_TypeDef *bus,uint8_t address,const uint8_t *out,size_t count,
+                          uint8_t *in,size_t incoming)
+{
+    uint32_t began=HAL_GetTick();
+    io_result result=wait_bus(bus,I2C_ISR_TXE,began,false);
+    if(result==IO_OK && (bus->ISR & I2C_ISR_BUSY)) result=IO_ERROR;
+    if(result!=IO_OK) goto done;
+    bus->ICR=I2C_ICR_STOPCF|I2C_ICR_NACKCF|I2C_ICR_BERRCF|I2C_ICR_ARLOCF;
+    bus->CR2=0;
+    bus->CR2=(uint32_t)(address<<1)|(uint32_t)(count<<16)|I2C_CR2_START
+             |(incoming ? 0u : I2C_CR2_AUTOEND);
+    for(size_t i=0;i<count;i++) {
+        result=wait_bus(bus,I2C_ISR_TXE,began,false);
+        if(result!=IO_OK) goto done;
+        bus->TXDR=out[i];
+    }
+    if(incoming) {
+        result=wait_bus(bus,I2C_ISR_TC,began,false);
+        if(result!=IO_OK) goto done;
+        /* START clears in silicon; explicitly clear it before the next request
+         * so the simulator also observes a new repeated-start request. */
+        bus->CR2 &= ~I2C_CR2_START;
+        bus->CR2=(uint32_t)(address<<1)|(uint32_t)(incoming<<16)
+                 |I2C_CR2_RD_WRN|I2C_CR2_AUTOEND|I2C_CR2_START;
+        for(size_t i=0;i<incoming;i++) {
+            result=wait_bus(bus,I2C_ISR_RXNE,began,true);
+            if(result!=IO_OK) goto done;
+            in[i]=(uint8_t)bus->RXDR;
+        }
+    }
+    result=wait_bus(bus,I2C_ISR_STOPF,began,incoming!=0);
+done:
+    if(result!=IO_OK) {
+        bus->CR2 |= I2C_CR2_STOP;
+        uint32_t stopping=HAL_GetTick();
+        while((bus->ISR & I2C_ISR_BUSY) && (uint32_t)(HAL_GetTick()-stopping)<1) {}
+        bus->CR1 &= ~I2C_CR1_PE;
+        bus->CR1 |= I2C_CR1_PE;
+    }
+    bus->ICR=I2C_ICR_STOPCF|I2C_ICR_NACKCF|I2C_ICR_BERRCF|I2C_ICR_ARLOCF;
+    bus->CR2=0;
+    return result;
+}
 static io_result bus_read(void *context,uint8_t address,uint8_t reg,uint8_t *bytes,size_t n)
 {
     I2C_HandleTypeDef *handle=context;
-    return hal_result(HAL_I2C_Mem_Read(handle,address<<1,reg,I2C_MEMADD_SIZE_8BIT,bytes,(uint16_t)n,5));
+    return exchange(handle->Instance,address,&reg,1,bytes,n);
 }
 static io_result bus_write(void *context,uint8_t address,uint8_t reg,uint8_t value)
 {
-    return hal_result(HAL_I2C_Mem_Write(context,address<<1,reg,I2C_MEMADD_SIZE_8BIT,&value,1,5));
+    I2C_HandleTypeDef *handle=context;
+    uint8_t payload[]={reg,value};
+    return exchange(handle->Instance,address,payload,sizeof payload,NULL,0);
 }
 static imu_device imu={{&hi2c1,bus_read,bus_write},0x68};
 

@@ -26,6 +26,8 @@ int main(void)
     assert(line(&c,"pause imu on\n")==CMD_IMU_PAUSE);
     assert(line(&c,"bad\n")==CMD_UNKNOWN);
     assert(strcmp(console_apply(&d,CMD_UNKNOWN,0),"unknown command")==0);
+    assert(strcmp(console_apply(&d,CMD_NONE,0),"")==0);
+    assert(strcmp(console_apply(&d,CMD_SAMPLE,0),"diagnostic")==0);
     for(unsigned i=0;i<100;++i) console_feed(&c,'x');
     assert(console_feed(&c,'\n')==CMD_UNKNOWN && line(&c,"zero\n")==CMD_ZERO);
     desk_led led={0};
@@ -42,6 +44,7 @@ int main(void)
     d.need_light=false; assert(!led_update(&led,&d,1000));
     d.fault=true; assert(led_update(&led,&d,0xffffff00u));
     assert(!led_update(&led,&d,0xffffff00u+100) && led_update(&led,&d,0xffffff00u+200));
+    assert(!led_update(&led,&d,0xffffff00u+300));
     puts("PASS console: commands, CRLF, overflow, LED periods and priority, concurrent UART flags");
     return 0;
 }

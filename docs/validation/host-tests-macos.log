@@ -1,9 +1,11 @@
 python3 tools/check_project.py
 PASS architecture: Desk and Sensors cannot include HAL, Core, Board or each other
 PASS wiring: sensors, voltage rails, analyzer and IOC agree
+python3 tools/check_capture_fixture.py
+PASS captured fixture: VCD SHA256, timestamp, 14 bytes, signed counts, final master NACK
 /Library/Developer/CommandLineTools/usr/bin/make -C tests test
 build/Darwin-arm64/driver
-PASS driver: ID, configuration order, errors, signed units, unchanged failed output
+PASS driver: ID, configuration order, errors, signed units, unchanged failed output, actual captured burst
 build/Darwin-arm64/desk
 PASS desk: startup, inclusive light limits, rolling average, PIR extension, modes, recovery, wrap
 build/Darwin-arm64/tilt
