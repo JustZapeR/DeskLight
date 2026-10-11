@@ -1,0 +1,4 @@
+Command: sigrok-cli -i docs/captures/captured-burst.sr -P i2c:scl=D0:sda=D1 -B i2c=data-read
+Actual bytes: F9 9A 00 00 3C CC EF 5C 00 00 00 00 00 00
+PASS independent sigrok bytes equal all 14 captured fixture bytes
+PASS all clip transitions match original source, offset, channels and hashes

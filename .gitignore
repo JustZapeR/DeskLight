@@ -4,3 +4,4 @@ wokwi.vcd
 *.swp
 tests/build/
 tests/coverage/
+__pycache__/

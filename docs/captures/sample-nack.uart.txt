@@ -1,0 +1,3 @@
+SAMPLE t=184799 id=68 bytes=F9 9A 00 00 3C CC EF 5C 00 00 00 00 00 00 ax_mg=-99 ay_mg=0 az_mg=949 gx_mdps=0 temp_mC=24000
+PROBE t=184806 address=69 result=ERROR
+SAMPLE t=184807 id=68 bytes=F9 9A 00 00 3C CC EF 5C 00 00 00 00 00 00 ax_mg=-99 ay_mg=0 az_mg=949 gx_mdps=0 temp_mC=24000

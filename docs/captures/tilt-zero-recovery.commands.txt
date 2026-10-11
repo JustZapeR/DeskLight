@@ -1,0 +1,17 @@
+mode adjust
+zero
+zero
+mode auto
+sample
+fault imu on
+fault adc on
+fault imu off
+fault adc off
+mode adjust
+zero
+pause imu on
+pause adc on
+zero
+pause imu off
+pause adc off
+mode auto

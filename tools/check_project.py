@@ -27,6 +27,9 @@ for source, target in {
 ioc = (root / "firmware/firmware.ioc").read_text()
 for setting in ("PA0.Signal=ADC1_IN0", "PB0.Signal=GPIO_Input", "PA4.Signal=GPIO_Output",
                 "PB8.Signal=I2C1_SCL", "PB9.Signal=I2C1_SDA",
-                "ADC1.ClockPrescaler=ADC_CLOCK_SYNC_PCLK_DIV4"):
+                "ADC1.ClockPrescaler=ADC_CLOCK_SYNC_PCLK_DIV4",
+                "ADC1.SelectedChannel=ADC_CHANNEL_0", "ADC1.NbrOfConversion=1",
+                "ADC1.Resolution=ADC_RESOLUTION_12B",
+                "ADC1.SamplingTimeCommon1=ADC_SAMPLETIME_160CYCLES_5"):
     assert setting in ioc, setting
 print("PASS wiring: sensors, voltage rails, analyzer and IOC agree")

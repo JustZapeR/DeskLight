@@ -2,9 +2,9 @@
 
 Єрмак Олександр Віталійович, ІО-32.
 
-## Поточний HAL-шаблон ЛР1
+## Збережений опис HAL-шаблону ЛР1
 
-Таблиця описує наявні файли, а не майбутній монтаж. Конфігурацію перевірено читанням firmware/firmware.ioc, Core/Src/main.c, stm32c0xx_hal_msp.c, Core/Inc/main.h та stm32c0xx_hal_conf.h, firmware/Makefile і лінкерного скрипта.
+Цей розділ фіксує стан ЛР1 до інтеграції. Поточні параметри ЛР2 наведено в [pinout](pinout.md), [архітектурі](architecture.md) та [аналізі записів](captures/analysis.md). Таблиця нижче не описує поточну прошивку. Конфігурацію перевірено читанням firmware/firmware.ioc, Core/Src/main.c, stm32c0xx_hal_msp.c, Core/Inc/main.h та stm32c0xx_hal_conf.h, firmware/Makefile і лінкерного скрипта.
 
 | Вузол | Наявне налаштування | Підстава |
 |---|---|---|
@@ -24,7 +24,7 @@
 
 У [Wokwi Nucleo, Simulation features](https://docs.wokwi.com/parts/board-st-nucleo-c031c6) є GPIO, USART, I²C master, ADC та SysTick. RCC реалізований частково, DMA не реалізований. На ЛР2 планується опитування HAL без DMA. Це перелік можливостей симулятора, не результат запуску DeskLight.
 
-## Кандидати для ЛР2
+## Кандидати, розглянуті на ЛР1
 
 Схема нижче є планом. Піни PA0 та PB0 треба додати через CubeMX; прошивку, .ioc і diagram.json на ЛР1 не змінюємо. Наявні PA2/PA3 та PA5 залишаємо для UART та LED, PB8/PB9 для I²C.
 
@@ -66,3 +66,9 @@ PIR не рахує людей. LDR слід розташувати біля р�
 ## Що ще виміряти
 
 Параметри струму всього пристрою та можливість живлення від 3V3 Nucleo не перевірені на обладнанні. Wokwi не замінює електричну перевірку breakout, pull-up, VREF+ та рівнів сигналів. У ЛР2 окремо підтвердити SCL, WHO_AM_I, полярність ADC, еталон IMU й час реакції, потім перейти до одночасного опитування за [PRD](PRD.md).
+
+## Реалізовано на ЛР2
+
+GPIO PIR PB0, ADC_IN0 PA0 та MPU PB8/PB9 працюють одночасно. Runtime printf замінено чергою UART. Самоперевірка MPU включає WHO_AM_I і конфігурацію. Обрано PWR_MGMT_1 0x6B=0, CONFIG 0x1A=3, GYRO_CONFIG 0x1B=0, ACCEL_CONFIG 0x1C=0, SMPLRT_DIV 0x19=9. DLPF 3 дає accel 44 Гц і gyro 42 Гц; дільник задає 100 Гц. Burst від 0x3B має 14 байтів accel/temp/gyro. Масштаби ±2 g: 16384 LSB/g, ±250°/с: 131 LSB/(°/с), температура raw/340+36.53°C.
+
+Повну карту для цієї реалізації перевірено за оригінальним InvenSense [RM-MPU-6000A-00 rev 4.0](https://cdn.sparkfun.com/datasheets/Sensors/Accelerometers/RM-MPU-6000A.pdf), с. 13–15, 30–32, 41, 46. PDF є копією документа виробника на SparkFun. Попередній опис rev 4.2 вище є історичним джерелом ЛР1. До/після HAL обміну, signed bytes та незалежне декодування наведено в аналізі.

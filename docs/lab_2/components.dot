@@ -1,0 +1,19 @@
+digraph DeskLight {
+  graph [rankdir=TB, bgcolor="white", nodesep=.4, ranksep=.65, pad=.25];
+  node [shape=box, style="rounded,filled", fillcolor="#f5f7f9", color="#263746", fontname="Times New Roman", fontsize=20, margin=".18,.14"];
+  edge [color="#263746", arrowsize=.8, penwidth=1.5];
+  core [label="Core\nmain · startup · init · IRQ"];
+  board [label="Board\nопитування · HAL\nUART queues"];
+  desk [label="Desk\nактивність · світло\nнахил · zero"];
+  console [label="Desk / console\nкоманди · UART\nLED-пріоритет"];
+  sensor [label="Sensors / imu\nID · конфігурація\nraw frame"];
+  hal [label="Drivers\nST HAL · CMSIS"];
+  bus [label="register_bus\ncontext · read · write"];
+  test [label="Host tests\nfake bus · межі · помилки"];
+  core -> board;
+  board -> console; board -> desk; board -> sensor; board -> hal;
+  console -> desk; sensor -> bus; board -> bus;
+  test -> sensor; test -> desk; test -> console;
+  {rank=same; console; desk; sensor; hal}
+  {rank=same; bus; test}
+}
