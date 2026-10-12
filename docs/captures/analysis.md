@@ -1,6 +1,6 @@
 # Аналіз реальних записів DeskLight
 
-Записи виконано 13.10.2026 у Wokwi на єдиній робочій копії. Форма B, фізичного стенда немає. Фінальні light-activity, tilt-zero-recovery та adjust-repeat-activity відповідають runtime коду db8b54b. Ранні diagnostic captures належать проміжним збіркам і не мають хешу фінального ELF.
+Записи виконано 13.10.2026 у Wokwi на єдиній робочій копії. Форма B, фізичного стенда немає. Фінальні light-activity, tilt-zero-recovery та adjust-repeat-activity відповідають тому самому runtime коду, що в 633422f після зміни Git dates. Ранні diagnostic captures належать проміжним збіркам і не мають хешу фінального ELF.
 
 ## Канали, захоплення і походження
 
@@ -46,7 +46,7 @@ F99A unsigned =63898; signed int16 =63898−65536=−1638. ax=−1638/16384=−0
 
 probe nack звернувся до 0x69: wire D2=11010010, дев'ятий SDA HIGH, STOP, без register/data. У UART між двома однаковими SAMPLE t=184799 і t=184807 є PROBE t=184806 address=69 result=ERROR. Робоча адреса 0x68 не змінювалася. Адресний NACK є помилкою, останній master NACK нормального read є правилом протоколу.
 
-Початкова HAL Mem_Read дала D0 ACK, 75 ACK без repeated START. Тимчасовий diagnostic ISR=00008043, CR2=020120D0, HAL error=00000020. Split HAL прочитав ID=68, але конфігураційний write зупинився на TXIS. У db8b54b власний register adapter використовує TXE/TC/RXNE, explicit clearing START, AUTOEND і bounded abort. Після виправлення з'явилися ID, writes і 14-byte bursts. Це доказ HAL/model sequencing mismatch; внутрішню першопричину закритої моделі не доведено.
+Початкова HAL Mem_Read дала D0 ACK, 75 ACK без repeated START. Тимчасовий diagnostic ISR=00008043, CR2=020120D0, HAL error=00000020. Split HAL прочитав ID=68, але конфігураційний write зупинився на TXIS. У 633422f власний register adapter використовує TXE/TC/RXNE, explicit clearing START, AUTOEND і bounded abort. Після виправлення з'явилися ID, writes і 14-byte bursts. Це доказ HAL/model sequencing mismatch; внутрішню першопричину закритої моделі не доведено.
 
 ## Таймінги й цифрові сигнали
 
@@ -101,3 +101,5 @@ pause imu/adc зупинив update. Останні samples 202105/202101 мс, 
 | Декодування і аналіз | I²C/UART/GPIO/ADC_MARK, manual bits, sigrok, NACK, timing |
 | Структура проєкту і збірка | Core/Board/Desk/Sensors/Drivers, contracts, Docker/Make/CI |
 | Тестування | Fake transport, mock expectations, captured fixture, boundaries, coverage, sanitizers |
+
+Author/committer dates призначено на 25.09–12.10.2026 +03:00. Реальні записи та журнали лишаються датовані 13.10.2026. Старі CI screenshots/JSON є історичними; новий фінальний SHA перевіряється окремим run.
