@@ -30,4 +30,6 @@ GCC та clang рахують виконувані рядки й гілки по
 
 tests/fixtures/mpu-captured.json містить raw burst з реального Wokwi VCD, timestamp і SHA256 джерела/уривка. Драйверний тест використовує той самий frame через fake transport. tools/check_capture_fixture.py повторно читає уривок, звіряє всі 14 байтів і останній master NACK. Незалежний sigrok decoder повернув ті самі байти. Цей тест поєднує реальний вхід із переносимим driver execution; він не замінює MCU adapter test.
 
-[Матриця T01..T10](captures/analysis.md#матриця-prd) відрізняє точні хостові межі від сценаріїв симулятора. CI збирає ARM і виконує test, coverage та ASan/UBSan. Перевірений run після runtime виправлення: [38439355461](https://github.com/JustZapeR/DeskLight/actions/runs/38439355461). GitHub попереджає що pinned checkout action декларує Node 20 і runner примусово використовує Node 24; виконання job успішне.
+[Матриця T01..T10](captures/analysis.md#матриця-prd) відрізняє точні хостові межі від сценаріїв симулятора. CI збирає ARM і виконує test, coverage та ASan/UBSan. Історичний run до перепризначення дат після runtime виправлення: [38439355461](https://github.com/JustZapeR/DeskLight/actions/runs/38439355461). GitHub попереджає що pinned checkout action декларує Node 20 і runner примусово використовує Node 24; виконання job успішне.
+
+Після перепризначення Git dates новий HEAD має окрему перевірку CI. Старі logs/CI JSON не змінено і не видаються за виконання нового SHA.

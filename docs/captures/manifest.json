@@ -17,7 +17,7 @@
       "scl_period_ns": 10000.0,
       "adc_period_ns": 99993925.0,
       "adc_mark_width_ns": 71425,
-      "firmware": "final db8b54b runtime"
+      "firmware": "historical db8b54b runtime; byte-identical firmware in 633422f"
     },
     {
       "file": "i2c-hal-failure.vcd",
@@ -89,7 +89,7 @@
       "scl_period_ns": 10000,
       "adc_period_ns": 99982425,
       "adc_mark_width_ns": 71425.0,
-      "firmware": "final db8b54b runtime"
+      "firmware": "historical db8b54b runtime; byte-identical firmware in 633422f"
     },
     {
       "file": "startup-sample-nack.vcd",
@@ -125,7 +125,7 @@
       "scl_period_ns": 10000,
       "adc_period_ns": 99999175,
       "adc_mark_width_ns": 71425.0,
-      "firmware": "final db8b54b runtime"
+      "firmware": "historical db8b54b runtime; byte-identical firmware in 633422f"
     },
     {
       "file": "transport-uart-check.vcd",
@@ -333,5 +333,10 @@
       "sr_samplerate": "10 MHz",
       "transition_equivalence": "PASS"
     }
-  ]
+  ],
+  "history_rewrite": {
+    "original_runtime_commit": "db8b54b9c515ed3d4561ce81de8d0f5597ee677b",
+    "equivalent_runtime_commit": "633422f776d52f1b8a6619ee1ad1ee93ce5780e3",
+    "recorded_timestamps_unchanged": true
+  }
 }

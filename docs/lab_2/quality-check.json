@@ -1,0 +1,118 @@
+{
+  "timestamp_utc": "2026-10-13T18:57:12.330629+00:00",
+  "report_pages": 19,
+  "published_render_matches_reviewed_preview": true,
+  "protected_layout_matches_lr1": [
+    "title.tex",
+    "main.tex",
+    "config.tex"
+  ],
+  "page_reviews": [
+    {
+      "page": 1,
+      "render_sha256": "ffe99f93397ecf99fd2b53f1827823976e159593eb21a818e5bdcf75c556d7ff",
+      "visual_check": "reviewed final render; pages 9/12/17/18 refreshed, remaining pages identical to earlier reviewed renders"
+    },
+    {
+      "page": 2,
+      "render_sha256": "e3ee1ebb51ffe4da8f94e2a9070cb9cd192d23f3f01d04b4a9751a50a4eb636c",
+      "visual_check": "reviewed final render; pages 9/12/17/18 refreshed, remaining pages identical to earlier reviewed renders"
+    },
+    {
+      "page": 3,
+      "render_sha256": "dd5e9441b26a595824f973ccd019993d6d1a52c2660fd461a18f096daebf6c89",
+      "visual_check": "reviewed final render; pages 9/12/17/18 refreshed, remaining pages identical to earlier reviewed renders"
+    },
+    {
+      "page": 4,
+      "render_sha256": "ea7e872033a8be1d5ffe3bce962b6556bb7322aebc5ff2df057245bd00fea8a7",
+      "visual_check": "reviewed final render; pages 9/12/17/18 refreshed, remaining pages identical to earlier reviewed renders"
+    },
+    {
+      "page": 5,
+      "render_sha256": "63a6ea2f12cf9bb6239ad4a656cb6612ec1136ad9daf771ab1e7df973dd01334",
+      "visual_check": "reviewed final render; pages 9/12/17/18 refreshed, remaining pages identical to earlier reviewed renders"
+    },
+    {
+      "page": 6,
+      "render_sha256": "cc5a77cc09fa8b8ec3b5d28cb845debef21c1e6339fb7f8c7bca04a948c9f92c",
+      "visual_check": "reviewed final render; pages 9/12/17/18 refreshed, remaining pages identical to earlier reviewed renders"
+    },
+    {
+      "page": 7,
+      "render_sha256": "8753172624cd3f4f70ba906ecb2ec403124373b57adb159be5964fb5f359f75c",
+      "visual_check": "reviewed final render; pages 9/12/17/18 refreshed, remaining pages identical to earlier reviewed renders"
+    },
+    {
+      "page": 8,
+      "render_sha256": "7d7f2e1e2921d62fa5d2fc597c19be197ee91fca09e7b03161d38fb65ffecafc",
+      "visual_check": "reviewed final render; pages 9/12/17/18 refreshed, remaining pages identical to earlier reviewed renders"
+    },
+    {
+      "page": 9,
+      "render_sha256": "dd9637b7e0d0185081e80f4f7d75a866567a3caa549c4f42252697751da8085b",
+      "visual_check": "reviewed final render; pages 9/12/17/18 refreshed, remaining pages identical to earlier reviewed renders"
+    },
+    {
+      "page": 10,
+      "render_sha256": "664d1f7126e411a6a07bfcc662f3b066f7c7d14c509b5dc9de316a9a3bdc66e0",
+      "visual_check": "reviewed final render; pages 9/12/17/18 refreshed, remaining pages identical to earlier reviewed renders"
+    },
+    {
+      "page": 11,
+      "render_sha256": "d06b6cd5014504897d0c1a2f0e916b581c85c565ba03307f9ef22334afa77d86",
+      "visual_check": "reviewed final render; pages 9/12/17/18 refreshed, remaining pages identical to earlier reviewed renders"
+    },
+    {
+      "page": 12,
+      "render_sha256": "87d5b35d8e71714b8c360f5b1653637dff8b0a8851bf36f40175849a707cf7c4",
+      "visual_check": "reviewed final render; pages 9/12/17/18 refreshed, remaining pages identical to earlier reviewed renders"
+    },
+    {
+      "page": 13,
+      "render_sha256": "0355799865b1915fbe5fb392daced23528e91cc606a1d3341f87e03b7f437216",
+      "visual_check": "reviewed final render; pages 9/12/17/18 refreshed, remaining pages identical to earlier reviewed renders"
+    },
+    {
+      "page": 14,
+      "render_sha256": "abf395e4657259f80c363e06d57fe0bb1fc4a962591d740e88307bb048793b22",
+      "visual_check": "reviewed final render; pages 9/12/17/18 refreshed, remaining pages identical to earlier reviewed renders"
+    },
+    {
+      "page": 15,
+      "render_sha256": "7672223fbe29177b843d313307853ee213b281a34cb683fe6c93135b9800e9c4",
+      "visual_check": "reviewed final render; pages 9/12/17/18 refreshed, remaining pages identical to earlier reviewed renders"
+    },
+    {
+      "page": 16,
+      "render_sha256": "73bb2927fb2eb505c58d7df69ef9b0c30194d818bf817d7de41b4eda84574168",
+      "visual_check": "reviewed final render; pages 9/12/17/18 refreshed, remaining pages identical to earlier reviewed renders"
+    },
+    {
+      "page": 17,
+      "render_sha256": "896fd44f5fd1b1f71e505af14b35c6f13aa5c1e2325fef017bf9a3f0ef633128",
+      "visual_check": "reviewed final render; pages 9/12/17/18 refreshed, remaining pages identical to earlier reviewed renders"
+    },
+    {
+      "page": 18,
+      "render_sha256": "162780254a9e23a8ec07b7ab73d05f153b043a402044f98ce05695c6e57d1d31",
+      "visual_check": "reviewed final render; pages 9/12/17/18 refreshed, remaining pages identical to earlier reviewed renders"
+    },
+    {
+      "page": 19,
+      "render_sha256": "d5051d136b71024903a7a2658ab1e0b9b7bfce5b4d610c2dc0bbd56bea8a1708",
+      "visual_check": "reviewed final render; pages 9/12/17/18 refreshed, remaining pages identical to earlier reviewed renders"
+    }
+  ],
+  "screenshot_edit": "crop only; source hashes/crop boxes in screenshot-provenance.json",
+  "firmware": "633422f, byte-identical to captured historical db8b54b firmware",
+  "ci_evidence_run": 38439355461,
+  "ci_documentation_run": 38445180696,
+  "final_ci_record_location": "Lab02/Work/final-verification.json after commit 10",
+  "history_dates": "Assigned author/committer dates 2026-09-25..2026-10-12 +03:00; actual captures/tests/CI timestamps unchanged",
+  "historical_ci_runs": [
+    38439355461,
+    38445180696,
+    38449487196
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "old_head": "f0503d8c8eb6948cb8d7a3ff929f683c715c2964",
+  "author_committer_dates_are_assigned": true,
+  "range": "2026-09-25..2026-10-12",
+  "timezone": "Europe/Kiev +03:00",
+  "metadata_only_phase_all_commit_trees_identical": true,
+  "recorded_capture_test_ci_timestamps_unchanged": true,
+  "commits": [
+    {
+      "old": "62f6bad32236104ac818d4dacd322c6ead33e447",
+      "new": "b50c216fe23a957c7e8f54c6a75e9445ce1fc65c",
+      "date": "2026-09-25T15:20:00+03:00"
+    },
+    {
+      "old": "0d02466eb5245563cad6b73db3fa1065fca18f54",
+      "new": "44be922e2c1ee73b332a62469f0fd6389d814ab2",
+      "date": "2026-09-27T12:40:00+03:00"
+    },
+    {
+      "old": "cdb939729bf48ba3e087fc7358ffbf982081a77b",
+      "new": "f8a6da50c514b100fab17a69e2cbd3ebd46fc1af",
+      "date": "2026-09-29T17:10:00+03:00"
+    },
+    {
+      "old": "d7456e9128f7f54711b88d1605d0df82e92d89a0",
+      "new": "792b74b81f63ea58e48972fd2ea58c0163bb4f2a",
+      "date": "2026-10-01T14:35:00+03:00"
+    },
+    {
+      "old": "8a88ce919253a6341afadca7840da65a615a3da0",
+      "new": "e6b2ec88dbd155d5842d7ce384126bd38ab8e7a9",
+      "date": "2026-10-03T11:25:00+03:00"
+    },
+    {
+      "old": "b9408f25f05b8f6aaa2710654937f059b181128f",
+      "new": "8d69c451d79db1241825d69cc6ee592824cd5738",
+      "date": "2026-10-05T16:45:00+03:00"
+    },
+    {
+      "old": "eebe40a8e3bfd5486a1dcf1df22021cfc7e4de7d",
+      "new": "dc635eb9b3cdedc28f3d7573b6d37c660057f4c2",
+      "date": "2026-10-07T15:30:00+03:00"
+    },
+    {
+      "old": "db8b54b9c515ed3d4561ce81de8d0f5597ee677b",
+      "new": "633422f776d52f1b8a6619ee1ad1ee93ce5780e3",
+      "date": "2026-10-09T12:15:00+03:00"
+    },
+    {
+      "old": "950f0d13a97b3a438a208ace5b1431bd21a05fd5",
+      "new": "81e6dd3be64997398f70705d5059329968942f4c",
+      "date": "2026-10-11T16:10:00+03:00"
+    },
+    {
+      "old": "f0503d8c8eb6948cb8d7a3ff929f683c715c2964",
+      "new": "lab2 tag resolves final amended commit",
+      "date": "2026-10-12T17:30:00+03:00"
+    }
+  ]
+}

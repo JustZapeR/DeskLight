@@ -95,12 +95,12 @@
     "original": "sample-nack-original.png",
     "crop_box": [
       125,
-      1130,
-      1940,
+      1135,
+      1110,
       1223
     ],
     "source_sha256": "6ed4d8df9145297a2de7a731520027f426b256d8f2ee649839854880d8e46352",
-    "sha256": "5430023fb44febcccf5da6cecb882c9505a1d8494eff954abdc02cdbcf62c5e8",
+    "sha256": "f7a61bcb4f3836f7e4aa03b9233a8720c09130c89f27c3241809085db0d55f1e",
     "operation": "crop only; original pixels retained"
   },
   {
