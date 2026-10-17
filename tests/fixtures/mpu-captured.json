@@ -1,0 +1,46 @@
+{
+  "source": "tilt-zero-recovery.vcd",
+  "source_sha256": "548f2d1d1322de6dfd1a399fcba1f6565623c6fa1ee3a7fbab2e8674d2239aab",
+  "start_ns": 139299982650,
+  "end_ns": 139301347650,
+  "bytes": [
+    249,
+    154,
+    0,
+    0,
+    60,
+    204,
+    239,
+    92,
+    0,
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "signed_counts": [
+    -1638,
+    0,
+    15564,
+    -4260,
+    0,
+    0,
+    0
+  ],
+  "last_byte_master_nack": true,
+  "accelerations_g": [
+    -0.0999755859375,
+    0.0,
+    0.949951171875
+  ],
+  "temperature_C": 24.000588235294117,
+  "rates_dps": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "clip": "docs/captures/captured-burst.vcd",
+  "clip_offset_ns": 139299000000,
+  "clip_sha256": "0dcfb23d98f79819d7698bbce4c413d182d5f34d89079f190595df4b8ebaa4b7"
+}

@@ -37,6 +37,12 @@ BUILD_DIR = build
 # C sources
 C_SOURCES =  \
 Core/Src/main.c \
+Board/board.c \
+Sensors/imu.c \
+Desk/desk.c \
+Desk/console.c \
+Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_adc.c \
+Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_adc_ex.c \
 Core/Src/stm32c0xx_it.c \
 Core/Src/stm32c0xx_hal_msp.c \
 Core/Src/syscalls.c \
@@ -115,6 +121,7 @@ AS_INCLUDES =
 # C includes
 C_INCLUDES =  \
 -ICore/Inc \
+-IBoard \
 -IDrivers/STM32C0xx_HAL_Driver/Inc \
 -IDrivers/STM32C0xx_HAL_Driver/Inc/Legacy \
 -IDrivers/CMSIS/Device/ST/STM32C0xx/Include \
@@ -191,3 +198,6 @@ clean:
 -include $(wildcard $(BUILD_DIR)/*.d)
 
 # *** EOF ***
+
+OWN_OBJECTS = $(addprefix $(BUILD_DIR)/,main.o board.o imu.o desk.o console.o stm32c0xx_it.o stm32c0xx_hal_msp.o syscalls.o sysmem.o)
+$(OWN_OBJECTS): CFLAGS += -Wextra -Werror

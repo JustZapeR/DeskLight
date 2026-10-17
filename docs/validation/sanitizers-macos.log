@@ -1,0 +1,13 @@
+/Library/Developer/CommandLineTools/usr/bin/make -C tests test BUILD=build/sanitize CFLAGS="-std=c11 -Wall -Wextra -Werror -g -fsanitize=address,undefined -fno-omit-frame-pointer"
+mkdir -p build/sanitize
+cc -std=c11 -Wall -Wextra -Werror -g -fsanitize=address,undefined -fno-omit-frame-pointer test_driver.c ../firmware/Sensors/imu.c -lm -o build/sanitize/driver
+build/sanitize/driver
+PASS driver: ID, configuration order, errors, signed units, unchanged failed output, actual captured burst
+build/sanitize/desk
+PASS desk: startup, inclusive light limits, rolling average, PIR extension, modes, recovery, wrap
+build/sanitize/tilt
+PASS tilt: 20/15 degrees, 499/500 ms, norm bounds, stability, zero, failures, stale, wrap
+build/sanitize/console
+PASS console: commands, CRLF, overflow, LED periods and priority, concurrent UART flags
+build/sanitize/faults
+PASS faults: concurrent flags, independent two-sample recovery, 500/501 ms, fractional average, restart, concurrent commands

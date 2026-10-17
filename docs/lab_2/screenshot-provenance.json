@@ -1,0 +1,145 @@
+[
+  {
+    "image": "wiring.png",
+    "original": "wiring-original.png",
+    "crop_box": [
+      530,
+      280,
+      1380,
+      1220
+    ],
+    "source_sha256": "66a38890a30710fedc9988587c4714b0b902119640751873aa0d55c66820a010",
+    "sha256": "02390ad86d19d933a8ad25faa46c0b41d863ef27c283c095ac7d2a2014f72a72",
+    "operation": "crop only; original pixels retained"
+  },
+  {
+    "image": "pulse-burst.png",
+    "original": "pulse-burst-original.png",
+    "crop_box": [
+      0,
+      248,
+      1960,
+      605
+    ],
+    "source_sha256": "402439d206ce393b3207a301e6a5467b5c7a6368cf67c4c8afe61a2a53e509c1",
+    "sha256": "e05cb3d432a1750037cc74a4c1847fd6b45a620634a8490215534c1027894dad",
+    "operation": "crop only; original pixels retained"
+  },
+  {
+    "image": "pulse-nack.png",
+    "original": "pulse-nack-original.png",
+    "crop_box": [
+      0,
+      248,
+      1960,
+      605
+    ],
+    "source_sha256": "7e9b355a25404f461da22867d8b3c782b8b708395421ef2aaf194f73b40fb01a",
+    "sha256": "f91ae16ec070394eef6aa05b3fe451abc40358dbcbe5d067254c03c243131f11",
+    "operation": "crop only; original pixels retained"
+  },
+  {
+    "image": "pulse-manual.png",
+    "original": "pulse-manual-original.png",
+    "crop_box": [
+      0,
+      248,
+      1960,
+      470
+    ],
+    "source_sha256": "c21b55b293270142f70ca0e2c348f839751c7d6fd7732132b361dd959ab5ef18",
+    "sha256": "7388695b0a512b6e5aaf23b0c7163ab23ddf20bf0b67921ed9fe8b7390588644",
+    "operation": "crop only; original pixels retained"
+  },
+  {
+    "image": "pulse-uart.png",
+    "original": "pulse-uart-original.png",
+    "crop_box": [
+      0,
+      248,
+      1960,
+      560
+    ],
+    "source_sha256": "05ca6e595cca91ee7b7ff4d73a8def4c97a88495b26d965b46c8046d1b0e2db6",
+    "sha256": "d295b783c42a183c9c786e28879a3863eb555be125bf9109c87a1e1358081920",
+    "operation": "crop only; original pixels retained"
+  },
+  {
+    "image": "pulse-adc.png",
+    "original": "pulse-adc-original.png",
+    "crop_box": [
+      0,
+      248,
+      1960,
+      430
+    ],
+    "source_sha256": "3fba2b5d0e44414c5ad047fbf9675822aa2e3ee9be75360e6b6518e3f6281a73",
+    "sha256": "086e9b91def949deafb919c4224f88df87e45a8ccc41ab5357f85e9149e05910",
+    "operation": "crop only; original pixels retained"
+  },
+  {
+    "image": "pulse-pir.png",
+    "original": "pulse-pir-original.png",
+    "crop_box": [
+      0,
+      248,
+      1960,
+      465
+    ],
+    "source_sha256": "fc425ab09d9ec45bd9cb7950c6dfad5777c7a4a4d7e4be6082f64ccfcba0ad2b",
+    "sha256": "a9a9935093d8a6fd50b5d4a33ee8ff65f90ca7ade01ee4ec68c3ab17555db057",
+    "operation": "crop only; original pixels retained"
+  },
+  {
+    "image": "sample-nack.png",
+    "original": "sample-nack-original.png",
+    "crop_box": [
+      125,
+      1135,
+      1110,
+      1223
+    ],
+    "source_sha256": "6ed4d8df9145297a2de7a731520027f426b256d8f2ee649839854880d8e46352",
+    "sha256": "f7a61bcb4f3836f7e4aa03b9233a8720c09130c89f27c3241809085db0d55f1e",
+    "operation": "crop only; original pixels retained"
+  },
+  {
+    "image": "tests.png",
+    "original": "tests-original.png",
+    "crop_box": [
+      125,
+      182,
+      1890,
+      880
+    ],
+    "source_sha256": "6b3867e3b81a9869788ca6703a0283ed5d4661e3b081550a3bd8ad783062fa9e",
+    "sha256": "ace9a358976bdcc3bbfd4e30e8c155583065fd089324b6b741202b672cda9c2f",
+    "operation": "crop only; original pixels retained"
+  },
+  {
+    "image": "ci.png",
+    "original": "ci-original.png",
+    "crop_box": [
+      10,
+      174,
+      1236,
+      621
+    ],
+    "source_sha256": "2b74434ad37c409ca41614c52a9ded860d71df219f1fc35e6debd3101c4ab4e5",
+    "sha256": "7d88124ef6b627d26280c8882c2d2878426bc512a4f8bd3b630d0c663e0eded0",
+    "operation": "crop only; original pixels retained"
+  },
+  {
+    "image": "build.png",
+    "original": "build-original.png",
+    "crop_box": [
+      125,
+      1300,
+      1380,
+      1470
+    ],
+    "source_sha256": "9461ac8ce5b107fcf5ec5e8669888f4a0dfd325e15eafd6806a5d31aa48d52f6",
+    "sha256": "6aa48fac2bebd18fc55e23b30e956dcb4ea019a7089d7800f03d339bb1e4bca7",
+    "operation": "crop only; original pixels retained"
+  }
+]

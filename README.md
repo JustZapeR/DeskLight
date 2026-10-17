@@ -2,25 +2,31 @@
 
 Єрмак Олександр Віталійович, ІО-32.
 
-Підказка освітлення робочого місця та контроль нахилу основи лампи. PIR запускатиме інтервал активності, LDR через ADC визначатиме потребу у світлі, MPU6050 через I²C оцінюватиме нахил. Результат показуватимуть UART і LED, без силового керування лампою.
+DeskLight показує потребу додати світло після недавнього руху біля столу та незалежно контролює нахил основи лампи. PIR, аналоговий LDR і MPU6050 працюють одночасно на STM32C031C6. UART передає дані й приймає команди, LED має пріоритет fault > tilt > need_light. Силового керування немає.
 
-Середовище: Ubuntu 24.04, Docker, STM32 HAL, Wokwi. Без фізичної плати; модель Nucleo-C031C6.
+ЛР2 реалізована у формі B, Wokwi. Реальні VCD, PulseView sessions, decoded bytes та вимірювання містить [аналіз записів](docs/captures/analysis.md). Точні алгоритмічні межі, помилки, відновлення і tick wrap перевірено на хості. LDR не відкалібрований у люксах, PIR не доводить нерухому присутність.
 
-## Стан ЛР1
+## Відтворення
 
-Збережено наявний UART/LED шаблон SP-Boilerplate. USART2 працює у конфігурації 115200 8N1, TX PA2, RX PA3. Код надсилає `STM32C031C6 ready` та `tick`, перемикає LED PA5 через HAL_Delay(1000). I²C1 уже налаштований на PB8/PB9, але датчиків у diagram.json немає, ADC не ввімкнено. Це перегляд коду, а не доказ виконання у симуляторі.
+У корені цієї єдиної робочої копії:
 
-Датчики та логіка DeskLight належать до ЛР2. Відсутність руху PIR не доводить, що людина пішла, а LDR без калібрування не підтверджує точні люкси.
+```sh
+make build
+make test
+make coverage
+make sanitize
+```
 
-Підтверджено дві чисті Docker-збірки на Mac та одну на Ubuntu. На Mac ELF/HEX/BIN збігаються між запусками; між Mac та Ubuntu збігаються HEX/BIN і всі завантажувані сегменти ELF. Повний ELF відрізняється тільки шляхом збірки libgcc у .debug_str. [Реальні логи й SHA256](docs/checks/results.md).
-
-Симуляція Wokwi ще не підтверджена. PDF-звіт ще не доданий.
+Docker потрібний для ARM build. Host tests потребують C11 compiler, make і Python 3; coverage додатково gcov або llvm-cov. ARM container використовує закріплений Ubuntu 22.04 і GCC 10.3, перевірки виконано на macOS arm64 clang, Linux aarch64 GCC 11 та в GitHub Actions. [Інструкція Wokwi й PulseView](docs/run.md).
 
 ## Документи
 
-- [PRD та план тестування](docs/PRD.md)
-- [Компоненти, HAL-конфігурація та джерела](docs/hardware-components.md)
-- [План ЛР1/ЛР2](docs/roadmap.md)
-- [Збірка та запуск](docs/run.md)
+- [Вимоги FR-01..13 і T01..10](docs/PRD.md)
+- [Піни, рівні, живлення й альтернативи](docs/pinout.md)
+- [Архітектура й runtime adapter](docs/architecture.md)
+- [Тести, fixtures та coverage](docs/testing.md)
+- [Журнал проблем із fix commits](docs/problems.md)
+- [Виконання етапів](docs/roadmap.md)
+- [Звіт](docs/lab_2/)
 
-Ліцензія базового прикладу збережена в LICENSE, ліцензії ST/CMSIS у firmware/Drivers. Основа: [STM32 HAL приклад Wokwi](https://github.com/wokwi/stm32-hello-wokwi).
+main містить злиту ЛР1. ЛР2 продовжує її у feature/lab-2. Історичні [збірки ЛР1](docs/checks/results.md) не описують поточну прошивку. Ліцензії основи, ST та CMSIS збережено. Основа [STM32 HAL Wokwi example](https://github.com/wokwi/stm32-hello-wokwi).

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "author": "template",
+  "author": "Єрмак Олександр Віталійович",
   "editor": "wokwi",
   "parts": [
     {
@@ -9,11 +9,212 @@
       "top": 0,
       "left": 0,
       "attrs": {}
+    },
+    {
+      "type": "wokwi-mpu6050",
+      "id": "imu",
+      "top": -20,
+      "left": 390,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-pir-motion-sensor",
+      "id": "pir",
+      "top": 170,
+      "left": 400,
+      "attrs": {
+        "delayTime": "5",
+        "inhibitTime": "1.2"
+      }
+    },
+    {
+      "type": "wokwi-photoresistor-sensor",
+      "id": "ldr",
+      "top": 335,
+      "left": 400,
+      "attrs": {
+        "lux": "500"
+      }
+    },
+    {
+      "type": "wokwi-logic-analyzer",
+      "id": "logic",
+      "top": 450,
+      "left": 0,
+      "attrs": {
+        "bufferSize": "4000000"
+      }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "scl_pull",
+      "top": -120,
+      "left": 305,
+      "attrs": {
+        "value": "4700"
+      }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "sda_pull",
+      "top": -120,
+      "left": 370,
+      "attrs": {
+        "value": "4700"
+      }
     }
   ],
   "connections": [
-    ["$serialMonitor:TX", "nucleo:PA3", "", []],
-    ["$serialMonitor:RX", "nucleo:PA2", "", []]
+    [
+      "$serialMonitor:TX",
+      "nucleo:PA3",
+      "",
+      []
+    ],
+    [
+      "$serialMonitor:RX",
+      "nucleo:PA2",
+      "",
+      []
+    ],
+    [
+      "imu:VCC",
+      "nucleo:3V3.1",
+      "green",
+      []
+    ],
+    [
+      "imu:GND",
+      "nucleo:GND.1",
+      "black",
+      []
+    ],
+    [
+      "imu:AD0",
+      "nucleo:GND.1",
+      "green",
+      []
+    ],
+    [
+      "imu:SCL",
+      "nucleo:PB8",
+      "green",
+      []
+    ],
+    [
+      "imu:SDA",
+      "nucleo:PB9",
+      "green",
+      []
+    ],
+    [
+      "scl_pull:1",
+      "nucleo:3V3.1",
+      "green",
+      []
+    ],
+    [
+      "scl_pull:2",
+      "imu:SCL",
+      "green",
+      []
+    ],
+    [
+      "sda_pull:1",
+      "nucleo:3V3.1",
+      "green",
+      []
+    ],
+    [
+      "sda_pull:2",
+      "imu:SDA",
+      "green",
+      []
+    ],
+    [
+      "pir:VCC",
+      "nucleo:5V.1",
+      "green",
+      []
+    ],
+    [
+      "pir:GND",
+      "nucleo:GND.1",
+      "black",
+      []
+    ],
+    [
+      "pir:OUT",
+      "nucleo:PB0",
+      "green",
+      []
+    ],
+    [
+      "ldr:VCC",
+      "nucleo:3V3.1",
+      "green",
+      []
+    ],
+    [
+      "ldr:GND",
+      "nucleo:GND.1",
+      "black",
+      []
+    ],
+    [
+      "ldr:AO",
+      "nucleo:PA0",
+      "green",
+      []
+    ],
+    [
+      "logic:GND",
+      "nucleo:GND.1",
+      "black",
+      []
+    ],
+    [
+      "logic:D0",
+      "nucleo:PB8",
+      "green",
+      []
+    ],
+    [
+      "logic:D1",
+      "nucleo:PB9",
+      "green",
+      []
+    ],
+    [
+      "logic:D2",
+      "nucleo:PA2",
+      "green",
+      []
+    ],
+    [
+      "logic:D3",
+      "nucleo:PB0",
+      "green",
+      []
+    ],
+    [
+      "logic:D4",
+      "nucleo:PA4",
+      "green",
+      []
+    ],
+    [
+      "logic:D5",
+      "nucleo:PA5",
+      "green",
+      []
+    ],
+    [
+      "logic:D6",
+      "nucleo:PA3",
+      "green",
+      []
+    ]
   ],
   "dependencies": {}
 }

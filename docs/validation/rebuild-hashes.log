@@ -1,0 +1,5 @@
+Clean rebuild in VS Code terminal: make clean && make build
+Result: text 23428 data 140 bss 4316; ELF HEX BIN produced
+shasum -a 256 -c docs/validation/firmware.sha256
+firmware/build/firmware.elf: OK
+firmware/build/firmware.hex: OK

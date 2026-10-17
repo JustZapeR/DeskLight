@@ -1,0 +1,7 @@
+mode adjust
+zero
+zero
+mode auto
+sample
+probe nack
+sample

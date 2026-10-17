@@ -1,0 +1,2 @@
+PASS architecture: Desk and Sensors cannot include HAL, Core, Board or each other
+PASS wiring: sensors, voltage rails, analyzer and IOC agree

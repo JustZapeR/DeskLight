@@ -1,0 +1,342 @@
+{
+  "full_records_location": "Lab02/Work/captures relative to student SP directory",
+  "records": [
+    {
+      "file": "adjust-repeat-activity.vcd",
+      "sha256": "4f185a5366f9191383bdb6f08a69fb4f27d1d774bd170af48e60da67f893062c",
+      "duration_ns": 199337563875,
+      "channels": {
+        "!": "D0",
+        "\"": "D1",
+        "#": "D2",
+        "$": "D3",
+        "%": "D4",
+        "&": "D5",
+        "'": "D6"
+      },
+      "scl_period_ns": 10000.0,
+      "adc_period_ns": 99993925.0,
+      "adc_mark_width_ns": 71425,
+      "firmware": "historical db8b54b runtime; byte-identical firmware in 633422f"
+    },
+    {
+      "file": "i2c-hal-failure.vcd",
+      "sha256": "1a6393865a6522eba7bde0a85c666426abbbbcd0ff1d74e57b9bd511ca076f8f",
+      "duration_ns": 19582792350,
+      "channels": {
+        "!": "D0",
+        "\"": "D1",
+        "#": "D2",
+        "$": "D3",
+        "%": "D4",
+        "&": "D5",
+        "'": "D6"
+      },
+      "scl_period_ns": 10000,
+      "adc_period_ns": 100004287.5,
+      "adc_mark_width_ns": 71425,
+      "firmware": "earlier diagnostic revision; not final build"
+    },
+    {
+      "file": "i2c-hal-registers.vcd",
+      "sha256": "c81719be6bfe34060ccb7e1b354b07e89b73387d4b3faab5e6bd4842fcad9b29",
+      "duration_ns": 19559220325,
+      "channels": {
+        "!": "D0",
+        "\"": "D1",
+        "#": "D2",
+        "$": "D3",
+        "%": "D4",
+        "&": "D5",
+        "'": "D6"
+      },
+      "scl_period_ns": 10000,
+      "adc_period_ns": 100001175.0,
+      "adc_mark_width_ns": 71425,
+      "firmware": "earlier diagnostic revision; not final build"
+    },
+    {
+      "file": "i2c-split-failure.vcd",
+      "sha256": "f38e63ddf716d4e6bbe6fabced7bb9dd40ed969edc10933ff5debb345372beda",
+      "duration_ns": 20683930675,
+      "channels": {
+        "!": "D0",
+        "\"": "D1",
+        "#": "D2",
+        "$": "D3",
+        "%": "D4",
+        "&": "D5",
+        "'": "D6"
+      },
+      "scl_period_ns": 10000.0,
+      "adc_period_ns": 100001675,
+      "adc_mark_width_ns": 71425.0,
+      "firmware": "earlier diagnostic revision; not final build"
+    },
+    {
+      "file": "light-activity.vcd",
+      "sha256": "bb68252445e2a4d9bfeed4a2c8ae79fb8e23a26ffb0adb280b3311391af04605",
+      "duration_ns": 202813134725,
+      "channels": {
+        "!": "D0",
+        "\"": "D1",
+        "#": "D2",
+        "$": "D3",
+        "%": "D4",
+        "&": "D5",
+        "'": "D6"
+      },
+      "scl_period_ns": 10000,
+      "adc_period_ns": 99982425,
+      "adc_mark_width_ns": 71425.0,
+      "firmware": "historical db8b54b runtime; byte-identical firmware in 633422f"
+    },
+    {
+      "file": "startup-sample-nack.vcd",
+      "sha256": "24e2fcef9c148c580d2d47ae894f66c71806940f096fd05b18509d10d1487f6e",
+      "duration_ns": 52408446950,
+      "channels": {
+        "!": "D0",
+        "\"": "D1",
+        "#": "D2",
+        "$": "D3",
+        "%": "D4",
+        "&": "D5",
+        "'": "D6"
+      },
+      "scl_period_ns": 10000.0,
+      "adc_period_ns": 99974900,
+      "adc_mark_width_ns": 71425.0,
+      "firmware": "earlier diagnostic revision; not final build"
+    },
+    {
+      "file": "tilt-zero-recovery.vcd",
+      "sha256": "548f2d1d1322de6dfd1a399fcba1f6565623c6fa1ee3a7fbab2e8674d2239aab",
+      "duration_ns": 221354477425,
+      "channels": {
+        "!": "D0",
+        "\"": "D1",
+        "#": "D2",
+        "$": "D3",
+        "%": "D4",
+        "&": "D5",
+        "'": "D6"
+      },
+      "scl_period_ns": 10000,
+      "adc_period_ns": 99999175,
+      "adc_mark_width_ns": 71425.0,
+      "firmware": "historical db8b54b runtime; byte-identical firmware in 633422f"
+    },
+    {
+      "file": "transport-uart-check.vcd",
+      "sha256": "6115c3e87e6447e9376eacb7613587ccdb44e113af9c8a3c7e48ca012770096d",
+      "duration_ns": 56040895775,
+      "channels": {
+        "!": "D0",
+        "\"": "D1",
+        "#": "D2",
+        "$": "D3",
+        "%": "D4",
+        "&": "D5",
+        "'": "D6"
+      },
+      "scl_period_ns": 10000,
+      "adc_period_ns": 99974900,
+      "adc_mark_width_ns": 71425.0,
+      "firmware": "earlier diagnostic revision; not final build"
+    }
+  ],
+  "clips": [
+    {
+      "file": "adc-period.vcd",
+      "sha256": "940eeef65df7d6476273a5ef60e918572d3f4329998dbe181e1aea9bee577a12",
+      "source": "light-activity.vcd",
+      "source_sha256": "bb68252445e2a4d9bfeed4a2c8ae79fb8e23a26ffb0adb280b3311391af04605",
+      "offset_ns": 3000000000,
+      "duration_ns": 310000000,
+      "channels": [
+        "D4"
+      ],
+      "sr_samplerate": "1 MHz",
+      "transition_equivalence": "PASS"
+    },
+    {
+      "file": "captured-burst.vcd",
+      "sha256": "0dcfb23d98f79819d7698bbce4c413d182d5f34d89079f190595df4b8ebaa4b7",
+      "source": "tilt-zero-recovery.vcd",
+      "source_sha256": "548f2d1d1322de6dfd1a399fcba1f6565623c6fa1ee3a7fbab2e8674d2239aab",
+      "offset_ns": 139299000000,
+      "duration_ns": 4000000,
+      "channels": [
+        "D0",
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "D5",
+        "D6"
+      ],
+      "sr_samplerate": "10 MHz",
+      "transition_equivalence": "PASS"
+    },
+    {
+      "file": "i2c-address-nack.vcd",
+      "sha256": "c93cb0bbd46981e082b090148ef74af53d639dddb7cba2c9d8fbbe3ff1c70aa9",
+      "source": "adjust-repeat-activity.vcd",
+      "source_sha256": "4f185a5366f9191383bdb6f08a69fb4f27d1d774bd170af48e60da67f893062c",
+      "offset_ns": 184804058425,
+      "duration_ns": 175000,
+      "channels": [
+        "D0",
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "D5",
+        "D6"
+      ],
+      "sr_samplerate": "10 MHz",
+      "transition_equivalence": "PASS"
+    },
+    {
+      "file": "i2c-hal-failure.vcd",
+      "sha256": "1f855077b691035d25befb9cda1fb425b186e35b4ab518e0bda0882decbb6b13",
+      "source": "i2c-hal-failure.vcd",
+      "source_sha256": "1a6393865a6522eba7bde0a85c666426abbbbcd0ff1d74e57b9bd511ca076f8f",
+      "offset_ns": 100000000,
+      "duration_ns": 40000000,
+      "channels": [
+        "D0",
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "D5",
+        "D6"
+      ],
+      "sr_samplerate": "10 MHz",
+      "transition_equivalence": "PASS"
+    },
+    {
+      "file": "i2c-manual.vcd",
+      "sha256": "c8149b13e7d9bc3cbf54dc3384a25b412cd78fd0d450bd0b03b2df827f180989",
+      "source": "tilt-zero-recovery.vcd",
+      "source_sha256": "548f2d1d1322de6dfd1a399fcba1f6565623c6fa1ee3a7fbab2e8674d2239aab",
+      "offset_ns": 139299770000,
+      "duration_ns": 600000,
+      "channels": [
+        "D0",
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "D5",
+        "D6"
+      ],
+      "sr_samplerate": "10 MHz",
+      "transition_equivalence": "PASS"
+    },
+    {
+      "file": "led-fault.vcd",
+      "sha256": "ef9c62e7ca95908f11cf0c79f50aa7e1a04d0218ccfd0941186a89eb5e4969fd",
+      "source": "tilt-zero-recovery.vcd",
+      "source_sha256": "548f2d1d1322de6dfd1a399fcba1f6565623c6fa1ee3a7fbab2e8674d2239aab",
+      "offset_ns": 172000000000,
+      "duration_ns": 700000000,
+      "channels": [
+        "D5"
+      ],
+      "sr_samplerate": "100 kHz",
+      "transition_equivalence": "PASS"
+    },
+    {
+      "file": "led-tilt.vcd",
+      "sha256": "f13cfa9835072371e5b25e218dfbf0edf09f639ffbab546cfb1f8c7ee75bb052",
+      "source": "tilt-zero-recovery.vcd",
+      "source_sha256": "548f2d1d1322de6dfd1a399fcba1f6565623c6fa1ee3a7fbab2e8674d2239aab",
+      "offset_ns": 60000000000,
+      "duration_ns": 1000000000,
+      "channels": [
+        "D5"
+      ],
+      "sr_samplerate": "100 kHz",
+      "transition_equivalence": "PASS"
+    },
+    {
+      "file": "pir-activity.vcd",
+      "sha256": "e828b1968b46ef07e9454f85594e9095e613b3fa50f5672a4c1673b6986ff294",
+      "source": "adjust-repeat-activity.vcd",
+      "source_sha256": "4f185a5366f9191383bdb6f08a69fb4f27d1d774bd170af48e60da67f893062c",
+      "offset_ns": 135000000000,
+      "duration_ns": 61000000000,
+      "channels": [
+        "D3",
+        "D5"
+      ],
+      "sr_samplerate": "10 kHz",
+      "transition_equivalence": "PASS"
+    },
+    {
+      "file": "sample-nack.vcd",
+      "sha256": "5fecc66bcc41e864d2a5c0cdf9c4230bf386eda170fdcba85088db6cc5bd6a20",
+      "source": "adjust-repeat-activity.vcd",
+      "source_sha256": "4f185a5366f9191383bdb6f08a69fb4f27d1d774bd170af48e60da67f893062c",
+      "offset_ns": 184790000000,
+      "duration_ns": 70000000,
+      "channels": [
+        "D0",
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "D5",
+        "D6"
+      ],
+      "sr_samplerate": "10 MHz",
+      "transition_equivalence": "PASS"
+    },
+    {
+      "file": "startup-i2c.vcd",
+      "sha256": "d12c14c68d047879a7cb52b87562385ee597e2b22997695616319f429aaa13be",
+      "source": "adjust-repeat-activity.vcd",
+      "source_sha256": "4f185a5366f9191383bdb6f08a69fb4f27d1d774bd170af48e60da67f893062c",
+      "offset_ns": 100000000,
+      "duration_ns": 20000000,
+      "channels": [
+        "D0",
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "D5",
+        "D6"
+      ],
+      "sr_samplerate": null,
+      "transition_equivalence": "PASS"
+    },
+    {
+      "file": "uart-sample.vcd",
+      "sha256": "56360da718a9d5c31d7feb9777ced99e345c9fa8318480696c03f75bbba1ae16",
+      "source": "adjust-repeat-activity.vcd",
+      "source_sha256": "4f185a5366f9191383bdb6f08a69fb4f27d1d774bd170af48e60da67f893062c",
+      "offset_ns": 184816239900,
+      "duration_ns": 700000,
+      "channels": [
+        "D0",
+        "D1",
+        "D2",
+        "D3",
+        "D4",
+        "D5",
+        "D6"
+      ],
+      "sr_samplerate": "10 MHz",
+      "transition_equivalence": "PASS"
+    }
+  ],
+  "history_rewrite": {
+    "original_runtime_commit": "db8b54b9c515ed3d4561ce81de8d0f5597ee677b",
+    "equivalent_runtime_commit": "633422f776d52f1b8a6619ee1ad1ee93ce5780e3",
+    "recorded_timestamps_unchanged": true
+  }
+}
