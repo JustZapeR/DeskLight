@@ -19,6 +19,14 @@ int main(void)
     assert(line(&c,"mode auto\n")==CMD_AUTO);
     console_apply(&d,CMD_AUTO,0); assert(d.mode==DESK_IDLE);
     assert(line(&c,"zero\n")==CMD_ZERO);
+    assert(line(&c,"storage probe\n")==CMD_FLASH_CHECK);
+    assert(line(&c,"stats\n")==CMD_STATS);
+    assert(line(&c,"metrics reset\n")==CMD_METRICS_RESET);
+    assert(line(&c,"history\n")==CMD_HISTORY);
+    assert(line(&c,"save\n")==CMD_SAVE);
+    assert(line(&c,"journal\n")==CMD_JOURNAL);
+    assert(line(&c,"rate fast\n")==CMD_FAST);
+    assert(line(&c,"rate normal\n")==CMD_NORMAL);
     assert(line(&c,"sample\n")==CMD_SAMPLE);
     assert(line(&c,"probe nack\n")==CMD_NACK);
     assert(line(&c,"fault imu on\n")==CMD_IMU_OFF);
