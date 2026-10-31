@@ -1,0 +1,66 @@
+{
+  "source_sha256": "410ab7b775c2acea7a9c949d3ba6bde34067db649d9f45925f16beb3d8619568",
+  "duration_us": 296848321.65000004,
+  "channels": {
+    "!": "D0",
+    "\"": "D1",
+    "#": "D2",
+    "$": "D3",
+    "%": "D4",
+    "&": "D5",
+    "'": "D6",
+    "(": "D7"
+  },
+  "probes": {
+    "D0": {
+      "width": {
+        "n": 2967,
+        "min_us": 2275.199999999997,
+        "avg_us": 2641.2133889443935,
+        "max_us": 2642.7750000059605
+      },
+      "period": {
+        "n": 2966,
+        "min_us": 79627.22499999404,
+        "avg_us": 100012.77211732973,
+        "max_us": 143981.25
+      }
+    },
+    "D1": {
+      "width": {
+        "n": 4,
+        "min_us": 1398.7249999940395,
+        "avg_us": 1398.7249999959022,
+        "max_us": 1398.7250000014901
+      },
+      "period": {
+        "n": 3,
+        "min_us": 59998710.00000001,
+        "avg_us": 59998752.083333336,
+        "max_us": 59998800.75
+      }
+    },
+    "D4": {
+      "width": {
+        "n": 2968,
+        "min_us": 72.30000000000291,
+        "avg_us": 73.17350067406609,
+        "max_us": 73.17500001192093
+      },
+      "period": {
+        "n": 2967,
+        "min_us": 79627.85000000894,
+        "avg_us": 100012.74355409505,
+        "max_us": 143984.75
+      }
+    }
+  },
+  "pairs": [],
+  "ambiguous_pairs": 0,
+  "pir_to_marker": {
+    "n": 0,
+    "status": "not measured"
+  },
+  "pir_during_long_operation": 0,
+  "limits": "VCD timestamps in simulator time; D1 includes export or real flash calls; check raw records for truncated buffer and startup initial levels. PIR marker is handled poll, not necessarily LED."
+}

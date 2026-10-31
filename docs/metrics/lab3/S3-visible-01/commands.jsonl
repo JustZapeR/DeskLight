@@ -1,0 +1,529 @@
+{"host_monotonic_s": 0.0008509169999999511, "last_mcu_ms": 0, "command": "metrics reset"}
+{"host_monotonic_s": 0.534571167, "last_mcu_ms": 22509, "command": "stats"}
+{"host_monotonic_s": 60.488713625, "last_mcu_ms": 82509, "command": "stats"}
+{"host_monotonic_s": 65.54344275, "last_mcu_ms": 87509, "command": "metrics reset"}
+{"host_monotonic_s": 65.545440667, "last_mcu_ms": 87509, "command": "history"}
+{"host_monotonic_s": 65.547084375, "last_mcu_ms": 87509, "command": "mode auto"}
+{"host_monotonic_s": 66.546864792, "last_mcu_ms": 88405, "command": "mode auto"}
+{"host_monotonic_s": 66.848641125, "last_mcu_ms": 88705, "command": "history"}
+{"host_monotonic_s": 67.55002225, "last_mcu_ms": 88705, "command": "mode auto"}
+{"host_monotonic_s": 68.14975533399999, "last_mcu_ms": 90006, "command": "history"}
+{"host_monotonic_s": 68.554410292, "last_mcu_ms": 90006, "command": "mode auto"}
+{"host_monotonic_s": 69.45541170899999, "last_mcu_ms": 91306, "command": "history"}
+{"host_monotonic_s": 69.55576525, "last_mcu_ms": 91306, "command": "mode auto"}
+{"host_monotonic_s": 70.557335959, "last_mcu_ms": 92305, "command": "mode auto"}
+{"host_monotonic_s": 70.75979724999999, "last_mcu_ms": 92610, "command": "history"}
+{"host_monotonic_s": 71.557411875, "last_mcu_ms": 93561, "command": "mode auto"}
+{"host_monotonic_s": 72.065571542, "last_mcu_ms": 93906, "command": "history"}
+{"host_monotonic_s": 72.55763708399999, "last_mcu_ms": 93906, "command": "mode auto"}
+{"host_monotonic_s": 73.368390917, "last_mcu_ms": 95206, "command": "history"}
+{"host_monotonic_s": 73.559838292, "last_mcu_ms": 95206, "command": "mode auto"}
+{"host_monotonic_s": 74.562182709, "last_mcu_ms": 96506, "command": "mode auto"}
+{"host_monotonic_s": 74.673708709, "last_mcu_ms": 96623, "command": "history"}
+{"host_monotonic_s": 75.566657417, "last_mcu_ms": 97505, "command": "mode auto"}
+{"host_monotonic_s": 75.973996667, "last_mcu_ms": 97806, "command": "history"}
+{"host_monotonic_s": 76.56673970899999, "last_mcu_ms": 97806, "command": "mode auto"}
+{"host_monotonic_s": 77.279937625, "last_mcu_ms": 99106, "command": "history"}
+{"host_monotonic_s": 77.56853054199999, "last_mcu_ms": 99106, "command": "mode auto"}
+{"host_monotonic_s": 78.57160270899999, "last_mcu_ms": 100406, "command": "mode auto"}
+{"host_monotonic_s": 78.58311454199999, "last_mcu_ms": 100406, "command": "history"}
+{"host_monotonic_s": 79.57629595899999, "last_mcu_ms": 101408, "command": "mode auto"}
+{"host_monotonic_s": 79.885295375, "last_mcu_ms": 101707, "command": "history"}
+{"host_monotonic_s": 80.579337334, "last_mcu_ms": 101707, "command": "mode auto"}
+{"host_monotonic_s": 81.187690334, "last_mcu_ms": 103005, "command": "history"}
+{"host_monotonic_s": 81.58867958399999, "last_mcu_ms": 103005, "command": "mode auto"}
+{"host_monotonic_s": 82.48772629199999, "last_mcu_ms": 104306, "command": "history"}
+{"host_monotonic_s": 82.591378334, "last_mcu_ms": 104306, "command": "mode auto"}
+{"host_monotonic_s": 83.592639042, "last_mcu_ms": 105605, "command": "mode auto"}
+{"host_monotonic_s": 83.789663209, "last_mcu_ms": 105643, "command": "history"}
+{"host_monotonic_s": 84.59616483399999, "last_mcu_ms": 106590, "command": "mode auto"}
+{"host_monotonic_s": 85.09367025, "last_mcu_ms": 106906, "command": "history"}
+{"host_monotonic_s": 85.602469417, "last_mcu_ms": 106906, "command": "mode auto"}
+{"host_monotonic_s": 86.393993625, "last_mcu_ms": 108206, "command": "history"}
+{"host_monotonic_s": 86.6027495, "last_mcu_ms": 108206, "command": "mode auto"}
+{"host_monotonic_s": 87.603191625, "last_mcu_ms": 109505, "command": "mode auto"}
+{"host_monotonic_s": 87.708067042, "last_mcu_ms": 109666, "command": "history"}
+{"host_monotonic_s": 88.60442916699999, "last_mcu_ms": 110605, "command": "mode auto"}
+{"host_monotonic_s": 89.008349959, "last_mcu_ms": 110906, "command": "history"}
+{"host_monotonic_s": 89.605611834, "last_mcu_ms": 110906, "command": "mode auto"}
+{"host_monotonic_s": 90.314605167, "last_mcu_ms": 112205, "command": "history"}
+{"host_monotonic_s": 90.60974770899999, "last_mcu_ms": 112205, "command": "mode auto"}
+{"host_monotonic_s": 91.61446124999999, "last_mcu_ms": 113505, "command": "mode auto"}
+{"host_monotonic_s": 91.621563209, "last_mcu_ms": 113505, "command": "history"}
+{"host_monotonic_s": 92.62208154199999, "last_mcu_ms": 114505, "command": "mode auto"}
+{"host_monotonic_s": 92.926813, "last_mcu_ms": 114806, "command": "history"}
+{"host_monotonic_s": 93.62645333399999, "last_mcu_ms": 114806, "command": "mode auto"}
+{"host_monotonic_s": 94.228012334, "last_mcu_ms": 116005, "command": "history"}
+{"host_monotonic_s": 94.6297015, "last_mcu_ms": 116005, "command": "mode auto"}
+{"host_monotonic_s": 95.53490995899999, "last_mcu_ms": 117406, "command": "history"}
+{"host_monotonic_s": 95.635991834, "last_mcu_ms": 117406, "command": "mode auto"}
+{"host_monotonic_s": 96.639334709, "last_mcu_ms": 118405, "command": "mode auto"}
+{"host_monotonic_s": 96.839761334, "last_mcu_ms": 118705, "command": "history"}
+{"host_monotonic_s": 97.643174917, "last_mcu_ms": 119625, "command": "mode auto"}
+{"host_monotonic_s": 98.143297334, "last_mcu_ms": 120006, "command": "history"}
+{"host_monotonic_s": 98.647927834, "last_mcu_ms": 120006, "command": "mode auto"}
+{"host_monotonic_s": 99.444158125, "last_mcu_ms": 121306, "command": "history"}
+{"host_monotonic_s": 99.65315525, "last_mcu_ms": 121306, "command": "mode auto"}
+{"host_monotonic_s": 100.655334, "last_mcu_ms": 122605, "command": "mode auto"}
+{"host_monotonic_s": 100.746611, "last_mcu_ms": 122744, "command": "history"}
+{"host_monotonic_s": 101.65652816699999, "last_mcu_ms": 123605, "command": "mode auto"}
+{"host_monotonic_s": 102.048110459, "last_mcu_ms": 123905, "command": "history"}
+{"host_monotonic_s": 102.661033667, "last_mcu_ms": 123905, "command": "mode auto"}
+{"host_monotonic_s": 103.352697792, "last_mcu_ms": 125206, "command": "history"}
+{"host_monotonic_s": 103.667339542, "last_mcu_ms": 125206, "command": "mode auto"}
+{"host_monotonic_s": 104.655528917, "last_mcu_ms": 126505, "command": "history"}
+{"host_monotonic_s": 104.667754167, "last_mcu_ms": 126505, "command": "mode auto"}
+{"host_monotonic_s": 105.68100187499999, "last_mcu_ms": 127505, "command": "mode auto"}
+{"host_monotonic_s": 105.969441709, "last_mcu_ms": 127806, "command": "history"}
+{"host_monotonic_s": 106.685017667, "last_mcu_ms": 127806, "command": "mode auto"}
+{"host_monotonic_s": 107.270639417, "last_mcu_ms": 129105, "command": "history"}
+{"host_monotonic_s": 107.82565149999999, "last_mcu_ms": 129105, "command": "mode auto"}
+{"host_monotonic_s": 108.712033209, "last_mcu_ms": 129105, "command": "history"}
+{"host_monotonic_s": 108.980475542, "last_mcu_ms": 129105, "command": "mode auto"}
+{"host_monotonic_s": 109.884443417, "last_mcu_ms": 130405, "command": "mode auto"}
+{"host_monotonic_s": 110.065066459, "last_mcu_ms": 130405, "command": "history"}
+{"host_monotonic_s": 110.8949155, "last_mcu_ms": 131863, "command": "mode auto"}
+{"host_monotonic_s": 111.365702917, "last_mcu_ms": 133105, "command": "history"}
+{"host_monotonic_s": 111.899593834, "last_mcu_ms": 133105, "command": "mode auto"}
+{"host_monotonic_s": 112.67053924999999, "last_mcu_ms": 134406, "command": "history"}
+{"host_monotonic_s": 112.905775542, "last_mcu_ms": 134406, "command": "mode auto"}
+{"host_monotonic_s": 113.908471584, "last_mcu_ms": 135705, "command": "mode auto"}
+{"host_monotonic_s": 114.030982917, "last_mcu_ms": 135875, "command": "history"}
+{"host_monotonic_s": 114.912620709, "last_mcu_ms": 136805, "command": "mode auto"}
+{"host_monotonic_s": 115.33775595899999, "last_mcu_ms": 137106, "command": "history"}
+{"host_monotonic_s": 115.92073333399999, "last_mcu_ms": 137106, "command": "mode auto"}
+{"host_monotonic_s": 116.636469209, "last_mcu_ms": 138406, "command": "history"}
+{"host_monotonic_s": 116.928070959, "last_mcu_ms": 138406, "command": "mode auto"}
+{"host_monotonic_s": 117.93715904199999, "last_mcu_ms": 139706, "command": "history"}
+{"host_monotonic_s": 117.94440316699999, "last_mcu_ms": 139706, "command": "mode auto"}
+{"host_monotonic_s": 118.94223483399999, "last_mcu_ms": 140705, "command": "mode auto"}
+{"host_monotonic_s": 119.23719924999999, "last_mcu_ms": 141006, "command": "history"}
+{"host_monotonic_s": 119.94579816699999, "last_mcu_ms": 141006, "command": "mode auto"}
+{"host_monotonic_s": 120.550126459, "last_mcu_ms": 142005, "command": "history"}
+{"host_monotonic_s": 121.009347834, "last_mcu_ms": 142306, "command": "mode auto"}
+{"host_monotonic_s": 121.911922792, "last_mcu_ms": 143605, "command": "history"}
+{"host_monotonic_s": 122.08093470899999, "last_mcu_ms": 143784, "command": "mode auto"}
+{"host_monotonic_s": 123.099287334, "last_mcu_ms": 144705, "command": "mode auto"}
+{"host_monotonic_s": 123.22502304199999, "last_mcu_ms": 145043, "command": "history"}
+{"host_monotonic_s": 124.10439945899999, "last_mcu_ms": 145043, "command": "mode auto"}
+{"host_monotonic_s": 124.678382375, "last_mcu_ms": 146305, "command": "history"}
+{"host_monotonic_s": 125.118419959, "last_mcu_ms": 146305, "command": "mode auto"}
+{"host_monotonic_s": 125.849218667, "last_mcu_ms": 147705, "command": "stats"}
+{"host_monotonic_s": 125.963961292, "last_mcu_ms": 147705, "command": "history"}
+{"host_monotonic_s": 126.185086959, "last_mcu_ms": 147705, "command": "mode auto"}
+{"host_monotonic_s": 127.186802792, "last_mcu_ms": 148805, "command": "mode auto"}
+{"host_monotonic_s": 127.26918587499999, "last_mcu_ms": 149110, "command": "history"}
+{"host_monotonic_s": 128.192308584, "last_mcu_ms": 150005, "command": "mode auto"}
+{"host_monotonic_s": 128.612552209, "last_mcu_ms": 150305, "command": "history"}
+{"host_monotonic_s": 129.19798383399998, "last_mcu_ms": 150305, "command": "mode auto"}
+{"host_monotonic_s": 129.919508875, "last_mcu_ms": 151606, "command": "history"}
+{"host_monotonic_s": 130.210932459, "last_mcu_ms": 151606, "command": "mode auto"}
+{"host_monotonic_s": 131.222974625, "last_mcu_ms": 152905, "command": "history"}
+{"host_monotonic_s": 131.22520775, "last_mcu_ms": 152905, "command": "mode auto"}
+{"host_monotonic_s": 132.227097, "last_mcu_ms": 153912, "command": "mode auto"}
+{"host_monotonic_s": 132.525360292, "last_mcu_ms": 154206, "command": "history"}
+{"host_monotonic_s": 133.283550459, "last_mcu_ms": 154206, "command": "mode auto"}
+{"host_monotonic_s": 133.825411, "last_mcu_ms": 155505, "command": "history"}
+{"host_monotonic_s": 134.353748709, "last_mcu_ms": 155505, "command": "mode auto"}
+{"host_monotonic_s": 135.138566209, "last_mcu_ms": 156805, "command": "history"}
+{"host_monotonic_s": 135.348356625, "last_mcu_ms": 156805, "command": "mode auto"}
+{"host_monotonic_s": 136.357026042, "last_mcu_ms": 157905, "command": "mode auto"}
+{"host_monotonic_s": 136.445305042, "last_mcu_ms": 158262, "command": "history"}
+{"host_monotonic_s": 137.365770667, "last_mcu_ms": 159205, "command": "mode auto"}
+{"host_monotonic_s": 137.74823254199998, "last_mcu_ms": 159506, "command": "history"}
+{"host_monotonic_s": 138.473493209, "last_mcu_ms": 159506, "command": "mode auto"}
+{"host_monotonic_s": 139.061357042, "last_mcu_ms": 160805, "command": "history"}
+{"host_monotonic_s": 139.479819709, "last_mcu_ms": 160805, "command": "mode auto"}
+{"host_monotonic_s": 140.368606792, "last_mcu_ms": 162106, "command": "history"}
+{"host_monotonic_s": 140.486497417, "last_mcu_ms": 162106, "command": "mode auto"}
+{"host_monotonic_s": 141.49462904199999, "last_mcu_ms": 163105, "command": "mode auto"}
+{"host_monotonic_s": 141.676738917, "last_mcu_ms": 163406, "command": "history"}
+{"host_monotonic_s": 142.494765709, "last_mcu_ms": 163406, "command": "mode auto"}
+{"host_monotonic_s": 142.994807042, "last_mcu_ms": 164706, "command": "history"}
+{"host_monotonic_s": 143.497973125, "last_mcu_ms": 164824, "command": "mode auto"}
+{"host_monotonic_s": 144.335697709, "last_mcu_ms": 166006, "command": "history"}
+{"host_monotonic_s": 144.605539375, "last_mcu_ms": 166006, "command": "mode auto"}
+{"host_monotonic_s": 145.542938792, "last_mcu_ms": 167305, "command": "mode auto"}
+{"host_monotonic_s": 145.628784834, "last_mcu_ms": 167359, "command": "history"}
+{"host_monotonic_s": 146.544443584, "last_mcu_ms": 168305, "command": "mode auto"}
+{"host_monotonic_s": 146.934560709, "last_mcu_ms": 168605, "command": "history"}
+{"host_monotonic_s": 147.549170875, "last_mcu_ms": 168605, "command": "mode auto"}
+{"host_monotonic_s": 148.2824075, "last_mcu_ms": 169905, "command": "history"}
+{"host_monotonic_s": 148.553443834, "last_mcu_ms": 169905, "command": "mode auto"}
+{"host_monotonic_s": 149.558833542, "last_mcu_ms": 171205, "command": "mode auto"}
+{"host_monotonic_s": 149.586866125, "last_mcu_ms": 171205, "command": "history"}
+{"host_monotonic_s": 150.560355917, "last_mcu_ms": 172205, "command": "mode auto"}
+{"host_monotonic_s": 150.888964959, "last_mcu_ms": 172506, "command": "history"}
+{"host_monotonic_s": 151.568465459, "last_mcu_ms": 172506, "command": "mode auto"}
+{"host_monotonic_s": 152.189588375, "last_mcu_ms": 173806, "command": "history"}
+{"host_monotonic_s": 152.62145075, "last_mcu_ms": 173806, "command": "mode auto"}
+{"host_monotonic_s": 153.490687084, "last_mcu_ms": 175106, "command": "history"}
+{"host_monotonic_s": 153.623445375, "last_mcu_ms": 175106, "command": "mode auto"}
+{"host_monotonic_s": 154.624341792, "last_mcu_ms": 176105, "command": "mode auto"}
+{"host_monotonic_s": 154.79161166699998, "last_mcu_ms": 176410, "command": "history"}
+{"host_monotonic_s": 155.627566625, "last_mcu_ms": 177359, "command": "mode auto"}
+{"host_monotonic_s": 156.093523334, "last_mcu_ms": 177706, "command": "history"}
+{"host_monotonic_s": 156.63568816699998, "last_mcu_ms": 177706, "command": "mode auto"}
+{"host_monotonic_s": 157.39920825, "last_mcu_ms": 179006, "command": "history"}
+{"host_monotonic_s": 157.642453625, "last_mcu_ms": 179006, "command": "mode auto"}
+{"host_monotonic_s": 158.645658417, "last_mcu_ms": 180306, "command": "mode auto"}
+{"host_monotonic_s": 158.722540917, "last_mcu_ms": 180425, "command": "history"}
+{"host_monotonic_s": 159.649918834, "last_mcu_ms": 181305, "command": "mode auto"}
+{"host_monotonic_s": 160.023734, "last_mcu_ms": 181606, "command": "history"}
+{"host_monotonic_s": 160.688150084, "last_mcu_ms": 181606, "command": "mode auto"}
+{"host_monotonic_s": 161.33093208399998, "last_mcu_ms": 182906, "command": "history"}
+{"host_monotonic_s": 161.691607334, "last_mcu_ms": 182906, "command": "mode auto"}
+{"host_monotonic_s": 162.635118667, "last_mcu_ms": 184206, "command": "history"}
+{"host_monotonic_s": 162.694130834, "last_mcu_ms": 184206, "command": "mode auto"}
+{"host_monotonic_s": 163.694299917, "last_mcu_ms": 185305, "command": "mode auto"}
+{"host_monotonic_s": 163.93838474999998, "last_mcu_ms": 185605, "command": "history"}
+{"host_monotonic_s": 164.695236792, "last_mcu_ms": 185605, "command": "mode auto"}
+{"host_monotonic_s": 165.239150209, "last_mcu_ms": 186906, "command": "history"}
+{"host_monotonic_s": 165.759799042, "last_mcu_ms": 186906, "command": "mode auto"}
+{"host_monotonic_s": 166.552253875, "last_mcu_ms": 187905, "command": "history"}
+{"host_monotonic_s": 166.753343334, "last_mcu_ms": 188205, "command": "mode auto"}
+{"host_monotonic_s": 167.787590709, "last_mcu_ms": 189505, "command": "mode auto"}
+{"host_monotonic_s": 167.858251875, "last_mcu_ms": 189570, "command": "history"}
+{"host_monotonic_s": 168.790273334, "last_mcu_ms": 190506, "command": "mode auto"}
+{"host_monotonic_s": 169.163919459, "last_mcu_ms": 190806, "command": "history"}
+{"host_monotonic_s": 169.793861792, "last_mcu_ms": 190806, "command": "mode auto"}
+{"host_monotonic_s": 170.464578709, "last_mcu_ms": 192105, "command": "history"}
+{"host_monotonic_s": 170.796419292, "last_mcu_ms": 192105, "command": "mode auto"}
+{"host_monotonic_s": 171.768581584, "last_mcu_ms": 193406, "command": "history"}
+{"host_monotonic_s": 171.79693774999998, "last_mcu_ms": 193406, "command": "mode auto"}
+{"host_monotonic_s": 172.798650542, "last_mcu_ms": 194405, "command": "mode auto"}
+{"host_monotonic_s": 173.074571042, "last_mcu_ms": 194706, "command": "history"}
+{"host_monotonic_s": 173.800967792, "last_mcu_ms": 194706, "command": "mode auto"}
+{"host_monotonic_s": 174.37909825, "last_mcu_ms": 196006, "command": "history"}
+{"host_monotonic_s": 174.80487887499999, "last_mcu_ms": 196006, "command": "mode auto"}
+{"host_monotonic_s": 175.67981187499998, "last_mcu_ms": 197306, "command": "history"}
+{"host_monotonic_s": 175.806200834, "last_mcu_ms": 197306, "command": "mode auto"}
+{"host_monotonic_s": 176.808137, "last_mcu_ms": 198305, "command": "mode auto"}
+{"host_monotonic_s": 176.982237292, "last_mcu_ms": 198605, "command": "history"}
+{"host_monotonic_s": 177.86836233399998, "last_mcu_ms": 198605, "command": "mode auto"}
+{"host_monotonic_s": 178.285588625, "last_mcu_ms": 199905, "command": "history"}
+{"host_monotonic_s": 178.852766625, "last_mcu_ms": 199905, "command": "mode auto"}
+{"host_monotonic_s": 179.586046209, "last_mcu_ms": 201206, "command": "history"}
+{"host_monotonic_s": 179.856190792, "last_mcu_ms": 201206, "command": "mode auto"}
+{"host_monotonic_s": 180.865914167, "last_mcu_ms": 202505, "command": "mode auto"}
+{"host_monotonic_s": 180.89040624999998, "last_mcu_ms": 202505, "command": "history"}
+{"host_monotonic_s": 181.864674584, "last_mcu_ms": 203511, "command": "mode auto"}
+{"host_monotonic_s": 182.196118834, "last_mcu_ms": 203805, "command": "history"}
+{"host_monotonic_s": 182.866723584, "last_mcu_ms": 203805, "command": "mode auto"}
+{"host_monotonic_s": 183.500751542, "last_mcu_ms": 205106, "command": "history"}
+{"host_monotonic_s": 183.87531833399999, "last_mcu_ms": 205106, "command": "mode auto"}
+{"host_monotonic_s": 184.807470834, "last_mcu_ms": 206406, "command": "history"}
+{"host_monotonic_s": 184.872256167, "last_mcu_ms": 206406, "command": "mode auto"}
+{"host_monotonic_s": 185.8727865, "last_mcu_ms": 207405, "command": "mode auto"}
+{"host_monotonic_s": 185.912264042, "last_mcu_ms": 207662, "command": "stats"}
+{"host_monotonic_s": 186.11195974999998, "last_mcu_ms": 207662, "command": "history"}
+{"host_monotonic_s": 186.874622542, "last_mcu_ms": 207727, "command": "mode auto"}
+{"host_monotonic_s": 187.421374667, "last_mcu_ms": 209005, "command": "history"}
+{"host_monotonic_s": 187.880053667, "last_mcu_ms": 209005, "command": "mode auto"}
+{"host_monotonic_s": 188.72351483399999, "last_mcu_ms": 210306, "command": "history"}
+{"host_monotonic_s": 188.88051637499998, "last_mcu_ms": 210306, "command": "mode auto"}
+{"host_monotonic_s": 189.88163699999998, "last_mcu_ms": 211308, "command": "mode auto"}
+{"host_monotonic_s": 190.028578167, "last_mcu_ms": 211671, "command": "history"}
+{"host_monotonic_s": 190.883513167, "last_mcu_ms": 212603, "command": "mode auto"}
+{"host_monotonic_s": 191.33067895899998, "last_mcu_ms": 212905, "command": "history"}
+{"host_monotonic_s": 191.883787167, "last_mcu_ms": 212905, "command": "mode auto"}
+{"host_monotonic_s": 192.631742334, "last_mcu_ms": 214306, "command": "history"}
+{"host_monotonic_s": 192.884403292, "last_mcu_ms": 214306, "command": "mode auto"}
+{"host_monotonic_s": 193.889588209, "last_mcu_ms": 215506, "command": "mode auto"}
+{"host_monotonic_s": 193.937977459, "last_mcu_ms": 215643, "command": "history"}
+{"host_monotonic_s": 194.894667834, "last_mcu_ms": 216508, "command": "mode auto"}
+{"host_monotonic_s": 195.241595625, "last_mcu_ms": 216805, "command": "history"}
+{"host_monotonic_s": 195.89861175, "last_mcu_ms": 216805, "command": "mode auto"}
+{"host_monotonic_s": 196.545300709, "last_mcu_ms": 218106, "command": "history"}
+{"host_monotonic_s": 196.902795417, "last_mcu_ms": 218106, "command": "mode auto"}
+{"host_monotonic_s": 197.85047275, "last_mcu_ms": 219406, "command": "history"}
+{"host_monotonic_s": 197.908194084, "last_mcu_ms": 219406, "command": "mode auto"}
+{"host_monotonic_s": 198.9103845, "last_mcu_ms": 220409, "command": "mode auto"}
+{"host_monotonic_s": 199.15120983399999, "last_mcu_ms": 220706, "command": "history"}
+{"host_monotonic_s": 199.91537929199998, "last_mcu_ms": 220706, "command": "mode auto"}
+{"host_monotonic_s": 200.453063334, "last_mcu_ms": 222006, "command": "history"}
+{"host_monotonic_s": 200.920069459, "last_mcu_ms": 222006, "command": "mode auto"}
+{"host_monotonic_s": 201.753597209, "last_mcu_ms": 223306, "command": "history"}
+{"host_monotonic_s": 201.920936209, "last_mcu_ms": 223306, "command": "mode auto"}
+{"host_monotonic_s": 202.92110524999998, "last_mcu_ms": 224606, "command": "mode auto"}
+{"host_monotonic_s": 203.057408167, "last_mcu_ms": 224688, "command": "history"}
+{"host_monotonic_s": 203.924474834, "last_mcu_ms": 225609, "command": "mode auto"}
+{"host_monotonic_s": 204.360023667, "last_mcu_ms": 225906, "command": "history"}
+{"host_monotonic_s": 204.926369, "last_mcu_ms": 225906, "command": "mode auto"}
+{"host_monotonic_s": 205.660744792, "last_mcu_ms": 227305, "command": "history"}
+{"host_monotonic_s": 205.92687204199999, "last_mcu_ms": 227305, "command": "mode auto"}
+{"host_monotonic_s": 206.927581709, "last_mcu_ms": 228606, "command": "mode auto"}
+{"host_monotonic_s": 206.967859875, "last_mcu_ms": 228682, "command": "history"}
+{"host_monotonic_s": 207.927922542, "last_mcu_ms": 229605, "command": "mode auto"}
+{"host_monotonic_s": 208.27057166699998, "last_mcu_ms": 229906, "command": "history"}
+{"host_monotonic_s": 208.928913584, "last_mcu_ms": 229906, "command": "mode auto"}
+{"host_monotonic_s": 209.575860667, "last_mcu_ms": 231206, "command": "history"}
+{"host_monotonic_s": 209.930934417, "last_mcu_ms": 231206, "command": "mode auto"}
+{"host_monotonic_s": 210.8785935, "last_mcu_ms": 232505, "command": "history"}
+{"host_monotonic_s": 210.9352335, "last_mcu_ms": 232505, "command": "mode auto"}
+{"host_monotonic_s": 211.939860625, "last_mcu_ms": 233505, "command": "mode auto"}
+{"host_monotonic_s": 212.181248625, "last_mcu_ms": 233806, "command": "history"}
+{"host_monotonic_s": 212.954605625, "last_mcu_ms": 233806, "command": "mode auto"}
+{"host_monotonic_s": 213.515741167, "last_mcu_ms": 235105, "command": "history"}
+{"host_monotonic_s": 213.9552675, "last_mcu_ms": 235105, "command": "mode auto"}
+{"host_monotonic_s": 214.816916959, "last_mcu_ms": 236406, "command": "history"}
+{"host_monotonic_s": 214.959952959, "last_mcu_ms": 236406, "command": "mode auto"}
+{"host_monotonic_s": 215.964113, "last_mcu_ms": 237405, "command": "mode auto"}
+{"host_monotonic_s": 216.122617875, "last_mcu_ms": 237743, "command": "history"}
+{"host_monotonic_s": 216.96478199999999, "last_mcu_ms": 238668, "command": "mode auto"}
+{"host_monotonic_s": 217.42789475, "last_mcu_ms": 239006, "command": "history"}
+{"host_monotonic_s": 217.98183945899999, "last_mcu_ms": 239006, "command": "mode auto"}
+{"host_monotonic_s": 218.73018545899998, "last_mcu_ms": 240306, "command": "history"}
+{"host_monotonic_s": 218.986588375, "last_mcu_ms": 240306, "command": "mode auto"}
+{"host_monotonic_s": 219.992622417, "last_mcu_ms": 241605, "command": "mode auto"}
+{"host_monotonic_s": 220.03521683399998, "last_mcu_ms": 241753, "command": "history"}
+{"host_monotonic_s": 220.996654125, "last_mcu_ms": 242605, "command": "mode auto"}
+{"host_monotonic_s": 221.338381334, "last_mcu_ms": 242906, "command": "history"}
+{"host_monotonic_s": 222.000886042, "last_mcu_ms": 242906, "command": "mode auto"}
+{"host_monotonic_s": 222.654659125, "last_mcu_ms": 244206, "command": "history"}
+{"host_monotonic_s": 223.003755042, "last_mcu_ms": 244206, "command": "mode auto"}
+{"host_monotonic_s": 223.949181125, "last_mcu_ms": 245506, "command": "history"}
+{"host_monotonic_s": 224.008364417, "last_mcu_ms": 245506, "command": "mode auto"}
+{"host_monotonic_s": 225.046684042, "last_mcu_ms": 246514, "command": "mode auto"}
+{"host_monotonic_s": 225.251530459, "last_mcu_ms": 246810, "command": "history"}
+{"host_monotonic_s": 226.049635584, "last_mcu_ms": 246810, "command": "mode auto"}
+{"host_monotonic_s": 226.552462959, "last_mcu_ms": 248105, "command": "history"}
+{"host_monotonic_s": 227.079223334, "last_mcu_ms": 248105, "command": "mode auto"}
+{"host_monotonic_s": 227.853913334, "last_mcu_ms": 249405, "command": "history"}
+{"host_monotonic_s": 228.082832792, "last_mcu_ms": 249405, "command": "mode auto"}
+{"host_monotonic_s": 229.084174625, "last_mcu_ms": 250806, "command": "mode auto"}
+{"host_monotonic_s": 229.157667959, "last_mcu_ms": 250841, "command": "history"}
+{"host_monotonic_s": 230.087868042, "last_mcu_ms": 251805, "command": "mode auto"}
+{"host_monotonic_s": 230.459947292, "last_mcu_ms": 252105, "command": "history"}
+{"host_monotonic_s": 231.091596625, "last_mcu_ms": 252105, "command": "mode auto"}
+{"host_monotonic_s": 231.77963625, "last_mcu_ms": 253406, "command": "history"}
+{"host_monotonic_s": 232.093684042, "last_mcu_ms": 253406, "command": "mode auto"}
+{"host_monotonic_s": 233.085201625, "last_mcu_ms": 254706, "command": "history"}
+{"host_monotonic_s": 233.097092209, "last_mcu_ms": 254706, "command": "mode auto"}
+{"host_monotonic_s": 234.098775709, "last_mcu_ms": 255705, "command": "mode auto"}
+{"host_monotonic_s": 234.390167875, "last_mcu_ms": 256006, "command": "history"}
+{"host_monotonic_s": 235.101938459, "last_mcu_ms": 256006, "command": "mode auto"}
+{"host_monotonic_s": 235.690340167, "last_mcu_ms": 257305, "command": "history"}
+{"host_monotonic_s": 236.11067358399998, "last_mcu_ms": 257305, "command": "mode auto"}
+{"host_monotonic_s": 236.995965334, "last_mcu_ms": 258605, "command": "history"}
+{"host_monotonic_s": 237.115270667, "last_mcu_ms": 258605, "command": "mode auto"}
+{"host_monotonic_s": 238.120459209, "last_mcu_ms": 259605, "command": "mode auto"}
+{"host_monotonic_s": 238.300809209, "last_mcu_ms": 259906, "command": "history"}
+{"host_monotonic_s": 239.125165, "last_mcu_ms": 259906, "command": "mode auto"}
+{"host_monotonic_s": 239.60604775, "last_mcu_ms": 261206, "command": "history"}
+{"host_monotonic_s": 240.12984062499999, "last_mcu_ms": 261206, "command": "mode auto"}
+{"host_monotonic_s": 240.910637834, "last_mcu_ms": 262505, "command": "history"}
+{"host_monotonic_s": 241.13000675, "last_mcu_ms": 262505, "command": "mode auto"}
+{"host_monotonic_s": 242.13567287499998, "last_mcu_ms": 263806, "command": "mode auto"}
+{"host_monotonic_s": 242.216100417, "last_mcu_ms": 263906, "command": "history"}
+{"host_monotonic_s": 243.136776, "last_mcu_ms": 264805, "command": "mode auto"}
+{"host_monotonic_s": 243.51859525, "last_mcu_ms": 265105, "command": "history"}
+{"host_monotonic_s": 244.150916709, "last_mcu_ms": 265105, "command": "mode auto"}
+{"host_monotonic_s": 244.818315917, "last_mcu_ms": 266406, "command": "history"}
+{"host_monotonic_s": 245.15913558399998, "last_mcu_ms": 266406, "command": "mode auto"}
+{"host_monotonic_s": 246.40606175, "last_mcu_ms": 267311, "command": "history"}
+{"host_monotonic_s": 246.45586458399998, "last_mcu_ms": 267311, "command": "mode auto"}
+{"host_monotonic_s": 246.46595216699998, "last_mcu_ms": 267606, "command": "stats"}
+{"host_monotonic_s": 247.435762334, "last_mcu_ms": 268906, "command": "history"}
+{"host_monotonic_s": 247.4569515, "last_mcu_ms": 268906, "command": "mode auto"}
+{"host_monotonic_s": 248.493843584, "last_mcu_ms": 269805, "command": "mode auto"}
+{"host_monotonic_s": 248.7440535, "last_mcu_ms": 270106, "command": "history"}
+{"host_monotonic_s": 249.49385275, "last_mcu_ms": 270106, "command": "mode auto"}
+{"host_monotonic_s": 250.11844399999998, "last_mcu_ms": 271405, "command": "history"}
+{"host_monotonic_s": 250.504567875, "last_mcu_ms": 271405, "command": "mode auto"}
+{"host_monotonic_s": 251.94244, "last_mcu_ms": 272505, "command": "history"}
+{"host_monotonic_s": 251.942671834, "last_mcu_ms": 272505, "command": "mode auto"}
+{"host_monotonic_s": 252.989764209, "last_mcu_ms": 274305, "command": "mode auto"}
+{"host_monotonic_s": 253.244285959, "last_mcu_ms": 274606, "command": "history"}
+{"host_monotonic_s": 253.992719417, "last_mcu_ms": 274606, "command": "mode auto"}
+{"host_monotonic_s": 254.546460209, "last_mcu_ms": 275906, "command": "history"}
+{"host_monotonic_s": 254.996612042, "last_mcu_ms": 275906, "command": "mode auto"}
+{"host_monotonic_s": 255.85036766699997, "last_mcu_ms": 277206, "command": "history"}
+{"host_monotonic_s": 256.012694667, "last_mcu_ms": 277206, "command": "mode auto"}
+{"host_monotonic_s": 257.012910917, "last_mcu_ms": 278205, "command": "mode auto"}
+{"host_monotonic_s": 257.153837834, "last_mcu_ms": 278523, "command": "history"}
+{"host_monotonic_s": 258.017368584, "last_mcu_ms": 279444, "command": "mode auto"}
+{"host_monotonic_s": 258.458543167, "last_mcu_ms": 279806, "command": "history"}
+{"host_monotonic_s": 259.01877545900004, "last_mcu_ms": 279806, "command": "mode auto"}
+{"host_monotonic_s": 259.762885625, "last_mcu_ms": 281106, "command": "history"}
+{"host_monotonic_s": 260.01952500000004, "last_mcu_ms": 281106, "command": "mode auto"}
+{"host_monotonic_s": 261.050285125, "last_mcu_ms": 282405, "command": "mode auto"}
+{"host_monotonic_s": 261.07576625, "last_mcu_ms": 282405, "command": "history"}
+{"host_monotonic_s": 262.053107209, "last_mcu_ms": 283406, "command": "mode auto"}
+{"host_monotonic_s": 262.380349292, "last_mcu_ms": 283706, "command": "history"}
+{"host_monotonic_s": 263.05368070900005, "last_mcu_ms": 283706, "command": "mode auto"}
+{"host_monotonic_s": 263.68905616700005, "last_mcu_ms": 285006, "command": "history"}
+{"host_monotonic_s": 264.056213334, "last_mcu_ms": 285006, "command": "mode auto"}
+{"host_monotonic_s": 264.995636459, "last_mcu_ms": 286306, "command": "history"}
+{"host_monotonic_s": 265.05840145900004, "last_mcu_ms": 286306, "command": "mode auto"}
+{"host_monotonic_s": 266.06368425000005, "last_mcu_ms": 287305, "command": "mode auto"}
+{"host_monotonic_s": 266.29586525, "last_mcu_ms": 287605, "command": "history"}
+{"host_monotonic_s": 267.07718854200004, "last_mcu_ms": 287605, "command": "mode auto"}
+{"host_monotonic_s": 267.596132542, "last_mcu_ms": 288905, "command": "history"}
+{"host_monotonic_s": 268.07902883400004, "last_mcu_ms": 288905, "command": "mode auto"}
+{"host_monotonic_s": 268.902102334, "last_mcu_ms": 290206, "command": "history"}
+{"host_monotonic_s": 269.08410995900005, "last_mcu_ms": 290206, "command": "mode auto"}
+{"host_monotonic_s": 270.08539633400005, "last_mcu_ms": 291506, "command": "mode auto"}
+{"host_monotonic_s": 270.20525000000004, "last_mcu_ms": 291606, "command": "history"}
+{"host_monotonic_s": 271.086866084, "last_mcu_ms": 292505, "command": "mode auto"}
+{"host_monotonic_s": 271.506816209, "last_mcu_ms": 292806, "command": "history"}
+{"host_monotonic_s": 272.090413375, "last_mcu_ms": 292806, "command": "mode auto"}
+{"host_monotonic_s": 272.809037917, "last_mcu_ms": 294106, "command": "history"}
+{"host_monotonic_s": 273.092606959, "last_mcu_ms": 294106, "command": "mode auto"}
+{"host_monotonic_s": 274.094128209, "last_mcu_ms": 295405, "command": "mode auto"}
+{"host_monotonic_s": 274.112720625, "last_mcu_ms": 295405, "command": "history"}
+{"host_monotonic_s": 275.13327487500004, "last_mcu_ms": 296505, "command": "mode auto"}
+{"host_monotonic_s": 275.41695250000004, "last_mcu_ms": 296805, "command": "history"}
+{"host_monotonic_s": 276.107903209, "last_mcu_ms": 296805, "command": "mode auto"}
+{"host_monotonic_s": 276.719240334, "last_mcu_ms": 298106, "command": "history"}
+{"host_monotonic_s": 277.108539834, "last_mcu_ms": 298106, "command": "mode auto"}
+{"host_monotonic_s": 278.02028212500005, "last_mcu_ms": 299406, "command": "history"}
+{"host_monotonic_s": 278.118616667, "last_mcu_ms": 299406, "command": "mode auto"}
+{"host_monotonic_s": 279.12216145900004, "last_mcu_ms": 300405, "command": "mode auto"}
+{"host_monotonic_s": 279.322335875, "last_mcu_ms": 300705, "command": "history"}
+{"host_monotonic_s": 280.122281292, "last_mcu_ms": 300705, "command": "mode auto"}
+{"host_monotonic_s": 280.622475834, "last_mcu_ms": 302006, "command": "history"}
+{"host_monotonic_s": 281.123183584, "last_mcu_ms": 302006, "command": "mode auto"}
+{"host_monotonic_s": 281.925644084, "last_mcu_ms": 303305, "command": "history"}
+{"host_monotonic_s": 282.12938812500005, "last_mcu_ms": 303305, "command": "mode auto"}
+{"host_monotonic_s": 283.152560542, "last_mcu_ms": 304305, "command": "mode auto"}
+{"host_monotonic_s": 283.233768042, "last_mcu_ms": 304305, "command": "history"}
+{"host_monotonic_s": 284.158219125, "last_mcu_ms": 305605, "command": "mode auto"}
+{"host_monotonic_s": 284.53728345900004, "last_mcu_ms": 305905, "command": "history"}
+{"host_monotonic_s": 285.21290650000003, "last_mcu_ms": 305905, "command": "mode auto"}
+{"host_monotonic_s": 285.837268375, "last_mcu_ms": 307206, "command": "history"}
+{"host_monotonic_s": 286.219614125, "last_mcu_ms": 307206, "command": "mode auto"}
+{"host_monotonic_s": 287.142368334, "last_mcu_ms": 308506, "command": "history"}
+{"host_monotonic_s": 287.229189709, "last_mcu_ms": 308506, "command": "mode auto"}
+{"host_monotonic_s": 288.234919917, "last_mcu_ms": 309505, "command": "mode auto"}
+{"host_monotonic_s": 288.441687584, "last_mcu_ms": 309806, "command": "history"}
+{"host_monotonic_s": 289.235521167, "last_mcu_ms": 309806, "command": "mode auto"}
+{"host_monotonic_s": 289.746730209, "last_mcu_ms": 311105, "command": "history"}
+{"host_monotonic_s": 290.24424704200004, "last_mcu_ms": 311105, "command": "mode auto"}
+{"host_monotonic_s": 291.047287417, "last_mcu_ms": 312406, "command": "history"}
+{"host_monotonic_s": 291.248256834, "last_mcu_ms": 312406, "command": "mode auto"}
+{"host_monotonic_s": 292.25353125000004, "last_mcu_ms": 313405, "command": "mode auto"}
+{"host_monotonic_s": 292.354456959, "last_mcu_ms": 313747, "command": "history"}
+{"host_monotonic_s": 293.26116041700004, "last_mcu_ms": 314635, "command": "mode auto"}
+{"host_monotonic_s": 293.65827091700004, "last_mcu_ms": 315006, "command": "history"}
+{"host_monotonic_s": 294.260646042, "last_mcu_ms": 315006, "command": "mode auto"}
+{"host_monotonic_s": 295.117057084, "last_mcu_ms": 316306, "command": "history"}
+{"host_monotonic_s": 295.282483334, "last_mcu_ms": 316306, "command": "mode auto"}
+{"host_monotonic_s": 296.291758292, "last_mcu_ms": 317506, "command": "mode auto"}
+{"host_monotonic_s": 296.42988375000004, "last_mcu_ms": 317656, "command": "history"}
+{"host_monotonic_s": 297.31951070900004, "last_mcu_ms": 317656, "command": "mode auto"}
+{"host_monotonic_s": 297.81936275000004, "last_mcu_ms": 318906, "command": "history"}
+{"host_monotonic_s": 298.323628917, "last_mcu_ms": 319107, "command": "mode auto"}
+{"host_monotonic_s": 299.125997375, "last_mcu_ms": 320306, "command": "history"}
+{"host_monotonic_s": 299.328343625, "last_mcu_ms": 320306, "command": "mode auto"}
+{"host_monotonic_s": 300.33404645900004, "last_mcu_ms": 321605, "command": "mode auto"}
+{"host_monotonic_s": 300.423923542, "last_mcu_ms": 321702, "command": "history"}
+{"host_monotonic_s": 301.33637937500004, "last_mcu_ms": 322605, "command": "mode auto"}
+{"host_monotonic_s": 301.733179542, "last_mcu_ms": 322906, "command": "history"}
+{"host_monotonic_s": 302.345237084, "last_mcu_ms": 322906, "command": "mode auto"}
+{"host_monotonic_s": 303.03846658400005, "last_mcu_ms": 324206, "command": "history"}
+{"host_monotonic_s": 303.34576275, "last_mcu_ms": 324206, "command": "mode auto"}
+{"host_monotonic_s": 304.381729167, "last_mcu_ms": 325205, "command": "history"}
+{"host_monotonic_s": 304.382011834, "last_mcu_ms": 325205, "command": "mode auto"}
+{"host_monotonic_s": 305.38549720900005, "last_mcu_ms": 326505, "command": "mode auto"}
+{"host_monotonic_s": 305.683434917, "last_mcu_ms": 326805, "command": "history"}
+{"host_monotonic_s": 306.38979479200003, "last_mcu_ms": 326805, "command": "mode auto"}
+{"host_monotonic_s": 306.55119412500005, "last_mcu_ms": 327764, "command": "stats"}
+{"host_monotonic_s": 306.991149834, "last_mcu_ms": 327809, "command": "history"}
+{"host_monotonic_s": 307.40096654200005, "last_mcu_ms": 328105, "command": "mode auto"}
+{"host_monotonic_s": 308.2922515, "last_mcu_ms": 329306, "command": "history"}
+{"host_monotonic_s": 308.40401058400005, "last_mcu_ms": 329306, "command": "mode auto"}
+{"host_monotonic_s": 309.81340654200005, "last_mcu_ms": 330205, "command": "history"}
+{"host_monotonic_s": 309.864863834, "last_mcu_ms": 330205, "command": "mode auto"}
+{"host_monotonic_s": 310.779924042, "last_mcu_ms": 330506, "command": "mode auto"}
+{"host_monotonic_s": 311.12457095900004, "last_mcu_ms": 330506, "command": "history"}
+{"host_monotonic_s": 311.820901042, "last_mcu_ms": 332354, "command": "mode auto"}
+{"host_monotonic_s": 312.371801917, "last_mcu_ms": 332354, "command": "history"}
+{"host_monotonic_s": 312.790310625, "last_mcu_ms": 333180, "command": "mode auto"}
+{"host_monotonic_s": 313.675672167, "last_mcu_ms": 334105, "command": "history"}
+{"host_monotonic_s": 313.791766417, "last_mcu_ms": 334105, "command": "mode auto"}
+{"host_monotonic_s": 314.794231834, "last_mcu_ms": 335205, "command": "mode auto"}
+{"host_monotonic_s": 314.97583291700005, "last_mcu_ms": 335506, "command": "history"}
+{"host_monotonic_s": 315.836894417, "last_mcu_ms": 335506, "command": "mode auto"}
+{"host_monotonic_s": 316.280336459, "last_mcu_ms": 336806, "command": "history"}
+{"host_monotonic_s": 316.842352834, "last_mcu_ms": 336806, "command": "mode auto"}
+{"host_monotonic_s": 317.583988292, "last_mcu_ms": 338105, "command": "history"}
+{"host_monotonic_s": 317.86947154200004, "last_mcu_ms": 338105, "command": "mode auto"}
+{"host_monotonic_s": 318.876260667, "last_mcu_ms": 339406, "command": "mode auto"}
+{"host_monotonic_s": 318.890193667, "last_mcu_ms": 339406, "command": "history"}
+{"host_monotonic_s": 319.87868087500004, "last_mcu_ms": 340406, "command": "mode auto"}
+{"host_monotonic_s": 320.19059875000005, "last_mcu_ms": 340705, "command": "history"}
+{"host_monotonic_s": 320.879988959, "last_mcu_ms": 340705, "command": "mode auto"}
+{"host_monotonic_s": 321.491699375, "last_mcu_ms": 342005, "command": "history"}
+{"host_monotonic_s": 321.8828815, "last_mcu_ms": 342005, "command": "mode auto"}
+{"host_monotonic_s": 322.80685650000004, "last_mcu_ms": 343305, "command": "history"}
+{"host_monotonic_s": 322.976469042, "last_mcu_ms": 343305, "command": "mode auto"}
+{"host_monotonic_s": 323.97988658400004, "last_mcu_ms": 344305, "command": "mode auto"}
+{"host_monotonic_s": 324.103625834, "last_mcu_ms": 344625, "command": "history"}
+{"host_monotonic_s": 324.983589084, "last_mcu_ms": 345532, "command": "mode auto"}
+{"host_monotonic_s": 325.404014209, "last_mcu_ms": 345906, "command": "history"}
+{"host_monotonic_s": 325.983662084, "last_mcu_ms": 345906, "command": "mode auto"}
+{"host_monotonic_s": 326.70583554200005, "last_mcu_ms": 347206, "command": "history"}
+{"host_monotonic_s": 326.9841435, "last_mcu_ms": 347206, "command": "mode auto"}
+{"host_monotonic_s": 327.98974287500005, "last_mcu_ms": 348506, "command": "mode auto"}
+{"host_monotonic_s": 328.008529834, "last_mcu_ms": 348506, "command": "history"}
+{"host_monotonic_s": 328.995654167, "last_mcu_ms": 349505, "command": "mode auto"}
+{"host_monotonic_s": 329.313075167, "last_mcu_ms": 349806, "command": "history"}
+{"host_monotonic_s": 329.99733491700005, "last_mcu_ms": 349806, "command": "mode auto"}
+{"host_monotonic_s": 330.614963417, "last_mcu_ms": 351106, "command": "history"}
+{"host_monotonic_s": 331.00259920900004, "last_mcu_ms": 351106, "command": "mode auto"}
+{"host_monotonic_s": 331.915610709, "last_mcu_ms": 352406, "command": "history"}
+{"host_monotonic_s": 332.005944917, "last_mcu_ms": 352406, "command": "mode auto"}
+{"host_monotonic_s": 333.009166542, "last_mcu_ms": 353405, "command": "mode auto"}
+{"host_monotonic_s": 333.21825829200003, "last_mcu_ms": 353705, "command": "history"}
+{"host_monotonic_s": 334.022363625, "last_mcu_ms": 353705, "command": "mode auto"}
+{"host_monotonic_s": 334.525798875, "last_mcu_ms": 355006, "command": "history"}
+{"host_monotonic_s": 335.083573209, "last_mcu_ms": 355006, "command": "mode auto"}
+{"host_monotonic_s": 335.82829958400004, "last_mcu_ms": 356306, "command": "history"}
+{"host_monotonic_s": 336.078165042, "last_mcu_ms": 356306, "command": "mode auto"}
+{"host_monotonic_s": 337.08284304200004, "last_mcu_ms": 357605, "command": "mode auto"}
+{"host_monotonic_s": 337.133718042, "last_mcu_ms": 357733, "command": "history"}
+{"host_monotonic_s": 338.085376084, "last_mcu_ms": 358605, "command": "mode auto"}
+{"host_monotonic_s": 338.43592495900003, "last_mcu_ms": 358906, "command": "history"}
+{"host_monotonic_s": 339.088449959, "last_mcu_ms": 358906, "command": "mode auto"}
+{"host_monotonic_s": 339.736365959, "last_mcu_ms": 360206, "command": "history"}
+{"host_monotonic_s": 340.091874125, "last_mcu_ms": 360206, "command": "mode auto"}
+{"host_monotonic_s": 341.03929216700004, "last_mcu_ms": 361506, "command": "history"}
+{"host_monotonic_s": 341.09684175, "last_mcu_ms": 361506, "command": "mode auto"}
+{"host_monotonic_s": 342.103242459, "last_mcu_ms": 362505, "command": "mode auto"}
+{"host_monotonic_s": 342.34069987500004, "last_mcu_ms": 362806, "command": "history"}
+{"host_monotonic_s": 343.11223108400003, "last_mcu_ms": 362806, "command": "mode auto"}
+{"host_monotonic_s": 343.643093459, "last_mcu_ms": 364105, "command": "history"}
+{"host_monotonic_s": 344.11784279200003, "last_mcu_ms": 364105, "command": "mode auto"}
+{"host_monotonic_s": 344.948189834, "last_mcu_ms": 365405, "command": "history"}
+{"host_monotonic_s": 345.118756209, "last_mcu_ms": 365405, "command": "mode auto"}
+{"host_monotonic_s": 346.11952295900005, "last_mcu_ms": 366706, "command": "mode auto"}
+{"host_monotonic_s": 346.250740042, "last_mcu_ms": 366763, "command": "history"}
+{"host_monotonic_s": 347.15456125000003, "last_mcu_ms": 367705, "command": "mode auto"}
+{"host_monotonic_s": 347.553509834, "last_mcu_ms": 368006, "command": "history"}
+{"host_monotonic_s": 348.159543292, "last_mcu_ms": 368006, "command": "mode auto"}
+{"host_monotonic_s": 348.88933191700005, "last_mcu_ms": 369305, "command": "history"}
+{"host_monotonic_s": 349.17603004200004, "last_mcu_ms": 369305, "command": "mode auto"}
+{"host_monotonic_s": 350.17410462500004, "last_mcu_ms": 370705, "command": "mode auto"}
+{"host_monotonic_s": 350.192738709, "last_mcu_ms": 370705, "command": "history"}
+{"host_monotonic_s": 351.17651095900004, "last_mcu_ms": 371705, "command": "mode auto"}
+{"host_monotonic_s": 351.495798625, "last_mcu_ms": 372005, "command": "history"}
+{"host_monotonic_s": 352.18095366700004, "last_mcu_ms": 372005, "command": "mode auto"}
+{"host_monotonic_s": 352.803642625, "last_mcu_ms": 373205, "command": "history"}
+{"host_monotonic_s": 353.20129491700004, "last_mcu_ms": 373205, "command": "mode auto"}
+{"host_monotonic_s": 354.13242875000003, "last_mcu_ms": 374606, "command": "history"}
+{"host_monotonic_s": 354.20436091700003, "last_mcu_ms": 374606, "command": "mode auto"}
+{"host_monotonic_s": 355.20460325000005, "last_mcu_ms": 375605, "command": "mode auto"}
+{"host_monotonic_s": 355.456738625, "last_mcu_ms": 375905, "command": "history"}
+{"host_monotonic_s": 356.20870025000005, "last_mcu_ms": 375905, "command": "mode auto"}
+{"host_monotonic_s": 356.76484737500004, "last_mcu_ms": 377206, "command": "history"}
+{"host_monotonic_s": 357.21521566700005, "last_mcu_ms": 377206, "command": "mode auto"}
+{"host_monotonic_s": 358.07163437500003, "last_mcu_ms": 378506, "command": "history"}
+{"host_monotonic_s": 358.22008554200005, "last_mcu_ms": 378506, "command": "mode auto"}
+{"host_monotonic_s": 359.224801875, "last_mcu_ms": 379505, "command": "mode auto"}
+{"host_monotonic_s": 359.372215792, "last_mcu_ms": 379834, "command": "history"}
+{"host_monotonic_s": 360.22646275, "last_mcu_ms": 380771, "command": "mode auto"}
+{"host_monotonic_s": 360.683818667, "last_mcu_ms": 381105, "command": "history"}
+{"host_monotonic_s": 361.228910459, "last_mcu_ms": 381105, "command": "mode auto"}
+{"host_monotonic_s": 361.986106334, "last_mcu_ms": 382406, "command": "history"}
+{"host_monotonic_s": 362.232076334, "last_mcu_ms": 382406, "command": "mode auto"}

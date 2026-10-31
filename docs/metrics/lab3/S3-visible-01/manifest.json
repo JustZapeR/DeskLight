@@ -1,0 +1,18 @@
+{
+  "scenario": "S3",
+  "requested_mcu_seconds": 700,
+  "port": 42731,
+  "started_utc": "2026-10-30T08:06:27Z",
+  "head": "2b6659f7746da6e3dec2517e4c39e3503bbb6fb7",
+  "build_id": "#define DESKLIGHT_BUILD_ID \"base=2b6659f7746d tree=c26a59c460911c2e691ed9ab4335fe250ac6bde2b2efe9431ac8a830be848395\"\n",
+  "sha256": {
+    "firmware/build/firmware.elf": "d4c6ed31844d8988d0530fddeb7923e3aed11502e20d534d9e1c462bf6516843",
+    "firmware/build/firmware.hex": "3d3e51a13b217c423615394bb13e074b429e823396c4944713ef079c51485e6c",
+    "firmware/build/firmware.bin": "cf5f9dcd539a159bc9fcb69e3fd9dbb64f766bb34e1bfcd5fa63ebf0205c93a2",
+    "diagram.json": "801603ac1d7c7c765a96067b59c24541337aaccd283e14ea6fa2ebd77481a333",
+    "wokwi.toml": "70a5d732ffcc358142d9e4d73663d4cf4cd14683dc303ff252988bc6b21702fb",
+    "tools/record_session.py": "a474079e7d46ab7f8577a461ee9d3bf15d9e9bfaa2ccfba89a114cd70cb2ddaf"
+  },
+  "clock_policy": "STATUS t MCU milliseconds controls stop; host monotonic used for transport pacing only",
+  "completed": false
+}

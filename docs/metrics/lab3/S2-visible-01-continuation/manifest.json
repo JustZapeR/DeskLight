@@ -1,0 +1,17 @@
+{
+  "started_utc": "2026-10-30T07:39:42.534812+00:00",
+  "port": 42731,
+  "commands_sent": [],
+  "prior_first_ms": 15509,
+  "prior_last_ms": 2865697,
+  "target_ms": 3615509,
+  "note": "Separate passive segment; no reset, no commands. Missing bytes before connection remain unknown.",
+  "finished_utc": "2026-10-30T07:58:41.414273+00:00",
+  "wall_seconds": 1138.876,
+  "first_mcu_ms": 2866697,
+  "last_mcu_ms": 3615697,
+  "status_count": 750,
+  "reason": "target_status_observed",
+  "error": null,
+  "uart_sha256": "679c14b226c073223670666cc8a10e814aff6341cd84b2af8ad0e94530f79313"
+}

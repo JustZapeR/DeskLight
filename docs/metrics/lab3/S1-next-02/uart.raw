@@ -1,0 +1,286 @@
+METRICS reset
+STATUS t=7508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+BUILD base=2b6659f7746d tree=c26a59c460911c2e691ed9ab4335fe250ac6bde2b2efe9431ac8a830be848395
+STAT name=pir n=9 min_us=0 avg_us=0 max_us=0 jitter_min=-2000 jitter_max=2000 skipped=0 deadline=0
+STAT name=adc n=1 min_us=0 avg_us=0 max_us=0 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=imu n=1 min_us=2000 avg_us=2000 max_us=2000 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=control n=1926 min_us=0 avg_us=48 max_us=3000 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=command n=0 min_us=0 avg_us=0 max_us=0 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=export n=0 min_us=0 avg_us=0 max_us=0 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=flash n=0 min_us=0 avg_us=0 max_us=0 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=loop n=1926 min_us=0 avg_us=85 max_us=4000 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=pir_latency n=0 min_us=0 avg_us=0 max_us=0 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=init n=0 min_us=0 avg_us=0 max_us=0 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+LOAD t_us=7559000 window_us=210000 task_permille=unavailable awake_pct=100 stack_used=1360 stack_reserve=4096 heap_sbrk=0 rx_drop=0 ore=0 tx_drop=0 rx_peak=2 tx_peak=1078 coalesced=0
+COMMAND kind=11 received_us=7539000 begin_us=7539000 enqueue_done_us=7563000
+STATUS t=8508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=9508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=10508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=11508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=12508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=13508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=14508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=15508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=16508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=17508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=18508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=19508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=20508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=21508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=22508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=23508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=24508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=25508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=26508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=27508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=28508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=29508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=30508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=31508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=32508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=33508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=34508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=35508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=36508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=37508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=38508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=39508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=40508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=41508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=42508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=43508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=44508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=45508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=46508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=47508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=48508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=49508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=50508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=51508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=52508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=53508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=54508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=55508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=56508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=57508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=58508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=59508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+SAVE t_us=60001000 result=ERROR seq=0 elapsed_us=1000 hal_error=0
+STATUS t=60508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=61508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=62508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=63508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=64508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=65508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=66508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=67508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+BUILD base=2b6659f7746d tree=c26a59c460911c2e691ed9ab4335fe250ac6bde2b2efe9431ac8a830be848395
+STAT name=pir n=3009 min_us=0 avg_us=0 max_us=1000 jitter_min=-15000 jitter_max=15000 skipped=0 deadline=0
+STAT name=adc n=601 min_us=0 avg_us=51 max_us=1000 jitter_min=-15000 jitter_max=15000 skipped=0 deadline=0
+STAT name=imu n=601 min_us=2000 avg_us=2467 max_us=3000 jitter_min=-15000 jitter_max=15000 skipped=0 deadline=0
+STAT name=control n=609757 min_us=0 avg_us=49 max_us=4000 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=command n=1 min_us=24000 avg_us=24000 max_us=24000 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=export n=0 min_us=0 avg_us=0 max_us=0 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=flash n=1 min_us=1000 avg_us=1000 max_us=1000 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=loop n=609757 min_us=0 avg_us=88 max_us=28000 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=pir_latency n=0 min_us=0 avg_us=0 max_us=0 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=init n=0 min_us=0 avg_us=0 max_us=0 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+LOAD t_us=67563000 window_us=60214000 task_permille=unavailable awake_pct=100 stack_used=1400 stack_reserve=4096 heap_sbrk=0 rx_drop=0 ore=0 tx_drop=0 rx_peak=2 tx_peak=1340 coalesced=0
+COMMAND kind=11 received_us=67542000 begin_us=67543000 enqueue_done_us=67567000
+STATUS t=68508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=69508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=70508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=71508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=72508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=73508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=74508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=75508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=76508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=77508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=78508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=79508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=80508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=81508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=82508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=83508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=84508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=85508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=86508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=87508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=88508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=89508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=90508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=91508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=92508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=93508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=94508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=95508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=96508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=97508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=98508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=99508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=100508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=101508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=102508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=103508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=104508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=105508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=106508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=107508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=108508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=109508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=110508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=111508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=112508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=113508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=114508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=115508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=116508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=117508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=118508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=119508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+SAVE t_us=120001000 result=ERROR seq=0 elapsed_us=1000 hal_error=0
+STATUS t=120508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=121508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=122508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=123508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=124508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=125508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=126508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=127508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+BUILD base=2b6659f7746d tree=c26a59c460911c2e691ed9ab4335fe250ac6bde2b2efe9431ac8a830be848395
+STAT name=pir n=6008 min_us=0 avg_us=2 max_us=1000 jitter_min=-15000 jitter_max=20000 skipped=1 deadline=1
+STAT name=adc n=1201 min_us=0 avg_us=50 max_us=1000 jitter_min=-20000 jitter_max=20000 skipped=0 deadline=0
+STAT name=imu n=1201 min_us=2000 avg_us=2465 max_us=3000 jitter_min=-20000 jitter_max=20000 skipped=0 deadline=0
+STAT name=control n=1217456 min_us=0 avg_us=49 max_us=4000 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=command n=2 min_us=24000 avg_us=24000 max_us=24000 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=export n=0 min_us=0 avg_us=0 max_us=0 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=flash n=2 min_us=1000 avg_us=1000 max_us=1000 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=loop n=1217456 min_us=0 avg_us=88 max_us=30000 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=pir_latency n=0 min_us=0 avg_us=0 max_us=0 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=init n=0 min_us=0 avg_us=0 max_us=0 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+LOAD t_us=127556000 window_us=120207000 task_permille=unavailable awake_pct=100 stack_used=1400 stack_reserve=4096 heap_sbrk=0 rx_drop=0 ore=0 tx_drop=0 rx_peak=2 tx_peak=1406 coalesced=0
+COMMAND kind=11 received_us=127535000 begin_us=127535000 enqueue_done_us=127560000
+STATUS t=128508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=129508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=130508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=131508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=132508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=133508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=134508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=135508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=136508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=137508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=138508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=139508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=140508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=141508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=142508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=143508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=144508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=145508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=146508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=147508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=148508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=149508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=150508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=151508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=152508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=153508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=154508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=155508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=156508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=157508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=158508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=159508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=160508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=161508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=162508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=163508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=164508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=165508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=166508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=167508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=168508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=169508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=170508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=171508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=172508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=173508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=174508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=175508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=176508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=177508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=178508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=179508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+SAVE t_us=180001000 result=ERROR seq=0 elapsed_us=1000 hal_error=0
+STATUS t=180508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=181508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=182508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=183508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=184508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=185508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=186508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=187508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+BUILD base=2b6659f7746d tree=c26a59c460911c2e691ed9ab4335fe250ac6bde2b2efe9431ac8a830be848395
+STAT name=pir n=9008 min_us=0 avg_us=2 max_us=1000 jitter_min=-15000 jitter_max=20000 skipped=1 deadline=1
+STAT name=adc n=1801 min_us=0 avg_us=47 max_us=1000 jitter_min=-20000 jitter_max=20000 skipped=0 deadline=0
+STAT name=imu n=1801 min_us=2000 avg_us=2468 max_us=3000 jitter_min=-20000 jitter_max=20000 skipped=0 deadline=0
+STAT name=control n=1825191 min_us=0 avg_us=49 max_us=4000 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=command n=3 min_us=24000 avg_us=24333 max_us=25000 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=export n=0 min_us=0 avg_us=0 max_us=0 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=flash n=3 min_us=1000 avg_us=1000 max_us=1000 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=loop n=1825191 min_us=0 avg_us=88 max_us=30000 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=pir_latency n=0 min_us=0 avg_us=0 max_us=0 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=init n=0 min_us=0 avg_us=0 max_us=0 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+LOAD t_us=187553000 window_us=180204000 task_permille=unavailable awake_pct=100 stack_used=1400 stack_reserve=4096 heap_sbrk=0 rx_drop=0 ore=0 tx_drop=0 rx_peak=2 tx_peak=1415 coalesced=0
+COMMAND kind=11 received_us=187532000 begin_us=187532000 enqueue_done_us=187557000
+STATUS t=188508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=189508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=190508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=191508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=192508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=193508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=194508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=195508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=196508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=197508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=198508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=199508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=200508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=201508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=202508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=203508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=204508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=205508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=206508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=207508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=208508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=209508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=210508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=211508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=212508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=213508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=214508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=215508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=216508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=217508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+BUILD base=2b6659f7746d tree=c26a59c460911c2e691ed9ab4335fe250ac6bde2b2efe9431ac8a830be848395
+STAT name=pir n=10508 min_us=0 avg_us=2 max_us=1000 jitter_min=-15000 jitter_max=20000 skipped=1 deadline=1
+STAT name=adc n=2101 min_us=0 avg_us=48 max_us=1000 jitter_min=-20000 jitter_max=20000 skipped=0 deadline=0
+STAT name=imu n=2101 min_us=2000 avg_us=2466 max_us=3000 jitter_min=-20000 jitter_max=20000 skipped=0 deadline=0
+STAT name=control n=2129038 min_us=0 avg_us=49 max_us=4000 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=command n=4 min_us=24000 avg_us=24500 max_us=25000 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=export n=0 min_us=0 avg_us=0 max_us=0 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=flash n=3 min_us=1000 avg_us=1000 max_us=1000 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=loop n=2129038 min_us=0 avg_us=88 max_us=30000 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=pir_latency n=0 min_us=0 avg_us=0 max_us=0 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=init n=0 min_us=0 avg_us=0 max_us=0 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+LOAD t_us=217562000 window_us=210213000 task_permille=unavailable awake_pct=100 stack_used=1400 stack_reserve=4096 heap_sbrk=0 rx_drop=0 ore=0 tx_drop=0 rx_peak=2 tx_peak=1415 coalesced=0
+COMMAND kind=11 received_us=217541000 begin_us=217541000 enqueue_done_us=217566000
+JOURNAL seq=0 valid=0 damaged=128 active_ms=0 dim_ms=0
+COMMAND kind=15 received_us=217541000 begin_us=217571000 enqueue_done_us=217572000
+STATUS t=218508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=219508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=220508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=221508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0

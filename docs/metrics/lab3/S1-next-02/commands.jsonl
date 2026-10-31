@@ -1,0 +1,7 @@
+{"host_monotonic_s": 0.0005854590000000104, "last_mcu_ms": 0, "command": "metrics reset"}
+{"host_monotonic_s": 0.19181087499999994, "last_mcu_ms": 7508, "command": "stats"}
+{"host_monotonic_s": 85.166933, "last_mcu_ms": 67508, "command": "stats"}
+{"host_monotonic_s": 145.16824266700002, "last_mcu_ms": 127508, "command": "stats"}
+{"host_monotonic_s": 205.300011417, "last_mcu_ms": 187508, "command": "stats"}
+{"host_monotonic_s": 235.301686125, "last_mcu_ms": 217508, "command": "stats"}
+{"host_monotonic_s": 235.302023875, "last_mcu_ms": 217508, "command": "journal"}
