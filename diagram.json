@@ -42,7 +42,7 @@
       "top": 450,
       "left": 0,
       "attrs": {
-        "bufferSize": "4000000"
+        "bufferSize": "8000000"
       }
     },
     {
@@ -175,13 +175,13 @@
     ],
     [
       "logic:D0",
-      "nucleo:PB8",
+      "nucleo:PA6",
       "green",
       []
     ],
     [
       "logic:D1",
-      "nucleo:PB9",
+      "nucleo:PA7",
       "green",
       []
     ],
@@ -213,6 +213,12 @@
       "logic:D6",
       "nucleo:PA3",
       "green",
+      []
+    ],
+    [
+      "logic:D7",
+      "nucleo:PA1",
+      "blue",
       []
     ]
   ],
