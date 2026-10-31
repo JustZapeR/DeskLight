@@ -28,6 +28,7 @@
  * Pointer to the current high watermark of the heap usage
  */
 static uint8_t *__sbrk_heap_end = NULL;
+static uint32_t desk_heap_peak;
 
 /**
  * @brief _sbrk() allocates memory to the newlib heap and is used by malloc
@@ -74,6 +75,15 @@ void *_sbrk(ptrdiff_t incr)
 
   prev_heap_end = __sbrk_heap_end;
   __sbrk_heap_end += incr;
+  uint32_t used=(uint32_t)(__sbrk_heap_end-&_end);
+  if(used>desk_heap_peak) desk_heap_peak=used;
 
   return (void *)prev_heap_end;
+}
+
+uint32_t desk_heap_bytes(void)
+{
+  extern uint8_t _end;
+  (void)_end;
+  return desk_heap_peak;
 }

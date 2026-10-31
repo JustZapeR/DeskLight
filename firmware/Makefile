@@ -22,7 +22,7 @@ TARGET = firmware
 # debug build?
 DEBUG = 1
 # optimization
-OPT = -Og
+OPT = -Os
 
 
 #######################################
@@ -38,6 +38,8 @@ BUILD_DIR = build
 C_SOURCES =  \
 Core/Src/main.c \
 Board/board.c \
+Board/measure.c \
+Desk/worklog.c \
 Sensors/imu.c \
 Desk/desk.c \
 Desk/console.c \
@@ -139,7 +141,7 @@ endif
 
 
 # Generate dependency information
-CFLAGS += -MMD -MP -MF"$(@:%.o=%.d)"
+CFLAGS += -fstack-usage -Wstack-usage=768 -MMD -MP -MF"$(@:%.o=%.d)"
 
 
 #######################################
@@ -151,7 +153,7 @@ LDSCRIPT = STM32C031C6Tx_FLASH.ld
 # libraries
 LIBS = -lc -lm -lnosys 
 LIBDIR = 
-LDFLAGS = $(MCU) -specs=nano.specs -T$(LDSCRIPT) $(LIBDIR) $(LIBS) -Wl,-Map=$(BUILD_DIR)/$(TARGET).map,--cref -Wl,--gc-sections
+LDFLAGS = $(MCU) -specs=nano.specs -T$(LDSCRIPT) $(LIBDIR) $(LIBS) -Wl,-Map=$(BUILD_DIR)/$(TARGET).map,--cref -Wl,--gc-sections,--print-memory-usage
 
 # default action: build all
 all: $(BUILD_DIR)/$(TARGET).elf $(BUILD_DIR)/$(TARGET).hex $(BUILD_DIR)/$(TARGET).bin
@@ -199,5 +201,5 @@ clean:
 
 # *** EOF ***
 
-OWN_OBJECTS = $(addprefix $(BUILD_DIR)/,main.o board.o imu.o desk.o console.o stm32c0xx_it.o stm32c0xx_hal_msp.o syscalls.o sysmem.o)
+OWN_OBJECTS = $(addprefix $(BUILD_DIR)/,main.o board.o measure.o worklog.o imu.o desk.o console.o stm32c0xx_it.o stm32c0xx_hal_msp.o syscalls.o sysmem.o)
 $(OWN_OBJECTS): CFLAGS += -Wextra -Werror

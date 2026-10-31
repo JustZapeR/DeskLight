@@ -5,6 +5,7 @@
 typedef enum {
     CMD_NONE, CMD_ADJUST, CMD_AUTO, CMD_ZERO, CMD_SAMPLE, CMD_NACK,
     CMD_IMU_OFF, CMD_IMU_ON, CMD_ADC_OFF, CMD_ADC_ON,
+    CMD_FLASH_CHECK, CMD_STATS, CMD_METRICS_RESET, CMD_HISTORY, CMD_SAVE, CMD_JOURNAL, CMD_FAST, CMD_NORMAL,
     CMD_IMU_PAUSE, CMD_IMU_RESUME, CMD_ADC_PAUSE, CMD_ADC_RESUME, CMD_UNKNOWN
 } desk_command;
 typedef struct { char line[40]; unsigned length; bool overflow; } desk_console;
