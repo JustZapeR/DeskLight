@@ -1,0 +1,53 @@
+{
+  "valid": true,
+  "mcu_first_ms": 7508,
+  "mcu_last_ms": 217508,
+  "wall_seconds": 244.604193959,
+  "vcd_duration_ns": 296848321650,
+  "coverage": "window based on MCU first/last; clock offset within 1ms and pulse at boundaries may be excluded",
+  "gpio": {
+    "D0": {
+      "n": 2100,
+      "width_us": {
+        "min": 2636.75,
+        "avg": 2641.340416666667,
+        "max": 2642.775
+      },
+      "period_us": {
+        "min": 79627.225,
+        "avg": 99990.47672701287,
+        "max": 120365.25
+      }
+    },
+    "D4": {
+      "n": 2100,
+      "width_us": {
+        "min": 72.4,
+        "avg": 73.17366666666666,
+        "max": 73.175
+      },
+      "period_us": {
+        "min": 79627.85,
+        "avg": 99990.47625059552,
+        "max": 120365.0
+      }
+    }
+  },
+  "stats": {
+    "pir": "STAT name=pir n=10508 min_us=0 avg_us=2 max_us=1000 jitter_min=-15000 jitter_max=20000 skipped=1 deadline=1",
+    "adc": "STAT name=adc n=2101 min_us=0 avg_us=48 max_us=1000 jitter_min=-20000 jitter_max=20000 skipped=0 deadline=0",
+    "imu": "STAT name=imu n=2101 min_us=2000 avg_us=2466 max_us=3000 jitter_min=-20000 jitter_max=20000 skipped=0 deadline=0"
+  },
+  "status_count": 215,
+  "max_status_gap_ms": 1000,
+  "note": "S1 simulated; UART no output after collector closed is expected; PIR skipped is reported separately.",
+  "host_monitor": {
+    "samples": 41,
+    "start_utc": "2026-10-29T19:16:06.065084+00:00",
+    "end_utc": "2026-10-29T19:18:06.246450+00:00",
+    "first_mcu_ms": 106508,
+    "last_mcu_ms": 221508,
+    "max_wall_sample_gap_s": 3.0068185000000085,
+    "note": "Sampling began after start; cannot prove absence of host delivery pauses before first sample."
+  }
+}

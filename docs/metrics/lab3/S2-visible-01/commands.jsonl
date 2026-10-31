@@ -1,0 +1,100 @@
+{"host_monotonic_s": 0.00034562500000001606, "last_mcu_ms": 0, "command": "metrics reset"}
+{"host_monotonic_s": 0.526609042, "last_mcu_ms": 15509, "command": "stats"}
+{"host_monotonic_s": 0.526909584, "last_mcu_ms": 15509, "command": "journal"}
+{"host_monotonic_s": 60.609482209, "last_mcu_ms": 75509, "command": "stats"}
+{"host_monotonic_s": 120.614183709, "last_mcu_ms": 135509, "command": "stats"}
+{"host_monotonic_s": 120.61430225000001, "last_mcu_ms": 135509, "command": "journal"}
+{"host_monotonic_s": 180.651127417, "last_mcu_ms": 195509, "command": "stats"}
+{"host_monotonic_s": 240.645152334, "last_mcu_ms": 255509, "command": "stats"}
+{"host_monotonic_s": 240.64549516699998, "last_mcu_ms": 255509, "command": "journal"}
+{"host_monotonic_s": 300.65817133400003, "last_mcu_ms": 315509, "command": "stats"}
+{"host_monotonic_s": 300.658319084, "last_mcu_ms": 315509, "command": "mode adjust"}
+{"host_monotonic_s": 305.72138195900004, "last_mcu_ms": 320567, "command": "zero"}
+{"host_monotonic_s": 310.716622292, "last_mcu_ms": 325567, "command": "mode auto"}
+{"host_monotonic_s": 361.260141625, "last_mcu_ms": 376120, "command": "stats"}
+{"host_monotonic_s": 361.260290084, "last_mcu_ms": 376120, "command": "journal"}
+{"host_monotonic_s": 421.759674959, "last_mcu_ms": 436120, "command": "stats"}
+{"host_monotonic_s": 481.715730667, "last_mcu_ms": 496120, "command": "stats"}
+{"host_monotonic_s": 481.716167792, "last_mcu_ms": 496120, "command": "journal"}
+{"host_monotonic_s": 541.753951459, "last_mcu_ms": 556120, "command": "stats"}
+{"host_monotonic_s": 601.7485994169999, "last_mcu_ms": 616120, "command": "stats"}
+{"host_monotonic_s": 601.748702084, "last_mcu_ms": 616120, "command": "journal"}
+{"host_monotonic_s": 601.748722084, "last_mcu_ms": 616120, "command": "mode adjust"}
+{"host_monotonic_s": 606.8109090419999, "last_mcu_ms": 621182, "command": "zero"}
+{"host_monotonic_s": 611.812174209, "last_mcu_ms": 626182, "command": "mode auto"}
+{"host_monotonic_s": 661.3006567499999, "last_mcu_ms": 675677, "command": "stats"}
+{"host_monotonic_s": 721.304482667, "last_mcu_ms": 735677, "command": "stats"}
+{"host_monotonic_s": 721.305952459, "last_mcu_ms": 735677, "command": "journal"}
+{"host_monotonic_s": 781.311078375, "last_mcu_ms": 795677, "command": "stats"}
+{"host_monotonic_s": 841.3533760839999, "last_mcu_ms": 855677, "command": "stats"}
+{"host_monotonic_s": 841.3538156249999, "last_mcu_ms": 855677, "command": "journal"}
+{"host_monotonic_s": 901.346141084, "last_mcu_ms": 915677, "command": "stats"}
+{"host_monotonic_s": 901.346762584, "last_mcu_ms": 915677, "command": "mode adjust"}
+{"host_monotonic_s": 906.4093254999999, "last_mcu_ms": 920736, "command": "zero"}
+{"host_monotonic_s": 911.4071654999999, "last_mcu_ms": 925736, "command": "mode auto"}
+{"host_monotonic_s": 961.928741792, "last_mcu_ms": 976257, "command": "stats"}
+{"host_monotonic_s": 961.931082167, "last_mcu_ms": 976257, "command": "journal"}
+{"host_monotonic_s": 1021.960516959, "last_mcu_ms": 1036257, "command": "stats"}
+{"host_monotonic_s": 1081.959356417, "last_mcu_ms": 1096257, "command": "stats"}
+{"host_monotonic_s": 1081.959632417, "last_mcu_ms": 1096257, "command": "journal"}
+{"host_monotonic_s": 1141.965190792, "last_mcu_ms": 1156257, "command": "stats"}
+{"host_monotonic_s": 1201.962799417, "last_mcu_ms": 1216257, "command": "stats"}
+{"host_monotonic_s": 1201.968809875, "last_mcu_ms": 1216257, "command": "journal"}
+{"host_monotonic_s": 1201.9690639169999, "last_mcu_ms": 1216257, "command": "mode adjust"}
+{"host_monotonic_s": 1207.025007584, "last_mcu_ms": 1221323, "command": "zero"}
+{"host_monotonic_s": 1212.029024125, "last_mcu_ms": 1226323, "command": "mode auto"}
+{"host_monotonic_s": 1262.0650584999999, "last_mcu_ms": 1276359, "command": "stats"}
+{"host_monotonic_s": 1322.100428292, "last_mcu_ms": 1336359, "command": "stats"}
+{"host_monotonic_s": 1322.101040417, "last_mcu_ms": 1336359, "command": "journal"}
+{"host_monotonic_s": 1382.092901959, "last_mcu_ms": 1396359, "command": "stats"}
+{"host_monotonic_s": 1442.118345917, "last_mcu_ms": 1456359, "command": "stats"}
+{"host_monotonic_s": 1442.11882, "last_mcu_ms": 1456359, "command": "journal"}
+{"host_monotonic_s": 1502.786351167, "last_mcu_ms": 1516359, "command": "stats"}
+{"host_monotonic_s": 1502.786624334, "last_mcu_ms": 1516359, "command": "mode adjust"}
+{"host_monotonic_s": 1507.868875459, "last_mcu_ms": 1521427, "command": "zero"}
+{"host_monotonic_s": 1512.853081459, "last_mcu_ms": 1526427, "command": "mode auto"}
+{"host_monotonic_s": 1563.143041667, "last_mcu_ms": 1576458, "command": "stats"}
+{"host_monotonic_s": 1563.143342417, "last_mcu_ms": 1576458, "command": "journal"}
+{"host_monotonic_s": 1623.222394042, "last_mcu_ms": 1636458, "command": "stats"}
+{"host_monotonic_s": 1683.237748709, "last_mcu_ms": 1696458, "command": "stats"}
+{"host_monotonic_s": 1683.237951917, "last_mcu_ms": 1696458, "command": "journal"}
+{"host_monotonic_s": 1743.236948542, "last_mcu_ms": 1756458, "command": "stats"}
+{"host_monotonic_s": 1803.235823167, "last_mcu_ms": 1816458, "command": "stats"}
+{"host_monotonic_s": 1803.236296334, "last_mcu_ms": 1816458, "command": "journal"}
+{"host_monotonic_s": 1803.23644025, "last_mcu_ms": 1816458, "command": "mode adjust"}
+{"host_monotonic_s": 1807.305622375, "last_mcu_ms": 1820533, "command": "zero"}
+{"host_monotonic_s": 1812.303538459, "last_mcu_ms": 1825533, "command": "mode auto"}
+{"host_monotonic_s": 1862.7163330839999, "last_mcu_ms": 1875937, "command": "stats"}
+{"host_monotonic_s": 1922.715844375, "last_mcu_ms": 1935937, "command": "stats"}
+{"host_monotonic_s": 1922.715956375, "last_mcu_ms": 1935937, "command": "journal"}
+{"host_monotonic_s": 1982.7141325, "last_mcu_ms": 1995937, "command": "stats"}
+{"host_monotonic_s": 2042.793065959, "last_mcu_ms": 2055937, "command": "stats"}
+{"host_monotonic_s": 2042.793211959, "last_mcu_ms": 2055937, "command": "journal"}
+{"host_monotonic_s": 2103.138623667, "last_mcu_ms": 2115937, "command": "stats"}
+{"host_monotonic_s": 2103.138909667, "last_mcu_ms": 2115937, "command": "mode adjust"}
+{"host_monotonic_s": 2108.2062975000003, "last_mcu_ms": 2121003, "command": "zero"}
+{"host_monotonic_s": 2113.2128711670002, "last_mcu_ms": 2126003, "command": "mode auto"}
+{"host_monotonic_s": 2163.7367452920003, "last_mcu_ms": 2176497, "command": "stats"}
+{"host_monotonic_s": 2163.737968417, "last_mcu_ms": 2176497, "command": "journal"}
+{"host_monotonic_s": 2224.060950417, "last_mcu_ms": 2236497, "command": "stats"}
+{"host_monotonic_s": 2283.917640209, "last_mcu_ms": 2296497, "command": "stats"}
+{"host_monotonic_s": 2283.9177778340004, "last_mcu_ms": 2296497, "command": "journal"}
+{"host_monotonic_s": 2344.0981327500003, "last_mcu_ms": 2356497, "command": "stats"}
+{"host_monotonic_s": 2404.2275615420003, "last_mcu_ms": 2416497, "command": "stats"}
+{"host_monotonic_s": 2404.2276499170002, "last_mcu_ms": 2416497, "command": "journal"}
+{"host_monotonic_s": 2404.227699334, "last_mcu_ms": 2416497, "command": "mode adjust"}
+{"host_monotonic_s": 2408.293369625, "last_mcu_ms": 2420561, "command": "zero"}
+{"host_monotonic_s": 2413.286884209, "last_mcu_ms": 2425561, "command": "mode auto"}
+{"host_monotonic_s": 2463.329203625, "last_mcu_ms": 2475597, "command": "stats"}
+{"host_monotonic_s": 2523.3238662090002, "last_mcu_ms": 2535597, "command": "stats"}
+{"host_monotonic_s": 2523.324149584, "last_mcu_ms": 2535597, "command": "journal"}
+{"host_monotonic_s": 2583.324925875, "last_mcu_ms": 2595597, "command": "stats"}
+{"host_monotonic_s": 2643.4541183750002, "last_mcu_ms": 2655597, "command": "stats"}
+{"host_monotonic_s": 2643.4567221670004, "last_mcu_ms": 2655597, "command": "journal"}
+{"host_monotonic_s": 2703.6015529590004, "last_mcu_ms": 2715597, "command": "stats"}
+{"host_monotonic_s": 2703.6047335420003, "last_mcu_ms": 2715597, "command": "mode adjust"}
+{"host_monotonic_s": 2708.6740574590003, "last_mcu_ms": 2720666, "command": "zero"}
+{"host_monotonic_s": 2713.6701258340004, "last_mcu_ms": 2725666, "command": "mode auto"}
+{"host_monotonic_s": 2764.603274292, "last_mcu_ms": 2775697, "command": "stats"}
+{"host_monotonic_s": 2764.6056832500003, "last_mcu_ms": 2775697, "command": "journal"}
+{"host_monotonic_s": 2824.657777542, "last_mcu_ms": 2835697, "command": "stats"}

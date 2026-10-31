@@ -1,0 +1,870 @@
+STATUS t=2866697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2867697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2868697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2869697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2870697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2871697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=2871880000 react_us=2871896000 delay_us=16000
+STATUS t=2872697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2873697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2874697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2875697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2876697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2877697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2878697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=2878893000 react_us=2878896000 delay_us=3000
+STATUS t=2879697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+SAVE t_us=2880001000 result=ERROR seq=0 elapsed_us=1000 hal_error=0
+STATUS t=2880697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2881697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2882697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2883697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2884697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2885697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=2885906000 react_us=2885919000 delay_us=13000
+STATUS t=2886697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2887697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2888697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2889697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2890697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2891697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2892697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=2892919000 react_us=2892936000 delay_us=17000
+STATUS t=2893697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2894697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2895697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2896697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2897697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2898697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2899697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=2899932000 react_us=2899936000 delay_us=4000
+STATUS t=2900697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2901697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2902697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2903697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2904697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2905697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2906697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=2906945000 react_us=2906956000 delay_us=11000
+STATUS t=2907697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2908697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2909697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2910697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2911697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2912697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2913697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=2913958000 react_us=2913976000 delay_us=18000
+STATUS t=2914697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2915697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2916697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2917697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2918697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2919697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2920697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=2920972000 react_us=2920976000 delay_us=4000
+STATUS t=2921697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2922697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2923697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2924697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2925697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2926697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2927697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=2927985000 react_us=2927996000 delay_us=11000
+STATUS t=2928697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2929697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2930697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2931697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2932697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2933697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2934697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=2934998000 react_us=2935016000 delay_us=18000
+STATUS t=2935697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2936697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2937697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2938697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2939697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+SAVE t_us=2940001000 result=ERROR seq=0 elapsed_us=1000 hal_error=0
+STATUS t=2940697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2941697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=2942011000 react_us=2942016000 delay_us=5000
+STATUS t=2942697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2943697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2944697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2945697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2946697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2947697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2948697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=2949024000 react_us=2949036000 delay_us=12000
+STATUS t=2949697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2950697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2951697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2952697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2953697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2954697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2955697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=2956037000 react_us=2956056000 delay_us=19000
+STATUS t=2956697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2957697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2958697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2959697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2960697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2961697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2962697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=2963050000 react_us=2963056000 delay_us=6000
+STATUS t=2963697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2964697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2965697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2966697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2967697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2968697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2969697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=2970064000 react_us=2970076000 delay_us=12000
+STATUS t=2970697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2971697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2972697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2973697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2974697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2975697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2976697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=2977077000 react_us=2977096000 delay_us=19000
+STATUS t=2977697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2978697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2979697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2980697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2981697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2982697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2983697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=2984090000 react_us=2984096000 delay_us=6000
+STATUS t=2984697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2985697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2986697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2987697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2988697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2989697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2990697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=2991103000 react_us=2991116000 delay_us=13000
+STATUS t=2991697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2992697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2993697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2994697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2995697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2996697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2997697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=2998116000 react_us=2998136000 delay_us=20000
+STATUS t=2998697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=2999697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+SAVE t_us=3000001000 result=ERROR seq=0 elapsed_us=1000 hal_error=0
+STATUS t=3000697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3001697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3002697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3003697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3004697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3005129000 react_us=3005136000 delay_us=7000
+STATUS t=3005697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3006697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3007697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3008697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3009697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3010697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3011697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3012142000 react_us=3012156000 delay_us=14000
+STATUS t=3012697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3013697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3014697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3015697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3016697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3017697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3018697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3019156000 react_us=3019176000 delay_us=20000
+STATUS t=3019697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3020697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3021697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3022697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3023697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3024697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3025697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3026169000 react_us=3026176000 delay_us=7000
+STATUS t=3026697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3027697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3028697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3029697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3030697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3031697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3032697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3033182000 react_us=3033196000 delay_us=14000
+STATUS t=3033697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3034697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3035697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3036697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3037697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3038697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3039697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3040195000 react_us=3040196000 delay_us=1000
+STATUS t=3040697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3041697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3042697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3043697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3044697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3045697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3046697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3047208000 react_us=3047216000 delay_us=8000
+STATUS t=3047697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3048697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3049697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3050697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3051697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3052697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3053697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3054221000 react_us=3054236000 delay_us=15000
+STATUS t=3054697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3055697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3056697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3057697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3058697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3059697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+SAVE t_us=3060001000 result=ERROR seq=0 elapsed_us=1000 hal_error=0
+STATUS t=3060697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3061234000 react_us=3061236000 delay_us=2000
+STATUS t=3061697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3062697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3063697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3064697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3065697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3066697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3067697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3068248000 react_us=3068256000 delay_us=8000
+STATUS t=3068697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3069697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3070697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3071697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3072697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3073697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3074697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3075261000 react_us=3075276000 delay_us=15000
+STATUS t=3075697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3076697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3077697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3078697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3079697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3080697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3081697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3082274000 react_us=3082276000 delay_us=2000
+STATUS t=3082697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3083697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3084697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3085697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3086697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3087697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3088697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3089287000 react_us=3089296000 delay_us=9000
+STATUS t=3089697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3090697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3091697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3092697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3093697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3094697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3095697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3096300000 react_us=3096316000 delay_us=16000
+STATUS t=3096697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3097697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3098697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3099697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3100697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3101697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3102697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3103313000 react_us=3103316000 delay_us=3000
+STATUS t=3103697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3104697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3105697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3106697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3107697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3108697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3109697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3110327000 react_us=3110336000 delay_us=9000
+STATUS t=3110697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3111697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3112697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3113697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3114697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3115697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3116697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3117340000 react_us=3117356000 delay_us=16000
+STATUS t=3117697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3118697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3119697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+SAVE t_us=3120001000 result=ERROR seq=0 elapsed_us=1000 hal_error=0
+STATUS t=3120697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3121697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3122697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3123697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3124353000 react_us=3124356000 delay_us=3000
+STATUS t=3124697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3125697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3126697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3127697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3128697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3129697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3130697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3131366000 react_us=3131376000 delay_us=10000
+STATUS t=3131697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3132697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3133697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3134697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3135697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3136697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3137697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3138379000 react_us=3138396000 delay_us=17000
+STATUS t=3138697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3139697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3140697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3141697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3142697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3143697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3144697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3145392000 react_us=3145396000 delay_us=4000
+STATUS t=3145697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3146697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3147697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3148697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3149697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3150697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3151697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3152405000 react_us=3152416000 delay_us=11000
+STATUS t=3152697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3153697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3154697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3155697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3156697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3157697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3158697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3159419000 react_us=3159436000 delay_us=17000
+STATUS t=3159697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3160697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3161697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3162697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3163697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3164697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3165697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3166432000 react_us=3166436000 delay_us=4000
+STATUS t=3166697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3167697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3168697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3169697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3170697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3171697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3172697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3173445000 react_us=3173456000 delay_us=11000
+STATUS t=3173697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3174697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3175697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3176697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3177697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3178697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3179697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+SAVE t_us=3180001000 result=ERROR seq=0 elapsed_us=1000 hal_error=0
+EVENT edge_us=3180458000 react_us=3180476000 delay_us=18000
+STATUS t=3180697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3181697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3182697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3183697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3184697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3185697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3186697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3187471000 react_us=3187476000 delay_us=5000
+STATUS t=3187697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3188697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3189697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3190697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3191697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3192697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3193697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3194484000 react_us=3194496000 delay_us=12000
+STATUS t=3194697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3195697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3196697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3197697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3198697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3199697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3200697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3201497000 react_us=3201519000 delay_us=22000
+STATUS t=3201697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3202697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3203697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3204697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3205697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3206697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3207697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3208511000 react_us=3208516000 delay_us=5000
+STATUS t=3208697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3209697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3210697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3211697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3212697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3213697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3214697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3215524000 react_us=3215536000 delay_us=12000
+STATUS t=3215697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3216697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3217697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3218697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3219697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3220697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3221697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3222537000 react_us=3222556000 delay_us=19000
+STATUS t=3222697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3223697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3224697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3225697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3226697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3227697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3228697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3229550000 react_us=3229556000 delay_us=6000
+STATUS t=3229697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3230697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3231697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3232697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3233697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3234697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3235697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3236563000 react_us=3236576000 delay_us=13000
+STATUS t=3236697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3237697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3238697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3239697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+SAVE t_us=3240001000 result=ERROR seq=0 elapsed_us=1000 hal_error=0
+STATUS t=3240697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3241697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3242697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3243576000 react_us=3243596000 delay_us=20000
+STATUS t=3243697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3244697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3245697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3246697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3247697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3248697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3249697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3250589000 react_us=3250596000 delay_us=7000
+STATUS t=3250697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3251697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3252697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3253697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3254697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3255697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3256697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3257603000 react_us=3257616000 delay_us=13000
+STATUS t=3257697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3258697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3259697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3260697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3261697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3262697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3263697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3264616000 react_us=3264636000 delay_us=20000
+STATUS t=3264697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3265697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3266697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3267697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3268697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3269697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3270697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3271629000 react_us=3271636000 delay_us=7000
+STATUS t=3271697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3272697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3273697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3274697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3275697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3276697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3277697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3278642000 react_us=3278656000 delay_us=14000
+STATUS t=3278697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3279697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3280697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3281697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3282697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3283697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3284697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3285655000 react_us=3285656000 delay_us=1000
+STATUS t=3285697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3286697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3287697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3288697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3289697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3290697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3291697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3292668000 react_us=3292676000 delay_us=8000
+STATUS t=3292697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3293697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3294697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3295697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3296697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3297697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3298697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3299681000 react_us=3299696000 delay_us=15000
+STATUS t=3299697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+SAVE t_us=3300001000 result=ERROR seq=0 elapsed_us=1000 hal_error=0
+STATUS t=3300697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3301697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3302697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3303697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3304697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3305697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3306695000 react_us=3306696000 delay_us=1000
+STATUS t=3306697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3307697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3308697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3309697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3310697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3311697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3312697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3313697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3313708000 react_us=3313716000 delay_us=8000
+STATUS t=3314697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3315697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3316697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3317697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3318697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3319697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3320697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3320721000 react_us=3320736000 delay_us=15000
+STATUS t=3321697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3322697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3323697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3324697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3325697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3326697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3327697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3327734000 react_us=3327736000 delay_us=2000
+STATUS t=3328697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3329697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3330697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3331697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3332697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3333697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3334697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3334747000 react_us=3334756000 delay_us=9000
+STATUS t=3335697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3336697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3337697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3338697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3339697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3340697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3341697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3341760000 react_us=3341776000 delay_us=16000
+STATUS t=3342697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3343697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3344697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3345697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3346697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3347697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3348697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3348773000 react_us=3348776000 delay_us=3000
+STATUS t=3349697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3350697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3351697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3352697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3353697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3354697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3355697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3355787000 react_us=3355796000 delay_us=9000
+STATUS t=3356697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3357697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3358697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3359697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+SAVE t_us=3360001000 result=ERROR seq=0 elapsed_us=1000 hal_error=0
+STATUS t=3360697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3361697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3362697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3362800000 react_us=3362816000 delay_us=16000
+STATUS t=3363697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3364697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3365697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3366697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3367697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3368697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3369697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3369813000 react_us=3369816000 delay_us=3000
+STATUS t=3370697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3371697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3372697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3373697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3374697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3375697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3376697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3376826000 react_us=3376836000 delay_us=10000
+STATUS t=3377697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3378697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3379697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3380697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3381697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3382697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3383697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3383839000 react_us=3383856000 delay_us=17000
+STATUS t=3384697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3385697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3386697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3387697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3388697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3389697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3390697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3390852000 react_us=3390856000 delay_us=4000
+STATUS t=3391697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3392697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3393697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3394697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3395697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3396697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3397697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3397865000 react_us=3397876000 delay_us=11000
+STATUS t=3398697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3399697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3400697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3401697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3402697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3403697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3404697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3404879000 react_us=3404896000 delay_us=17000
+STATUS t=3405697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3406697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3407697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3408697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3409697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3410697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3411697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3411892000 react_us=3411896000 delay_us=4000
+STATUS t=3412697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3413697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3414697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3415697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3416697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3417697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3418697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3418905000 react_us=3418919000 delay_us=14000
+STATUS t=3419697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+SAVE t_us=3420001000 result=ERROR seq=0 elapsed_us=1000 hal_error=0
+STATUS t=3420697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3421697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3422697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3423697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3424697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3425697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3425918000 react_us=3425918000 delay_us=0
+STATUS t=3426697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3427697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3428697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3429697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3430697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3431697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3432697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3432931000 react_us=3432936000 delay_us=5000
+STATUS t=3433697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3434697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3435697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3436697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3437697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3438697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3439697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3439944000 react_us=3439956000 delay_us=12000
+STATUS t=3440697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3441697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3442697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3443697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3444697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3445697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3446697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3446958000 react_us=3446976000 delay_us=18000
+STATUS t=3447697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3448697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3449697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3450697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3451697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3452697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3453697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3453971000 react_us=3453976000 delay_us=5000
+STATUS t=3454697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3455697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3456697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3457697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3458697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3459697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3460697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3460984000 react_us=3460996000 delay_us=12000
+STATUS t=3461697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3462697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3463697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3464697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3465697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3466697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3467697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3467997000 react_us=3468016000 delay_us=19000
+STATUS t=3468697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3469697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3470697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3471697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3472697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3473697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3474697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3475010000 react_us=3475016000 delay_us=6000
+STATUS t=3475697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3476697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3477697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3478697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3479697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+SAVE t_us=3480001000 result=ERROR seq=0 elapsed_us=1000 hal_error=0
+STATUS t=3480697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3481697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3482023000 react_us=3482036000 delay_us=13000
+STATUS t=3482697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3483697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3484697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3485697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3486697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3487697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3488697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3489036000 react_us=3489056000 delay_us=20000
+STATUS t=3489697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3490697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3491697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3492697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3493697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3494697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3495697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3496050000 react_us=3496056000 delay_us=6000
+STATUS t=3496697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3497697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3498697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3499697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3500697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3501697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3502697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3503063000 react_us=3503076000 delay_us=13000
+STATUS t=3503697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3504697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3505697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3506697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3507697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3508697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3509697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3510076000 react_us=3510096000 delay_us=20000
+STATUS t=3510697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3511697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3512697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3513697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3514697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3515697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3516697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3517089000 react_us=3517096000 delay_us=7000
+STATUS t=3517697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3518697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3519697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3520697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3521697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3522697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3523697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3524102000 react_us=3524116000 delay_us=14000
+STATUS t=3524697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3525697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3526697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3527697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3528697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3529697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3530697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3531115000 react_us=3531118000 delay_us=3000
+STATUS t=3531697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3532697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3533697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3534697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3535697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3536697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3537697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3538128000 react_us=3538136000 delay_us=8000
+STATUS t=3538697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3539697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+SAVE t_us=3540001000 result=ERROR seq=0 elapsed_us=1000 hal_error=0
+STATUS t=3540697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3541697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3542697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3543697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3544697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3545142000 react_us=3545156000 delay_us=14000
+STATUS t=3545697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3546697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3547697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3548697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3549697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3550697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3551697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3552155000 react_us=3552156000 delay_us=1000
+STATUS t=3552697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3553697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3554697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3555697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3556697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3557697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3558697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3559168000 react_us=3559176000 delay_us=8000
+STATUS t=3559697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3560697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3561697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3562697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3563697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3564697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3565697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3566181000 react_us=3566196000 delay_us=15000
+STATUS t=3566697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3567697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3568697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3569697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3570697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3571697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3572697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3573194000 react_us=3573196000 delay_us=2000
+STATUS t=3573697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3574697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3575697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3576697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3577697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3578697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3579697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3580207000 react_us=3580216000 delay_us=9000
+STATUS t=3580697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3581697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3582697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3583697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3584697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3585697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3586697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3587220000 react_us=3587236000 delay_us=16000
+STATUS t=3587697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3588697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3589697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3590697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3591697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3592697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3593697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3594234000 react_us=3594236000 delay_us=2000
+STATUS t=3594697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3595697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3596697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3597697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3598697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3599697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+SAVE t_us=3600001000 result=ERROR seq=0 elapsed_us=1000 hal_error=0
+STATUS t=3600697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3601247000 react_us=3601256000 delay_us=9000
+STATUS t=3601697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3602697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3603697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3604697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3605697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3606697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3607697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3608260000 react_us=3608276000 delay_us=16000
+STATUS t=3608697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3609697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3610697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3611697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3612697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3613697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+STATUS t=3614697 mode=active pir=0 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0
+EVENT edge_us=3615273000 react_us=3615276000 delay_us=3000
+STATUS t=3615697 mode=active pir=1 pir_valid=1 raw=4063 avg=4063.0 light_valid=1 dark=1 angle=0.000 imu_valid=1 norm_mg=1000 need_light=1 tilt=0 fault=0

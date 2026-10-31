@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-28T19:41:50.755261+02:00",
+  "runtime_verified": false,
+  "build_id": "#define DESKLIGHT_BUILD_ID \"base=2b6659f7746d tree=8976c45c58ca52433ac23e688e9a146ce59eba7d0ad9b29510b2437c4531cc0c\"\n",
+  "sha256": {
+    "firmware/build/firmware.elf": "fef1e07429e332f539e321ee5209c0faba0d2809db75761e128ccdca0002628e",
+    "firmware/build/firmware.hex": "f8658adde8c332adbbf6e7f39f7b10058d4e2c78087248547247a48dd155b560",
+    "firmware/build/firmware.bin": "050a99ae2fe55b2f5566bd4c653fec8ec6b7ac3cfc91934ed1c1c1a924834eff",
+    "firmware/Board/build_id.h": "edffdc5228a85c04830f1c21425b51df5537d734ad4865c0f579447ffdb01ef7",
+    "diagram.json": "4b2b9a82054e9e5ec16eb2eec505f84762d84ea7d0f500595440ed17f8edc7bc",
+    "wokwi.toml": "70a5d732ffcc358142d9e4d73663d4cf4cd14683dc303ff252988bc6b21702fb"
+  }
+}
