@@ -1,0 +1,9 @@
+[wokwi]
+version = 1
+firmware = 'firmware.hex'
+elf = 'firmware.elf'
+rfc2217ServerPort = 42731
+
+[[chip]]
+name = 's3-trigger'
+binary = 'trigger.chip.wasm'
