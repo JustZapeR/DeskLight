@@ -5,3 +5,4 @@ wokwi.vcd
 tests/build/
 tests/coverage/
 __pycache__/
+firmware/Board/build_id.h

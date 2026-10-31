@@ -1,6 +1,9 @@
 #include "board.h"
 #include "../Desk/console.h"
 #include "../Sensors/imu.h"
+#include "../Desk/worklog.h"
+#include "measure.h"
+#include "build_id.h"
 #include <stdio.h>
 #include <string.h>
 
@@ -10,10 +13,27 @@ static desk state;
 static desk_console console;
 static desk_led led;
 static uint8_t tx[2048], rx[128];
+static uint32_t rx_time[128];
 static unsigned tx_head, tx_tail;
 static volatile unsigned rx_head, rx_tail;
 static volatile bool rx_overflow;
-static uint32_t pir_due, sensors_due, status_due, init_due;
+static volatile uint32_t rx_dropped, uart_overrun, event_us, event_coalesced;
+static volatile bool event_pending;
+static uint32_t tx_dropped, rx_peak, tx_peak, init_due, status_due, history_due, save_due;
+static uint32_t sensor_period=100000, metric_epoch;
+static task_meter meter[10];
+static uint64_t periodic_flash_sum;
+enum { M_PIR, M_ADC, M_IMU, M_CONTROL, M_COMMAND, M_EXPORT, M_FLASH, M_LOOP, M_REACTION, M_INIT };
+static const char *const meter_names[]={"pir","adc","imu","control","command","export","flash","loop","pir_latency","init"};
+typedef struct { uint32_t ms, active_ms, dim_ms; uint16_t avg, angle10; } history_row;
+static history_row history[64];
+static unsigned history_count, history_head;
+static worklog journal;
+static work_totals totals;
+static uint32_t accounting_tick;
+static bool was_tilt;
+extern UART_HandleTypeDef huart2;
+extern uint32_t desk_heap_bytes(void);
 static bool adc_ready, imu_ready, started;
 static bool forced_imu, forced_adc, paused_imu, paused_adc;
 static unsigned previous_flags;
@@ -21,8 +41,10 @@ static unsigned previous_flags;
 static void emit(const char *text)
 {
     size_t n=strlen(text);
-    if (n >= sizeof tx - ((tx_head-tx_tail)&2047u)) return;
+    if (n >= sizeof tx - ((tx_head-tx_tail)&2047u)) { tx_dropped++; return; }
     while(*text) { tx[tx_head]=*text++; tx_head=(tx_head+1)&2047u; }
+    unsigned used=(tx_head-tx_tail)&2047u;
+    if(used>tx_peak) tx_peak=used;
 }
 
 void USART2_IRQHandler(void)
@@ -30,10 +52,119 @@ void USART2_IRQHandler(void)
     if (USART2->ISR & USART_ISR_RXNE_RXFNE) {
         uint8_t byte=(uint8_t)USART2->RDR;
         unsigned next=(rx_head+1)&127u;
-        if(next!=rx_tail) { rx[rx_head]=byte; rx_head=next; }
-        else rx_overflow=true;
+        if(next!=rx_tail) { rx[rx_head]=byte; rx_time[rx_head]=measure_us(); rx_head=next; }
+        else { rx_overflow=true; rx_dropped++; }
     }
+    if(USART2->ISR & USART_ISR_ORE) uart_overrun++;
     USART2->ICR=USART_ICR_ORECF;
+}
+
+void EXTI0_1_IRQHandler(void)
+{
+    if(EXTI->RPR1 & 1u) {
+        EXTI->RPR1=1u;
+        if(event_pending) event_coalesced++;
+        else { event_us=measure_us(); event_pending=true; }
+    }
+}
+
+static void flash_read(void *ctx,unsigned offset,void *out,size_t count)
+{
+    (void)ctx; memcpy(out,(const void *)(0x08007000u+offset),count);
+}
+static bool flash_program(void *ctx,unsigned offset,const uint8_t *bytes)
+{
+    (void)ctx; uint64_t value; memcpy(&value,bytes,8);
+    if(HAL_FLASH_Unlock()!=HAL_OK) return false;
+    bool ok=HAL_FLASH_Program(FLASH_TYPEPROGRAM_DOUBLEWORD,0x08007000u+offset,value)==HAL_OK;
+    HAL_FLASH_Lock(); return ok;
+}
+static bool flash_erase(void *ctx,unsigned page)
+{
+    (void)ctx;
+    FLASH_EraseInitTypeDef erase={0}; uint32_t error;
+    erase.TypeErase=FLASH_TYPEERASE_PAGES; erase.Page=14+page; erase.NbPages=1;
+    if(HAL_FLASH_Unlock()!=HAL_OK) return false;
+    bool ok=HAL_FLASHEx_Erase(&erase,&error)==HAL_OK;
+    HAL_FLASH_Lock();
+    if(ok) {
+        const volatile uint32_t *words=(const volatile uint32_t *)(0x08007000u+page*2048u);
+        for(unsigned i=0;i<512;i++) if(words[i]!=0xffffffffu) return false;
+    }
+    return ok;
+}
+static void account(uint32_t now)
+{
+    uint32_t dt=now-accounting_tick; accounting_tick=now;
+    totals.elapsed_ms+=dt;
+    if(state.mode==DESK_ACTIVE) totals.active_ms+=dt;
+    if(state.need_light) totals.dim_work_ms+=dt;
+    if(state.tilt && !was_tilt) totals.tilt_entries++;
+    was_tilt=state.tilt;
+}
+static void checkpoint(void)
+{
+    uint32_t began=measure_us();
+    account(HAL_GetTick());
+    GPIOA->BSRR=GPIO_PIN_7;
+    bool ok=worklog_save(&journal,&totals);
+    GPIOA->BSRR=(uint32_t)GPIO_PIN_7<<16;
+    uint32_t elapsed=measure_us()-began;
+    measure_add(&meter[M_FLASH],elapsed);
+    char text[160];
+    snprintf(text,sizeof text,"SAVE t_us=%lu result=%s seq=%lu elapsed_us=%lu hal_error=%lu\r\n",
+        (unsigned long)began,ok ? "OK" : "ERROR",(unsigned long)journal.sequence,
+        (unsigned long)elapsed,(unsigned long)HAL_FLASH_GetError()); emit(text);
+}
+static void metrics_reset(void)
+{
+    memset(meter,0,sizeof meter); periodic_flash_sum=0; metric_epoch=measure_us();
+    meter[M_PIR].due=metric_epoch+20000;
+    meter[M_ADC].due=meter[M_IMU].due=metric_epoch+sensor_period;
+    rx_dropped=uart_overrun=event_coalesced=tx_dropped=rx_peak=tx_peak=0;
+}
+static void metrics_print(void)
+{
+    emit("BUILD " DESKLIGHT_BUILD_ID "\r\n");
+    char text[256];
+    for(unsigned i=0;i<10;i++) {
+        task_meter *m=&meter[i];
+        snprintf(text,sizeof text,"STAT name=%s n=%lu min_us=%lu avg_us=%lu max_us=%lu jitter_min=%ld jitter_max=%ld skipped=%lu deadline=%lu\r\n",
+            meter_names[i],(unsigned long)m->n,(unsigned long)m->min,
+            (unsigned long)(m->n ? m->sum/m->n : 0),(unsigned long)m->max,
+            (long)m->jitter_min,(long)m->jitter_max,(unsigned long)m->missed,(unsigned long)m->deadline_misses);
+        emit(text);
+    }
+    uint32_t window=measure_us()-metric_epoch;
+    snprintf(text,sizeof text,"LOAD t_us=%lu window_us=%lu task_permille=unavailable awake_pct=100 stack_used=%lu stack_reserve=4096 heap_sbrk=%lu rx_drop=%lu ore=%lu tx_drop=%lu rx_peak=%lu tx_peak=%lu coalesced=%lu\r\n",
+        (unsigned long)measure_us(),(unsigned long)window,
+        (unsigned long)measure_stack_used(),(unsigned long)desk_heap_bytes(),
+        (unsigned long)rx_dropped,(unsigned long)uart_overrun,(unsigned long)tx_dropped,
+        (unsigned long)rx_peak,(unsigned long)tx_peak,(unsigned long)event_coalesced); emit(text);
+}
+static bool send_block(const char *text)
+{
+    return HAL_UART_Transmit(&huart2,(uint8_t *)text,(uint16_t)strlen(text),100)==HAL_OK;
+}
+static void export_history(void)
+{
+    uint32_t began=measure_us(); unsigned bytes=0, sent=0;
+    GPIOA->BSRR=GPIO_PIN_7;
+    while(tx_tail!=tx_head) {
+        if(USART2->ISR & USART_ISR_TXE_TXFNF) { USART2->TDR=tx[tx_tail]; tx_tail=(tx_tail+1)&2047u; }
+    }
+    char text[160];
+    for(unsigned n=0;n<history_count;n++) {
+        const history_row *h=&history[(history_head+64-history_count+n)%64];
+        snprintf(text,sizeof text,"WORK second_ms=%lu active_ms=%lu dim_work_ms=%lu avg_adc=%u angle_tenth=%u unit=relative_not_lux\r\n",
+            (unsigned long)h->ms,(unsigned long)h->active_ms,(unsigned long)h->dim_ms,h->avg,h->angle10);
+        if(!send_block(text)) break;
+        sent++; bytes+=(unsigned)strlen(text);
+    }
+    GPIOA->BSRR=(uint32_t)GPIO_PIN_7<<16;
+    uint32_t elapsed=measure_us()-began; measure_add(&meter[M_EXPORT],elapsed);
+    snprintf(text,sizeof text,"EXPORT t_us=%lu rows=%u bytes=%u elapsed_us=%lu end_us=%lu\r\n",
+        (unsigned long)began,sent,bytes,(unsigned long)elapsed,(unsigned long)measure_us()); emit(text);
 }
 
 static io_result hal_result(HAL_StatusTypeDef result)
@@ -179,6 +310,27 @@ static void command(desk_command cmd,uint32_t now)
 {
     char text[128];
     switch(cmd) {
+    case CMD_FLASH_CHECK: {
+        unsigned page=journal.latest<0 ? 0u : 1u-(unsigned)journal.latest/64;
+        bool ok=flash_erase(NULL,page);
+        unsigned blank_bytes=0;
+        const volatile uint8_t *p=(const volatile uint8_t *)(0x08007000u+page*2048u);
+        for(unsigned i=0;i<2048;i++) blank_bytes+=p[i]==255;
+        snprintf(text,sizeof text,"ERASE page=%u result=%s ff_bytes=%u sr=%08lX\r\n",
+            page+14,ok ? "OK" : "ERROR",blank_bytes,(unsigned long)FLASH->SR);
+        emit(text); return;
+    }
+    case CMD_STATS: metrics_print(); return;
+    case CMD_METRICS_RESET: metrics_reset(); emit("METRICS reset\r\n"); return;
+    case CMD_HISTORY: export_history(); return;
+    case CMD_SAVE: checkpoint(); return;
+    case CMD_JOURNAL:
+        snprintf(text,sizeof text,"JOURNAL seq=%lu valid=%lu damaged=%lu active_ms=%lu dim_ms=%lu\r\n",
+            (unsigned long)journal.sequence,(unsigned long)journal.accepted,(unsigned long)journal.damaged,
+            (unsigned long)journal.totals.active_ms,(unsigned long)journal.totals.dim_work_ms);
+        emit(text); return;
+    case CMD_FAST: sensor_period=20000; metrics_reset(); emit("RATE sensor_us=20000\r\n"); return;
+    case CMD_NORMAL: sensor_period=100000; metrics_reset(); emit("RATE sensor_us=100000\r\n"); return;
     case CMD_SAMPLE: capture_sample(now); return;
     case CMD_NACK: {
         uint8_t byte=0;
@@ -205,35 +357,63 @@ static void command(desk_command cmd,uint32_t now)
 
 void board_begin(void)
 {
+    measure_begin();
     GPIO_InitTypeDef pin={0};
-    pin.Pin=PIR_PIN; pin.Mode=GPIO_MODE_INPUT; pin.Pull=GPIO_PULLDOWN;
+    pin.Pin=PIR_PIN; pin.Mode=GPIO_MODE_IT_RISING; pin.Pull=GPIO_PULLDOWN;
     HAL_GPIO_Init(PIR_PORT,&pin);
-    pin.Pin=ADC_MARK_PIN; pin.Mode=GPIO_MODE_OUTPUT_PP; pin.Pull=GPIO_NOPULL;
+    HAL_NVIC_SetPriority(EXTI0_1_IRQn,1,0); HAL_NVIC_EnableIRQ(EXTI0_1_IRQn);
+    pin.Pin=ADC_MARK_PIN|GPIO_PIN_1|GPIO_PIN_6|GPIO_PIN_7; pin.Mode=GPIO_MODE_OUTPUT_PP; pin.Pull=GPIO_NOPULL;
     HAL_GPIO_Init(ADC_MARK_PORT,&pin);
     HAL_GPIO_WritePin(Led_GPIO_Port,Led_Pin,GPIO_PIN_RESET);
     adc_ready=setup_adc();
     uint32_t now=HAL_GetTick();
     desk_init(&state,now);
-    pir_due=sensors_due=status_due=init_due=now;
+    status_due=init_due=history_due=save_due=accounting_tick=now;
+    work_store store={NULL,flash_read,flash_program,flash_erase};
+    worklog_open(&journal,store); totals=journal.totals;
+    metrics_reset();
     SET_BIT(USART2->CR1,USART_CR1_RXNEIE_RXFNEIE);
     HAL_NVIC_SetPriority(USART2_IRQn,1,0); HAL_NVIC_EnableIRQ(USART2_IRQn);
-    emit("DeskLight ready\r\n"); status(now);
+    emit("DeskLight ready " DESKLIGHT_BUILD_ID " timer=SysTick_1ms cpu=48MHz\r\n"); status(now);
     previous_flags=flags();
 }
 
 void board_step(void)
 {
+    uint32_t loop_began=measure_us(), began;
     if(tx_tail!=tx_head && (USART2->ISR & USART_ISR_TXE_TXFNF)) {
         USART2->TDR=tx[tx_tail]; tx_tail=(tx_tail+1)&2047u;
     }
-    if(rx_overflow) { console.overflow=true; rx_overflow=false; }
-    while(rx_tail!=rx_head) {
+    if(rx_overflow) {
+        uint32_t saved=__get_PRIMASK(); __disable_irq();
+        rx_tail=rx_head; rx_overflow=false;
+        __set_PRIMASK(saved);
+        console.length=0; console.overflow=true;
+    }
+    unsigned used=(rx_head-rx_tail)&127u;
+    if(used>rx_peak) rx_peak=used;
+    for(unsigned budget=0;budget<32 && rx_tail!=rx_head;budget++) {
+        uint32_t received=rx_time[rx_tail];
         char byte=(char)rx[rx_tail]; rx_tail=(rx_tail+1)&127u;
         desk_command cmd=console_feed(&console,byte);
-        if(cmd!=CMD_NONE) command(cmd,HAL_GetTick());
+        if(cmd!=CMD_NONE) {
+            began=measure_us();
+            uint32_t delay=began-received;
+            command(cmd,HAL_GetTick());
+            if(cmd!=CMD_METRICS_RESET && cmd!=CMD_FAST && cmd!=CMD_NORMAL) {
+                uint32_t duration=measure_us()-began;
+                measure_add(&meter[M_COMMAND],duration);
+                if(cmd!=CMD_HISTORY && cmd!=CMD_SAVE && delay+duration>200000) meter[M_COMMAND].deadline_misses++;
+                char text[128];
+                snprintf(text,sizeof text,"COMMAND kind=%u received_us=%lu begin_us=%lu enqueue_done_us=%lu\r\n",
+                    (unsigned)cmd,(unsigned long)received,(unsigned long)began,(unsigned long)measure_us()); emit(text);
+            }
+            break;
+        }
     }
     uint32_t now=HAL_GetTick();
     if(!started && (uint32_t)(now-init_due)>=100) {
+        began=measure_us();
         uint8_t id=0;
         io_result result=imu_start(&imu,&id);
         imu_ready=result==IO_OK; started=true; init_due=HAL_GetTick();
@@ -242,17 +422,37 @@ void board_step(void)
         emit(text);
         emit(adc_ready ? "SELFTEST device=LDR result=ADC_READY\r\n" : "SELFTEST device=LDR result=ERROR\r\n");
         emit("SELFTEST device=PIR result=GPIO_READABLE\r\n");
+        measure_add(&meter[M_INIT],measure_us()-began);
     }
-    if((uint32_t)(now-pir_due)>=20) {
-        pir_due=now; desk_pir(&state,HAL_GPIO_ReadPin(PIR_PORT,PIR_PIN)==GPIO_PIN_SET,now);
+    if((int32_t)(measure_us()-meter[M_PIR].due)>=0) {
+        began=measure_us(); measure_release(&meter[M_PIR],began,20000);
+        desk_pir(&state,HAL_GPIO_ReadPin(PIR_PORT,PIR_PIN)==GPIO_PIN_SET,HAL_GetTick());
+        if(event_pending) {
+            uint32_t saved=__get_PRIMASK(); __disable_irq();
+            uint32_t edge=event_us; event_pending=false; __set_PRIMASK(saved);
+            uint32_t reacted=measure_us(), delay=reacted-edge;
+            measure_add(&meter[M_REACTION],delay);
+            if(delay>100000) meter[M_REACTION].deadline_misses++;
+            GPIOA->ODR^=GPIO_PIN_1;
+            char text[128];
+            snprintf(text,sizeof text,"EVENT edge_us=%lu react_us=%lu delay_us=%lu\r\n",
+                (unsigned long)edge,(unsigned long)reacted,(unsigned long)delay); emit(text);
+        }
+        measure_add(&meter[M_PIR],measure_us()-began);
     }
-    if(started && (uint32_t)(now-sensors_due)>=100) {
-        sensors_due=now;
+    if(started && (int32_t)(measure_us()-meter[M_ADC].due)>=0) {
+        began=measure_us(); measure_release(&meter[M_ADC],began,sensor_period);
         if(!paused_adc) {
             uint16_t raw=0;
             io_result result=adc_ready && !forced_adc ? read_light(&raw) : IO_TIMEOUT;
             desk_light(&state,result==IO_OK,raw,HAL_GetTick());
         }
+        measure_add(&meter[M_ADC],measure_us()-began);
+        if((int32_t)(measure_us()-meter[M_ADC].due)>0) meter[M_ADC].deadline_misses++;
+    }
+    if(started && (int32_t)(measure_us()-meter[M_IMU].due)>=0) {
+        began=measure_us(); measure_release(&meter[M_IMU],began,sensor_period);
+        GPIOA->BSRR=GPIO_PIN_6;
         if(!paused_imu) {
             if(!imu_ready && !forced_imu && (uint32_t)(now-init_due)>=1000) {
                 uint8_t id=0; imu_ready=imu_start(&imu,&id)==IO_OK; init_due=HAL_GetTick();
@@ -262,11 +462,28 @@ void board_step(void)
             desk_imu(&state,result==IO_OK,result==IO_OK ? sample.acceleration : NULL,HAL_GetTick());
             if(result!=IO_OK && !forced_imu) imu_ready=false;
         }
+        GPIOA->BSRR=(uint32_t)GPIO_PIN_6<<16;
+        measure_add(&meter[M_IMU],measure_us()-began);
+        if((int32_t)(measure_us()-meter[M_IMU].due)>0) meter[M_IMU].deadline_misses++;
     }
+    began=measure_us();
+    account(HAL_GetTick());
     now=HAL_GetTick(); desk_update(&state,now);
     HAL_GPIO_WritePin(Led_GPIO_Port,Led_Pin,led_update(&led,&state,now) ? GPIO_PIN_SET : GPIO_PIN_RESET);
     unsigned current=flags();
     if(current!=previous_flags || (uint32_t)(now-status_due)>=1000) {
         status(now); status_due=now; previous_flags=current;
     }
+    if((uint32_t)(now-history_due)>=1000) {
+        history_due=now;
+        history[history_head]=(history_row){now,totals.active_ms,totals.dim_work_ms,
+            (uint16_t)(state.sum/5),state.angle_valid ? (uint16_t)(state.angle*10) : 65535};
+        history_head=(history_head+1)%64;
+        if(history_count<64) history_count++;
+    }
+    measure_add(&meter[M_CONTROL],measure_us()-began);
+    if((uint32_t)(now-save_due)>=60000) {
+        save_due=now; began=measure_us(); checkpoint(); periodic_flash_sum+=measure_us()-began;
+    }
+    measure_add(&meter[M_LOOP],measure_us()-loop_began);
 }

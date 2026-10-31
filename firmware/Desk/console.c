@@ -14,6 +14,8 @@ desk_command console_feed(desk_console *console, char byte)
     if (!console->length && !console->overflow) return CMD_NONE;
     console->line[console->length]=0;
     static const struct { const char *text; desk_command command; } commands[] = {
+        {"storage probe",CMD_FLASH_CHECK}, {"stats",CMD_STATS}, {"metrics reset",CMD_METRICS_RESET}, {"history",CMD_HISTORY},
+        {"save",CMD_SAVE}, {"journal",CMD_JOURNAL}, {"rate fast",CMD_FAST}, {"rate normal",CMD_NORMAL},
         {"mode adjust",CMD_ADJUST}, {"mode auto",CMD_AUTO}, {"zero",CMD_ZERO},
         {"sample",CMD_SAMPLE}, {"probe nack",CMD_NACK},
         {"fault imu on",CMD_IMU_OFF}, {"fault imu off",CMD_IMU_ON},

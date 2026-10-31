@@ -22,6 +22,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "board.h"
+#include "measure.h"
 
 #include <stdio.h>
 
@@ -83,6 +84,7 @@ int __io_putchar(int ch)
 int main(void)
 {
   /* USER CODE BEGIN 1 */
+  measure_stack_paint();
 
   /* USER CODE END 1 */
 
