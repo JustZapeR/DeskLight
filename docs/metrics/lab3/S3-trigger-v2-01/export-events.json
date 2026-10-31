@@ -1,0 +1,1212 @@
+{
+  "uart_sha256": "80ecea33b163a443fe96c36f1fb64fc0e2f3c17eedaec29addf8fff87d18d4c1",
+  "vcd_sha256": "96a0b8d73a6699482dd0f2e1da63033d264204e13eb3747f6945ac0241e29734",
+  "vcd_end_us": 182817237.1,
+  "tolerance_us": 5000,
+  "uart_exports": 120,
+  "d1_complete_pulses": 123,
+  "matched_exports": 120,
+  "ambiguous_pulses": [],
+  "distinct_rises_during_matched_exports": 119,
+  "matched": [
+    {
+      "vcd_start_us": 70078067.55,
+      "vcd_end_us": 70799831.275,
+      "uart_export_index": 0,
+      "uart_start_us": 70076000,
+      "uart_end_us": 70798000,
+      "input_rises_us": [
+        70078167.55
+      ]
+    },
+    {
+      "vcd_start_us": 70840467.4,
+      "vcd_end_us": 71559621.825,
+      "uart_export_index": 1,
+      "uart_start_us": 70838000,
+      "uart_end_us": 71557000,
+      "input_rises_us": [
+        70840567.4
+      ]
+    },
+    {
+      "vcd_start_us": 71608449.625,
+      "vcd_end_us": 72316520.4,
+      "uart_export_index": 2,
+      "uart_start_us": 71606000,
+      "uart_end_us": 72314000,
+      "input_rises_us": [
+        71608549.625
+      ]
+    },
+    {
+      "vcd_start_us": 72375264.10000001,
+      "vcd_end_us": 73099331.25,
+      "uart_export_index": 3,
+      "uart_start_us": 72373000,
+      "uart_end_us": 73097000,
+      "input_rises_us": [
+        72375364.10000001
+      ]
+    },
+    {
+      "vcd_start_us": 73155230.925,
+      "vcd_end_us": 73882821.0,
+      "uart_export_index": 4,
+      "uart_start_us": 73153000,
+      "uart_end_us": 73881000,
+      "input_rises_us": [
+        73155330.925
+      ]
+    },
+    {
+      "vcd_start_us": 73965900.625,
+      "vcd_end_us": 74680532.075,
+      "uart_export_index": 5,
+      "uart_start_us": 73964000,
+      "uart_end_us": 74678000,
+      "input_rises_us": [
+        73966000.625
+      ]
+    },
+    {
+      "vcd_start_us": 74731927.075,
+      "vcd_end_us": 75445345.8,
+      "uart_export_index": 6,
+      "uart_start_us": 74730000,
+      "uart_end_us": 75443000,
+      "input_rises_us": [
+        74732027.075
+      ]
+    },
+    {
+      "vcd_start_us": 75507312.425,
+      "vcd_end_us": 76220124.35000001,
+      "uart_export_index": 7,
+      "uart_start_us": 75505000,
+      "uart_end_us": 76218000,
+      "input_rises_us": [
+        75507412.425
+      ]
+    },
+    {
+      "vcd_start_us": 76274201.675,
+      "vcd_end_us": 77006475.10000001,
+      "uart_export_index": 8,
+      "uart_start_us": 76272000,
+      "uart_end_us": 77004000,
+      "input_rises_us": [
+        76274301.675
+      ]
+    },
+    {
+      "vcd_start_us": 77040542.22500001,
+      "vcd_end_us": 77771172.2,
+      "uart_export_index": 9,
+      "uart_start_us": 77038000,
+      "uart_end_us": 77769000,
+      "input_rises_us": [
+        77040642.22500001
+      ]
+    },
+    {
+      "vcd_start_us": 77807021.0,
+      "vcd_end_us": 78522328.9,
+      "uart_export_index": 10,
+      "uart_start_us": 77805000,
+      "uart_end_us": 78520000,
+      "input_rises_us": [
+        77807121.0
+      ]
+    },
+    {
+      "vcd_start_us": 78574315.525,
+      "vcd_end_us": 79309678.97500001,
+      "uart_export_index": 11,
+      "uart_start_us": 78572000,
+      "uart_end_us": 79308000,
+      "input_rises_us": [
+        78574415.525
+      ]
+    },
+    {
+      "vcd_start_us": 79355053.75,
+      "vcd_end_us": 80097587.47500001,
+      "uart_export_index": 12,
+      "uart_start_us": 79353000,
+      "uart_end_us": 80095000,
+      "input_rises_us": [
+        79355153.75
+      ]
+    },
+    {
+      "vcd_start_us": 80165981.10000001,
+      "vcd_end_us": 80887266.9,
+      "uart_export_index": 13,
+      "uart_start_us": 80164000,
+      "uart_end_us": 80885000,
+      "input_rises_us": [
+        80166081.10000001
+      ]
+    },
+    {
+      "vcd_start_us": 80931819.675,
+      "vcd_end_us": 81656677.175,
+      "uart_export_index": 14,
+      "uart_start_us": 80930000,
+      "uart_end_us": 81655000,
+      "input_rises_us": [
+        80931919.675
+      ]
+    },
+    {
+      "vcd_start_us": 81707309.25,
+      "vcd_end_us": 82425198.65,
+      "uart_export_index": 15,
+      "uart_start_us": 81705000,
+      "uart_end_us": 82423000,
+      "input_rises_us": [
+        81707409.25
+      ]
+    },
+    {
+      "vcd_start_us": 82474418.525,
+      "vcd_end_us": 83216011.825,
+      "uart_export_index": 16,
+      "uart_start_us": 82472000,
+      "uart_end_us": 83214000,
+      "input_rises_us": [
+        82474518.525
+      ]
+    },
+    {
+      "vcd_start_us": 83291014.75,
+      "vcd_end_us": 84025238.22500001,
+      "uart_export_index": 17,
+      "uart_start_us": 83289000,
+      "uart_end_us": 84023000,
+      "input_rises_us": [
+        83291114.75
+      ]
+    },
+    {
+      "vcd_start_us": 84058539.875,
+      "vcd_end_us": 84816026.2,
+      "uart_export_index": 18,
+      "uart_start_us": 84056000,
+      "uart_end_us": 84814000,
+      "input_rises_us": [
+        84058639.875
+      ]
+    },
+    {
+      "vcd_start_us": 84882762.10000001,
+      "vcd_end_us": 85609083.15,
+      "uart_export_index": 19,
+      "uart_start_us": 84881000,
+      "uart_end_us": 85607000,
+      "input_rises_us": [
+        84882862.10000001
+      ]
+    },
+    {
+      "vcd_start_us": 85654933.5,
+      "vcd_end_us": 86402178.47500001,
+      "uart_export_index": 20,
+      "uart_start_us": 85653000,
+      "uart_end_us": 86400000,
+      "input_rises_us": [
+        85655033.5
+      ]
+    },
+    {
+      "vcd_start_us": 86465977.10000001,
+      "vcd_end_us": 87196608.95,
+      "uart_export_index": 21,
+      "uart_start_us": 86464000,
+      "uart_end_us": 87195000,
+      "input_rises_us": [
+        86466077.10000001
+      ]
+    },
+    {
+      "vcd_start_us": 87232282.15,
+      "vcd_end_us": 87970479.325,
+      "uart_export_index": 22,
+      "uart_start_us": 87230000,
+      "uart_end_us": 87969000,
+      "input_rises_us": [
+        87232382.15
+      ]
+    },
+    {
+      "vcd_start_us": 87998868.675,
+      "vcd_end_us": 88727722.925,
+      "uart_export_index": 23,
+      "uart_start_us": 87997000,
+      "uart_end_us": 88726000,
+      "input_rises_us": [
+        87998968.675
+      ]
+    },
+    {
+      "vcd_start_us": 88765320.7,
+      "vcd_end_us": 89522845.72500001,
+      "uart_export_index": 24,
+      "uart_start_us": 88763000,
+      "uart_end_us": 89521000,
+      "input_rises_us": [
+        88765420.7
+      ]
+    },
+    {
+      "vcd_start_us": 89582568.775,
+      "vcd_end_us": 90319243.22500001,
+      "uart_export_index": 25,
+      "uart_start_us": 89581000,
+      "uart_end_us": 90317000,
+      "input_rises_us": [
+        89582668.775
+      ]
+    },
+    {
+      "vcd_start_us": 90354857.325,
+      "vcd_end_us": 91115285.925,
+      "uart_export_index": 26,
+      "uart_start_us": 90353000,
+      "uart_end_us": 91113000,
+      "input_rises_us": [
+        90354957.325
+      ]
+    },
+    {
+      "vcd_start_us": 91166928.675,
+      "vcd_end_us": 91912464.025,
+      "uart_export_index": 27,
+      "uart_start_us": 91165000,
+      "uart_end_us": 91911000,
+      "input_rises_us": [
+        91167028.675
+      ]
+    },
+    {
+      "vcd_start_us": 91982631.925,
+      "vcd_end_us": 92712275.425,
+      "uart_export_index": 28,
+      "uart_start_us": 91981000,
+      "uart_end_us": 92710000,
+      "input_rises_us": [
+        91982731.925
+      ]
+    },
+    {
+      "vcd_start_us": 92754853.825,
+      "vcd_end_us": 93510214.55,
+      "uart_export_index": 29,
+      "uart_start_us": 92753000,
+      "uart_end_us": 93508000,
+      "input_rises_us": [
+        92754953.825
+      ]
+    },
+    {
+      "vcd_start_us": 93566048.7,
+      "vcd_end_us": 94310347.72500001,
+      "uart_export_index": 30,
+      "uart_start_us": 93564000,
+      "uart_end_us": 94309000,
+      "input_rises_us": [
+        93566148.7
+      ]
+    },
+    {
+      "vcd_start_us": 94382713.675,
+      "vcd_end_us": 95111588.425,
+      "uart_export_index": 31,
+      "uart_start_us": 94381000,
+      "uart_end_us": 95110000,
+      "input_rises_us": [
+        94382813.675
+      ]
+    },
+    {
+      "vcd_start_us": 95154756.825,
+      "vcd_end_us": 95912068.75,
+      "uart_export_index": 32,
+      "uart_start_us": 95153000,
+      "uart_end_us": 95910000,
+      "input_rises_us": [
+        95154856.825
+      ]
+    },
+    {
+      "vcd_start_us": 95966066.95,
+      "vcd_end_us": 96713362.0,
+      "uart_export_index": 33,
+      "uart_start_us": 95964000,
+      "uart_end_us": 96712000,
+      "input_rises_us": [
+        95966166.95
+      ]
+    },
+    {
+      "vcd_start_us": 96790660.5,
+      "vcd_end_us": 97521174.72500001,
+      "uart_export_index": 34,
+      "uart_start_us": 96789000,
+      "uart_end_us": 97519000,
+      "input_rises_us": [
+        96790760.5
+      ]
+    },
+    {
+      "vcd_start_us": 97554741.575,
+      "vcd_end_us": 98322125.7,
+      "uart_export_index": 35,
+      "uart_start_us": 97553000,
+      "uart_end_us": 98320000,
+      "input_rises_us": [
+        97554841.575
+      ]
+    },
+    {
+      "vcd_start_us": 98365397.8,
+      "vcd_end_us": 99125170.9,
+      "uart_export_index": 36,
+      "uart_start_us": 98364000,
+      "uart_end_us": 99123000,
+      "input_rises_us": [
+        98365497.8
+      ]
+    },
+    {
+      "vcd_start_us": 99191021.5,
+      "vcd_end_us": 99929540.25,
+      "uart_export_index": 37,
+      "uart_start_us": 99189000,
+      "uart_end_us": 99928000,
+      "input_rises_us": [
+        99191121.5
+      ]
+    },
+    {
+      "vcd_start_us": 99999418.925,
+      "vcd_end_us": 100735397.025,
+      "uart_export_index": 38,
+      "uart_start_us": 99998000,
+      "uart_end_us": 100734000,
+      "input_rises_us": [
+        99999518.925
+      ]
+    },
+    {
+      "vcd_start_us": 100824058.72500001,
+      "vcd_end_us": 101557604.47500001,
+      "uart_export_index": 39,
+      "uart_start_us": 100822000,
+      "uart_end_us": 101556000,
+      "input_rises_us": [
+        100824158.72500001
+      ]
+    },
+    {
+      "vcd_start_us": 101599055.575,
+      "vcd_end_us": 102344776.25,
+      "uart_export_index": 40,
+      "uart_start_us": 101597000,
+      "uart_end_us": 102343000,
+      "input_rises_us": [
+        101599155.575
+      ]
+    },
+    {
+      "vcd_start_us": 102432427.45,
+      "vcd_end_us": 103167408.97500001,
+      "uart_export_index": 41,
+      "uart_start_us": 102431000,
+      "uart_end_us": 103166000,
+      "input_rises_us": [
+        102432527.45
+      ]
+    },
+    {
+      "vcd_start_us": 103198196.10000001,
+      "vcd_end_us": 103956144.925,
+      "uart_export_index": 42,
+      "uart_start_us": 103197000,
+      "uart_end_us": 103955000,
+      "input_rises_us": [
+        103198296.10000001
+      ]
+    },
+    {
+      "vcd_start_us": 104023585.575,
+      "vcd_end_us": 104759998.9,
+      "uart_export_index": 43,
+      "uart_start_us": 104022000,
+      "uart_end_us": 104758000,
+      "input_rises_us": [
+        104023685.575
+      ]
+    },
+    {
+      "vcd_start_us": 104790408.575,
+      "vcd_end_us": 105550048.65,
+      "uart_export_index": 44,
+      "uart_start_us": 104789000,
+      "uart_end_us": 105548000,
+      "input_rises_us": [
+        104790508.575
+      ]
+    },
+    {
+      "vcd_start_us": 105615897.4,
+      "vcd_end_us": 106353639.55,
+      "uart_export_index": 45,
+      "uart_start_us": 105614000,
+      "uart_end_us": 106352000,
+      "input_rises_us": [
+        105615997.4
+      ]
+    },
+    {
+      "vcd_start_us": 106382434.675,
+      "vcd_end_us": 107144933.97500001,
+      "uart_export_index": 46,
+      "uart_start_us": 106381000,
+      "uart_end_us": 107143000,
+      "input_rises_us": [
+        106382534.675
+      ]
+    },
+    {
+      "vcd_start_us": 107199102.75,
+      "vcd_end_us": 107938212.675,
+      "uart_export_index": 47,
+      "uart_start_us": 107198000,
+      "uart_end_us": 107937000,
+      "input_rises_us": [
+        107199202.75
+      ]
+    },
+    {
+      "vcd_start_us": 107974085.35000001,
+      "vcd_end_us": 108732163.15,
+      "uart_export_index": 48,
+      "uart_start_us": 107973000,
+      "uart_end_us": 108731000,
+      "input_rises_us": [
+        107974185.35000001
+      ]
+    },
+    {
+      "vcd_start_us": 108791169.075,
+      "vcd_end_us": 109531646.75,
+      "uart_export_index": 49,
+      "uart_start_us": 108790000,
+      "uart_end_us": 109530000,
+      "input_rises_us": [
+        108791269.075
+      ]
+    },
+    {
+      "vcd_start_us": 109607498.47500001,
+      "vcd_end_us": 110349278.47500001,
+      "uart_export_index": 50,
+      "uart_start_us": 109606000,
+      "uart_end_us": 110348000,
+      "input_rises_us": [
+        109607598.47500001
+      ]
+    },
+    {
+      "vcd_start_us": 110431557.575,
+      "vcd_end_us": 111173417.5,
+      "uart_export_index": 51,
+      "uart_start_us": 110430000,
+      "uart_end_us": 111172000,
+      "input_rises_us": [
+        110431657.575
+      ]
+    },
+    {
+      "vcd_start_us": 111257874.10000001,
+      "vcd_end_us": 112011354.075,
+      "uart_export_index": 52,
+      "uart_start_us": 111256000,
+      "uart_end_us": 112010000,
+      "input_rises_us": [
+        111257974.10000001
+      ]
+    },
+    {
+      "vcd_start_us": 112074352.325,
+      "vcd_end_us": 112828087.075,
+      "uart_export_index": 53,
+      "uart_start_us": 112073000,
+      "uart_end_us": 112827000,
+      "input_rises_us": [
+        112074452.325
+      ]
+    },
+    {
+      "vcd_start_us": 112891040.425,
+      "vcd_end_us": 113645966.3,
+      "uart_export_index": 54,
+      "uart_start_us": 112890000,
+      "uart_end_us": 113645000,
+      "input_rises_us": [
+        112891140.425
+      ]
+    },
+    {
+      "vcd_start_us": 113707496.075,
+      "vcd_end_us": 114452137.875,
+      "uart_export_index": 55,
+      "uart_start_us": 113706000,
+      "uart_end_us": 114451000,
+      "input_rises_us": [
+        113707596.075
+      ]
+    },
+    {
+      "vcd_start_us": 114532534.875,
+      "vcd_end_us": 115278533.75,
+      "uart_export_index": 56,
+      "uart_start_us": 114531000,
+      "uart_end_us": 115277000,
+      "input_rises_us": [
+        114532634.875
+      ]
+    },
+    {
+      "vcd_start_us": 115357806.95,
+      "vcd_end_us": 116113914.45,
+      "uart_export_index": 57,
+      "uart_start_us": 115356000,
+      "uart_end_us": 116113000,
+      "input_rises_us": [
+        115357906.95
+      ]
+    },
+    {
+      "vcd_start_us": 116175173.97500001,
+      "vcd_end_us": 116934651.35000001,
+      "uart_export_index": 58,
+      "uart_start_us": 116174000,
+      "uart_end_us": 116933000,
+      "input_rises_us": [
+        116175273.97500001
+      ]
+    },
+    {
+      "vcd_start_us": 116999537.97500001,
+      "vcd_end_us": 117755388.175,
+      "uart_export_index": 59,
+      "uart_start_us": 116998000,
+      "uart_end_us": 117754000,
+      "input_rises_us": [
+        116999637.97500001
+      ]
+    },
+    {
+      "vcd_start_us": 117815695.47500001,
+      "vcd_end_us": 118564522.55,
+      "uart_export_index": 60,
+      "uart_start_us": 117814000,
+      "uart_end_us": 118563000,
+      "input_rises_us": [
+        117815795.47500001
+      ]
+    },
+    {
+      "vcd_start_us": 118631616.47500001,
+      "vcd_end_us": 119380427.8,
+      "uart_export_index": 61,
+      "uart_start_us": 118630000,
+      "uart_end_us": 119379000,
+      "input_rises_us": [
+        118631716.47500001
+      ]
+    },
+    {
+      "vcd_start_us": 119458337.5,
+      "vcd_end_us": 120234973.95,
+      "uart_export_index": 62,
+      "uart_start_us": 119457000,
+      "uart_end_us": 120234000,
+      "input_rises_us": [
+        119458437.5
+      ]
+    },
+    {
+      "vcd_start_us": 120278445.425,
+      "vcd_end_us": 121089556.3,
+      "uart_export_index": 63,
+      "uart_start_us": 120277000,
+      "uart_end_us": 121088000,
+      "input_rises_us": []
+    },
+    {
+      "vcd_start_us": 121154419.925,
+      "vcd_end_us": 121919155.175,
+      "uart_export_index": 64,
+      "uart_start_us": 121153000,
+      "uart_end_us": 121918000,
+      "input_rises_us": [
+        121154519.925
+      ]
+    },
+    {
+      "vcd_start_us": 121966248.75,
+      "vcd_end_us": 122742982.9,
+      "uart_export_index": 65,
+      "uart_start_us": 121965000,
+      "uart_end_us": 122742000,
+      "input_rises_us": [
+        121966348.75
+      ]
+    },
+    {
+      "vcd_start_us": 122782552.0,
+      "vcd_end_us": 123547944.4,
+      "uart_export_index": 66,
+      "uart_start_us": 122781000,
+      "uart_end_us": 123547000,
+      "input_rises_us": [
+        122782652.0
+      ]
+    },
+    {
+      "vcd_start_us": 123607484.825,
+      "vcd_end_us": 124360418.97500001,
+      "uart_export_index": 67,
+      "uart_start_us": 123606000,
+      "uart_end_us": 124359000,
+      "input_rises_us": [
+        123607584.825
+      ]
+    },
+    {
+      "vcd_start_us": 124423942.575,
+      "vcd_end_us": 125178260.3,
+      "uart_export_index": 68,
+      "uart_start_us": 124423000,
+      "uart_end_us": 125177000,
+      "input_rises_us": [
+        124424042.575
+      ]
+    },
+    {
+      "vcd_start_us": 125254260.0,
+      "vcd_end_us": 126021777.97500001,
+      "uart_export_index": 69,
+      "uart_start_us": 125253000,
+      "uart_end_us": 126021000,
+      "input_rises_us": [
+        125254360.0
+      ]
+    },
+    {
+      "vcd_start_us": 126065376.60000001,
+      "vcd_end_us": 126849632.60000001,
+      "uart_export_index": 70,
+      "uart_start_us": 126064000,
+      "uart_end_us": 126848000,
+      "input_rises_us": [
+        126065476.60000001
+      ]
+    },
+    {
+      "vcd_start_us": 126934158.55,
+      "vcd_end_us": 127688538.2,
+      "uart_export_index": 71,
+      "uart_start_us": 126933000,
+      "uart_end_us": 127687000,
+      "input_rises_us": [
+        126934258.55
+      ]
+    },
+    {
+      "vcd_start_us": 127757938.825,
+      "vcd_end_us": 128524774.025,
+      "uart_export_index": 72,
+      "uart_start_us": 127757000,
+      "uart_end_us": 128524000,
+      "input_rises_us": [
+        127758038.825
+      ]
+    },
+    {
+      "vcd_start_us": 128574624.175,
+      "vcd_end_us": 129354292.95,
+      "uart_export_index": 73,
+      "uart_start_us": 128574000,
+      "uart_end_us": 129353000,
+      "input_rises_us": [
+        128574724.175
+      ]
+    },
+    {
+      "vcd_start_us": 129398337.425,
+      "vcd_end_us": 130165219.375,
+      "uart_export_index": 74,
+      "uart_start_us": 129397000,
+      "uart_end_us": 130164000,
+      "input_rises_us": [
+        129398437.425
+      ]
+    },
+    {
+      "vcd_start_us": 130215829.625,
+      "vcd_end_us": 130974312.275,
+      "uart_export_index": 75,
+      "uart_start_us": 130215000,
+      "uart_end_us": 130973000,
+      "input_rises_us": [
+        130215929.625
+      ]
+    },
+    {
+      "vcd_start_us": 131054175.675,
+      "vcd_end_us": 131827257.425,
+      "uart_export_index": 76,
+      "uart_start_us": 131053000,
+      "uart_end_us": 131826000,
+      "input_rises_us": [
+        131054275.675
+      ]
+    },
+    {
+      "vcd_start_us": 131915797.45,
+      "vcd_end_us": 132675537.47500001,
+      "uart_export_index": 77,
+      "uart_start_us": 131915000,
+      "uart_end_us": 132675000,
+      "input_rises_us": [
+        131915897.47500001
+      ]
+    },
+    {
+      "vcd_start_us": 132747596.22500001,
+      "vcd_end_us": 133522257.925,
+      "uart_export_index": 78,
+      "uart_start_us": 132747000,
+      "uart_end_us": 133521000,
+      "input_rises_us": [
+        132747696.22500001
+      ]
+    },
+    {
+      "vcd_start_us": 133557864.0,
+      "vcd_end_us": 134354833.9,
+      "uart_export_index": 79,
+      "uart_start_us": 133557000,
+      "uart_end_us": 134354000,
+      "input_rises_us": [
+        133557964.0
+      ]
+    },
+    {
+      "vcd_start_us": 134432080.8,
+      "vcd_end_us": 135194535.675,
+      "uart_export_index": 80,
+      "uart_start_us": 134431000,
+      "uart_end_us": 135194000,
+      "input_rises_us": [
+        134432180.8
+      ]
+    },
+    {
+      "vcd_start_us": 135254131.675,
+      "vcd_end_us": 136029864.2,
+      "uart_export_index": 81,
+      "uart_start_us": 135253000,
+      "uart_end_us": 136029000,
+      "input_rises_us": [
+        135254231.675
+      ]
+    },
+    {
+      "vcd_start_us": 136066351.75,
+      "vcd_end_us": 136865329.275,
+      "uart_export_index": 82,
+      "uart_start_us": 136065000,
+      "uart_end_us": 136864000,
+      "input_rises_us": [
+        136066451.75
+      ]
+    },
+    {
+      "vcd_start_us": 136947625.4,
+      "vcd_end_us": 137724923.15,
+      "uart_export_index": 83,
+      "uart_start_us": 136947000,
+      "uart_end_us": 137724000,
+      "input_rises_us": [
+        136947725.4
+      ]
+    },
+    {
+      "vcd_start_us": 137815435.65,
+      "vcd_end_us": 138580511.3,
+      "uart_export_index": 84,
+      "uart_start_us": 137815000,
+      "uart_end_us": 138580000,
+      "input_rises_us": [
+        137815535.65
+      ]
+    },
+    {
+      "vcd_start_us": 138632536.375,
+      "vcd_end_us": 139398689.275,
+      "uart_export_index": 85,
+      "uart_start_us": 138632000,
+      "uart_end_us": 139398000,
+      "input_rises_us": [
+        138632636.375
+      ]
+    },
+    {
+      "vcd_start_us": 139453995.925,
+      "vcd_end_us": 140233966.875,
+      "uart_export_index": 86,
+      "uart_start_us": 139453000,
+      "uart_end_us": 140233000,
+      "input_rises_us": [
+        139454095.925
+      ]
+    },
+    {
+      "vcd_start_us": 140316204.2,
+      "vcd_end_us": 141082728.925,
+      "uart_export_index": 87,
+      "uart_start_us": 140315000,
+      "uart_end_us": 141082000,
+      "input_rises_us": [
+        140316304.2
+      ]
+    },
+    {
+      "vcd_start_us": 141139910.3,
+      "vcd_end_us": 141908033.425,
+      "uart_export_index": 88,
+      "uart_start_us": 141139000,
+      "uart_end_us": 141907000,
+      "input_rises_us": [
+        141140010.3
+      ]
+    },
+    {
+      "vcd_start_us": 141958002.0,
+      "vcd_end_us": 142735427.0,
+      "uart_export_index": 89,
+      "uart_start_us": 141957000,
+      "uart_end_us": 142735000,
+      "input_rises_us": [
+        141958102.0
+      ]
+    },
+    {
+      "vcd_start_us": 142773304.525,
+      "vcd_end_us": 143574186.525,
+      "uart_export_index": 90,
+      "uart_start_us": 142772000,
+      "uart_end_us": 143573000,
+      "input_rises_us": [
+        142773404.525
+      ]
+    },
+    {
+      "vcd_start_us": 143632050.375,
+      "vcd_end_us": 144401410.525,
+      "uart_export_index": 91,
+      "uart_start_us": 143631000,
+      "uart_end_us": 144401000,
+      "input_rises_us": [
+        143632150.375
+      ]
+    },
+    {
+      "vcd_start_us": 144457123.45000002,
+      "vcd_end_us": 145238199.8,
+      "uart_export_index": 92,
+      "uart_start_us": 144456000,
+      "uart_end_us": 145237000,
+      "input_rises_us": [
+        144457223.45000002
+      ]
+    },
+    {
+      "vcd_start_us": 145273440.20000002,
+      "vcd_end_us": 146060594.75,
+      "uart_export_index": 93,
+      "uart_start_us": 145273000,
+      "uart_end_us": 146060000,
+      "input_rises_us": [
+        145273540.20000002
+      ]
+    },
+    {
+      "vcd_start_us": 146090947.15,
+      "vcd_end_us": 146868166.1,
+      "uart_export_index": 94,
+      "uart_start_us": 146090000,
+      "uart_end_us": 146867000,
+      "input_rises_us": [
+        146091047.15
+      ]
+    },
+    {
+      "vcd_start_us": 146908945.82500002,
+      "vcd_end_us": 147694280.75,
+      "uart_export_index": 95,
+      "uart_start_us": 146908000,
+      "uart_end_us": 147694000,
+      "input_rises_us": [
+        146909045.82500002
+      ]
+    },
+    {
+      "vcd_start_us": 147732612.45000002,
+      "vcd_end_us": 148506183.4,
+      "uart_export_index": 96,
+      "uart_start_us": 147732000,
+      "uart_end_us": 148505000,
+      "input_rises_us": [
+        147732712.45000002
+      ]
+    },
+    {
+      "vcd_start_us": 148553817.32500002,
+      "vcd_end_us": 149354175.0,
+      "uart_export_index": 97,
+      "uart_start_us": 148553000,
+      "uart_end_us": 149354000,
+      "input_rises_us": [
+        148553917.32500002
+      ]
+    },
+    {
+      "vcd_start_us": 149417404.875,
+      "vcd_end_us": 150190978.975,
+      "uart_export_index": 98,
+      "uart_start_us": 149417000,
+      "uart_end_us": 150190000,
+      "input_rises_us": [
+        149417504.875
+      ]
+    },
+    {
+      "vcd_start_us": 150247752.3,
+      "vcd_end_us": 151036132.20000002,
+      "uart_export_index": 99,
+      "uart_start_us": 150247000,
+      "uart_end_us": 151035000,
+      "input_rises_us": [
+        150247852.3
+      ]
+    },
+    {
+      "vcd_start_us": 151108714.32500002,
+      "vcd_end_us": 151884096.05,
+      "uart_export_index": 100,
+      "uart_start_us": 151108000,
+      "uart_end_us": 151883000,
+      "input_rises_us": [
+        151108814.32500002
+      ]
+    },
+    {
+      "vcd_start_us": 151947830.125,
+      "vcd_end_us": 152737413.375,
+      "uart_export_index": 101,
+      "uart_start_us": 151947000,
+      "uart_end_us": 152737000,
+      "input_rises_us": [
+        151947930.125
+      ]
+    },
+    {
+      "vcd_start_us": 152807640.45000002,
+      "vcd_end_us": 153585192.5,
+      "uart_export_index": 102,
+      "uart_start_us": 152807000,
+      "uart_end_us": 153585000,
+      "input_rises_us": [
+        152807740.45000002
+      ]
+    },
+    {
+      "vcd_start_us": 153615692.375,
+      "vcd_end_us": 154398134.35,
+      "uart_export_index": 103,
+      "uart_start_us": 153615000,
+      "uart_end_us": 154398000,
+      "input_rises_us": [
+        153615792.375
+      ]
+    },
+    {
+      "vcd_start_us": 154447726.8,
+      "vcd_end_us": 155251774.65,
+      "uart_export_index": 104,
+      "uart_start_us": 154447000,
+      "uart_end_us": 155251000,
+      "input_rises_us": [
+        154447826.8
+      ]
+    },
+    {
+      "vcd_start_us": 155307631.875,
+      "vcd_end_us": 156086800.225,
+      "uart_export_index": 105,
+      "uart_start_us": 155307000,
+      "uart_end_us": 156086000,
+      "input_rises_us": [
+        155307731.875
+      ]
+    },
+    {
+      "vcd_start_us": 156124338.1,
+      "vcd_end_us": 156904785.175,
+      "uart_export_index": 106,
+      "uart_start_us": 156124000,
+      "uart_end_us": 156904000,
+      "input_rises_us": [
+        156124438.1
+      ]
+    },
+    {
+      "vcd_start_us": 156947731.95000002,
+      "vcd_end_us": 157758717.425,
+      "uart_export_index": 107,
+      "uart_start_us": 156947000,
+      "uart_end_us": 157758000,
+      "input_rises_us": [
+        156947831.95000002
+      ]
+    },
+    {
+      "vcd_start_us": 157815813.125,
+      "vcd_end_us": 158597663.725,
+      "uart_export_index": 108,
+      "uart_start_us": 157815000,
+      "uart_end_us": 158597000,
+      "input_rises_us": [
+        157815913.125
+      ]
+    },
+    {
+      "vcd_start_us": 158632603.6,
+      "vcd_end_us": 159415117.75,
+      "uart_export_index": 109,
+      "uart_start_us": 158632000,
+      "uart_end_us": 159415000,
+      "input_rises_us": [
+        158632703.6
+      ]
+    },
+    {
+      "vcd_start_us": 159453646.25,
+      "vcd_end_us": 160270923.32500002,
+      "uart_export_index": 110,
+      "uart_start_us": 159453000,
+      "uart_end_us": 160270000,
+      "input_rises_us": [
+        159453746.25
+      ]
+    },
+    {
+      "vcd_start_us": 160315007.4,
+      "vcd_end_us": 161105966.875,
+      "uart_export_index": 111,
+      "uart_start_us": 160315000,
+      "uart_end_us": 161106000,
+      "input_rises_us": [
+        160315107.4
+      ]
+    },
+    {
+      "vcd_start_us": 161147524.70000002,
+      "vcd_end_us": 161945388.925,
+      "uart_export_index": 112,
+      "uart_start_us": 161147000,
+      "uart_end_us": 161945000,
+      "input_rises_us": [
+        161147624.70000002
+      ]
+    },
+    {
+      "vcd_start_us": 162024456.70000002,
+      "vcd_end_us": 162807911.925,
+      "uart_export_index": 113,
+      "uart_start_us": 162024000,
+      "uart_end_us": 162808000,
+      "input_rises_us": [
+        162024556.70000002
+      ]
+    },
+    {
+      "vcd_start_us": 162847777.55,
+      "vcd_end_us": 163647874.95000002,
+      "uart_export_index": 114,
+      "uart_start_us": 162847000,
+      "uart_end_us": 163648000,
+      "input_rises_us": [
+        162847877.55
+      ]
+    },
+    {
+      "vcd_start_us": 163716001.3,
+      "vcd_end_us": 164499932.875,
+      "uart_export_index": 115,
+      "uart_start_us": 163716000,
+      "uart_end_us": 164500000,
+      "input_rises_us": [
+        163716101.3
+      ]
+    },
+    {
+      "vcd_start_us": 164532725.45000002,
+      "vcd_end_us": 165320276.475,
+      "uart_export_index": 116,
+      "uart_start_us": 164532000,
+      "uart_end_us": 165320000,
+      "input_rises_us": [
+        164532825.45000002
+      ]
+    },
+    {
+      "vcd_start_us": 165353482.57500002,
+      "vcd_end_us": 166176976.6,
+      "uart_export_index": 117,
+      "uart_start_us": 165353000,
+      "uart_end_us": 166177000,
+      "input_rises_us": [
+        165353582.57500002
+      ]
+    },
+    {
+      "vcd_start_us": 166224379.175,
+      "vcd_end_us": 167015022.4,
+      "uart_export_index": 118,
+      "uart_start_us": 166224000,
+      "uart_end_us": 167015000,
+      "input_rises_us": [
+        166224479.175
+      ]
+    },
+    {
+      "vcd_start_us": 167047887.375,
+      "vcd_end_us": 167855593.725,
+      "uart_export_index": 119,
+      "uart_start_us": 167048000,
+      "uart_end_us": 167855000,
+      "input_rises_us": [
+        167047987.375
+      ]
+    }
+  ],
+  "limitations": "Check same run/build, VCD buffer completeness, initial signal levels and UART loss. D1 alone also marks flash. D3 is a digital stimulus; D7 is a handled-event marker, not necessarily an LED."
+}

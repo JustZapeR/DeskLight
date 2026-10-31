@@ -1,0 +1,33 @@
+{
+  "scenario": "S3",
+  "completed": true,
+  "started_utc": "2026-10-31T12:36:53Z",
+  "fingerprints": {
+    "firmware.elf": "d4c6ed31844d8988d0530fddeb7923e3aed11502e20d534d9e1c462bf6516843",
+    "firmware.hex": "3d3e51a13b217c423615394bb13e074b429e823396c4944713ef079c51485e6c",
+    "diagram.json": "c83644e87562818e9cfbc6e5ee7a4c4b6b31c1b51ab8451bb7255a7fef16de07",
+    "wokwi.toml": "22f2ca120797a8147752a46d471f192f181aa14a619ea47e87648a96173c6ad6",
+    "trigger.chip.c": "0b4c925927283c30a018b27469978f82fdc8becac71316e248f28b139847f30c",
+    "trigger.chip.json": "ec61e20aa8f87fe2b2f641d6030ef3108c9e4802bf70b047da87338c34aef861",
+    "trigger.chip.wasm": "ce980fda47e2e3ce11e9a04327069057cbd9360a42406d2aaeb90db1c7718d3a",
+    "record.py": "33f4334cb819ab2dbecb457d24264eaf707d6edda0ac069e96c3398f5fdac1b5"
+  },
+  "first_mcu_ms": 6508,
+  "last_mcu_ms": 167043,
+  "full_exports": 120,
+  "partial_exports": 0,
+  "target_span_s": 160,
+  "target_full_exports": 45,
+  "max_mcu_seconds": 300,
+  "gate_passed": true,
+  "reason": "targets reached",
+  "gate": {
+    "last_status_ms": 16508,
+    "adc_samples": 165,
+    "imu_samples": 165
+  },
+  "unfinished_history": false,
+  "wall_s": 165.926,
+  "finished_utc": "2026-10-31T12:39:39Z",
+  "uart_sha256": "80ecea33b163a443fe96c36f1fb64fc0e2f3c17eedaec29addf8fff87d18d4c1"
+}
