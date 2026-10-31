@@ -21,11 +21,12 @@ for source, target in {
     "imu:AD0": "nucleo:GND.1", "imu:VCC": "nucleo:3V3.1",
     "ldr:VCC": "nucleo:3V3.1", "pir:VCC": "nucleo:5V.1",
     "$serialMonitor:RX": "nucleo:PA2", "$serialMonitor:TX": "nucleo:PA3",
-    "logic:D4": "nucleo:PA4", "logic:D5": "nucleo:PA5",
+    "logic:D0": "nucleo:PA6", "logic:D1": "nucleo:PA7",
+    "logic:D7": "nucleo:PA1", "logic:D4": "nucleo:PA4", "logic:D5": "nucleo:PA5",
 }.items():
     assert frozenset((source, target)) in wires, (source, target)
 ioc = (root / "firmware/firmware.ioc").read_text()
-for setting in ("PA0.Signal=ADC1_IN0", "PB0.Signal=GPIO_Input", "PA4.Signal=GPIO_Output",
+for setting in ("PA0.Signal=ADC1_IN0", "PB0.Signal=GPXTI0", "PA4.Signal=GPIO_Output",
                 "PB8.Signal=I2C1_SCL", "PB9.Signal=I2C1_SDA",
                 "ADC1.ClockPrescaler=ADC_CLOCK_SYNC_PCLK_DIV4",
                 "ADC1.SelectedChannel=ADC_CHANNEL_0", "ADC1.NbrOfConversion=1",

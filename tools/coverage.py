@@ -15,7 +15,7 @@ build.mkdir(parents=True)
 cc = os.environ.get("CC", "cc")
 flags = ["-std=c11", "-Wall", "-Wextra", "-Werror", "-g", "--coverage"]
 tests = sorted((root / "tests").glob("test_*.c"))
-modules = [root / "firmware/Sensors/imu.c", root / "firmware/Desk/desk.c", root / "firmware/Desk/console.c"]
+modules = [root / "firmware/Sensors/imu.c", root / "firmware/Desk/desk.c", root / "firmware/Desk/console.c", root / "firmware/Desk/worklog.c"]
 objects = []
 entrypoints = []
 for path in tests + modules:
@@ -48,7 +48,7 @@ for path in modules:
         "lines_percent": float(lines), "lines": int(line_count),
         "branch_taken_percent": float(branches), "branches": int(branch_count)}
     assert float(lines) >= 90 and float(branches) >= 80, report
-out = root / "docs/validation" / ("coverage-" + platform.system() + "-" + platform.machine() + ".json")
+out = root / "docs/metrics/lab3" / ("coverage-" + platform.system() + "-" + platform.machine() + ".json")
 out.parent.mkdir(parents=True, exist_ok=True)
 out.write_text(json.dumps(report, indent=2) + "\n")
 (build / "gcov.txt").write_text("\n".join(logs))
