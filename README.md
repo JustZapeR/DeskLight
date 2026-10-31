@@ -30,3 +30,9 @@ Docker потрібний для ARM build. Host tests потребують C11 
 - [Звіт](docs/lab_2/)
 
 main містить злиту ЛР1. ЛР2 продовжує її у feature/lab-2. Історичні [збірки ЛР1](docs/checks/results.md) не описують поточну прошивку. Ліцензії основи, ST та CMSIS збережено. Основа [STM32 HAL Wokwi example](https://github.com/wokwi/stm32-hello-wokwi).
+
+## ЛР3, поточна робоча версія
+
+Додано [задачі й часові контракти](docs/tasks.md), checkpoint тривалості active/dim_work у внутрішню flash, 64-секундну RAM-історію та UART history export. [Сценарії](tools/scenarios/README.md) і [baseline ЛР4](docs/baseline-lab4.md) підготовлено.
+
+ЛР3 ще проходить перевірку. Повторний pilot виявив дрейф TIM3 і відмову all-FF erase; [сирі записи](docs/metrics/lab3/regression-20261029/) збережено. Новий кандидат використовує SysTick з кроком 1 мс, має ARM та host перевірки і потребує нового Wokwi pilot. Короткі інтервали треба вимірювати за GPIO/VCD. Часового S2 і фінальних S1/S3 результатів поки немає. [Межі архітектури](docs/limitations.md) розділяють перевірені властивості коду та гіпотези.
