@@ -1,0 +1,9 @@
+{
+  "name": "Delayed I2C test interface",
+  "author": "DeskLight test",
+  "pins": [
+    "SCL",
+    "SDA",
+    "READY"
+  ]
+}
