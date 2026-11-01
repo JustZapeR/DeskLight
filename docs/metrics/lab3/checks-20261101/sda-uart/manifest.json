@@ -1,0 +1,21 @@
+{
+  "complete": true,
+  "start_utc": "2026-11-01T12:26:34Z",
+  "files": {
+    "firmware.elf": "d4c6ed31844d8988d0530fddeb7923e3aed11502e20d534d9e1c462bf6516843",
+    "firmware.hex": "3d3e51a13b217c423615394bb13e074b429e823396c4944713ef079c51485e6c",
+    "diagram.json": "e7707664ef6df040fe693c20b3900a31982e7556b26f2a06230e57a4dd7fd3b3",
+    "wokwi.toml": "5775aeda1c7a0b97241c0be2813b945ea9b5132af172e818a0e6105ba8e25a7d",
+    "fault.chip.c": "7f9ecf8f384cd05676319d0859af7e5dc5e35c15f6e684dfce96acb46d77be5c",
+    "fault.chip.json": "4deec88eef163294f62e645199d37bbea027deb0039f5d365208289c6b0c240c",
+    "fault.chip.wasm": "ad1716c55da6511c2efab733ed3f87515546f8db1e33b94d72d2d39543bf3d1d",
+    "record.py": "4a693fa3ef90731df58206a576544dab94550c2422c922064d124a08d5bf97c4"
+  },
+  "reason": "all levels requested",
+  "first_mcu_ms": 8508,
+  "last_mcu_ms": 128714,
+  "commands_sent": 828,
+  "wall_s": 122.093135667,
+  "finished_utc": "2026-11-01T12:28:36Z",
+  "uart_sha256": "005bc116548134ccd9cd0dde1fb9c0cfb3606266424fc08a98d1869585166dcf"
+}

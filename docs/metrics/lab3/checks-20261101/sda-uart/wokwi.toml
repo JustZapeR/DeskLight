@@ -1,0 +1,8 @@
+[wokwi]
+version=1
+firmware='firmware.hex'
+elf='firmware.elf'
+rfc2217ServerPort=42741
+[[chip]]
+name='fault'
+binary='fault.chip.wasm'

@@ -1,0 +1,5 @@
+STATUS t=13207 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=14207 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=15207 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=16207 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=17207 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0

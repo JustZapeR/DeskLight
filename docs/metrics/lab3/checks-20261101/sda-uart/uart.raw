@@ -1,0 +1,2242 @@
+STATUS t=8508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=9508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=10508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=11508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=12508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=13508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=14508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=15010 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=invalid imu_valid=0 norm_mg=1000 need_light=0 tilt=0 fault=1
+STATUS t=16010 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=invalid imu_valid=0 norm_mg=1000 need_light=0 tilt=0 fault=1
+STATUS t=17010 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=invalid imu_valid=0 norm_mg=1000 need_light=0 tilt=0 fault=1
+STATUS t=18010 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=invalid imu_valid=0 norm_mg=1000 need_light=0 tilt=0 fault=1
+STATUS t=19010 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=invalid imu_valid=0 norm_mg=1000 need_light=0 tilt=0 fault=1
+STATUS t=20010 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=invalid imu_valid=0 norm_mg=1000 need_light=0 tilt=0 fault=1
+STATUS t=20708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=21708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=22708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=23708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=24708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=25708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=26708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+METRICS reset
+REPLY t=26740 mode auto ok
+STATUS t=26740 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=26740000 begin_us=26740000 enqueue_done_us=26744000
+STATUS t=27708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=27742 mode auto ok
+STATUS t=27742 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=27739000 begin_us=27742000 enqueue_done_us=27746000
+STATUS t=28708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=28742 mode auto ok
+STATUS t=28742 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=28739000 begin_us=28742000 enqueue_done_us=28746000
+STATUS t=29708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=29747 mode auto ok
+STATUS t=29747 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=29747000 begin_us=29747000 enqueue_done_us=29752000
+STATUS t=30708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=30748 mode auto ok
+STATUS t=30748 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=30748000 begin_us=30748000 enqueue_done_us=30752000
+STATUS t=31708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=31756 mode auto ok
+STATUS t=31756 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=31756000 begin_us=31756000 enqueue_done_us=31761000
+STATUS t=32708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=32757 mode auto ok
+STATUS t=32757 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=32756000 begin_us=32757000 enqueue_done_us=32761000
+STATUS t=33708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=33756 mode auto ok
+STATUS t=33756 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=33756000 begin_us=33756000 enqueue_done_us=33761000
+STATUS t=34708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=34765 mode auto ok
+STATUS t=34765 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=34765000 begin_us=34765000 enqueue_done_us=34769000
+STATUS t=35708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=35772 mode auto ok
+STATUS t=35772 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=35772000 begin_us=35772000 enqueue_done_us=35777000
+STATUS t=36708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=37708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=38708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=39708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+BUILD base=2b6659f7746d tree=c26a59c460911c2e691ed9ab4335fe250ac6bde2b2efe9431ac8a830be848395
+STAT name=pir n=650 min_us=0 avg_us=0 max_us=0 jitter_min=-3000 jitter_max=3000 skipped=0 deadline=0
+STAT name=adc n=130 min_us=0 avg_us=23 max_us=1000 jitter_min=-2000 jitter_max=2000 skipped=0 deadline=0
+STAT name=imu n=130 min_us=2000 avg_us=2553 max_us=3000 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=control n=131282 min_us=0 avg_us=49 max_us=3000 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=command n=10 min_us=4000 avg_us=4400 max_us=5000 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=export n=0 min_us=0 avg_us=0 max_us=0 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=flash n=0 min_us=0 avg_us=0 max_us=0 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=loop n=131282 min_us=0 avg_us=87 max_us=7000 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=pir_latency n=0 min_us=0 avg_us=0 max_us=0 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=init n=0 min_us=0 avg_us=0 max_us=0 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+LOAD t_us=39776000 window_us=13037000 task_permille=unavailable awake_pct=100 stack_used=1400 stack_reserve=4096 heap_sbrk=0 rx_drop=0 ore=0 tx_drop=0 rx_peak=10 tx_peak=1109 coalesced=0
+COMMAND kind=11 received_us=39756000 begin_us=39756000 enqueue_done_us=39780000
+STATUS t=40708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=41708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=42708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=43708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+METRICS reset
+REPLY t=43773 mode auto ok
+STATUS t=43773 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=43772000 begin_us=43773000 enqueue_done_us=43777000
+REPLY t=44290 mode auto ok
+STATUS t=44290 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=44290000 begin_us=44290000 enqueue_done_us=44294000
+STATUS t=44708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=44798 mode auto ok
+STATUS t=44798 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=44798000 begin_us=44798000 enqueue_done_us=44803000
+REPLY t=45298 mode auto ok
+STATUS t=45298 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=45298000 begin_us=45298000 enqueue_done_us=45303000
+STATUS t=45708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=45806 mode auto ok
+STATUS t=45806 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=45805000 begin_us=45806000 enqueue_done_us=45810000
+REPLY t=46315 mode auto ok
+STATUS t=46315 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=46315000 begin_us=46315000 enqueue_done_us=46319000
+STATUS t=46708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=46822 mode auto ok
+STATUS t=46822 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=46822000 begin_us=46822000 enqueue_done_us=46827000
+REPLY t=47332 mode auto ok
+STATUS t=47332 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=47332000 begin_us=47332000 enqueue_done_us=47336000
+STATUS t=47708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=47832 mode auto ok
+STATUS t=47832 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=47831000 begin_us=47832000 enqueue_done_us=47836000
+REPLY t=48340 mode auto ok
+STATUS t=48340 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=48339000 begin_us=48340000 enqueue_done_us=48344000
+STATUS t=48708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=48848 mode auto ok
+STATUS t=48848 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=48848000 begin_us=48848000 enqueue_done_us=48853000
+REPLY t=49348 mode auto ok
+STATUS t=49348 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=49348000 begin_us=49348000 enqueue_done_us=49353000
+STATUS t=49708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=49856 mode auto ok
+STATUS t=49856 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=49856000 begin_us=49856000 enqueue_done_us=49861000
+REPLY t=50373 mode auto ok
+STATUS t=50373 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=50373000 begin_us=50373000 enqueue_done_us=50378000
+STATUS t=50708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=50873 mode auto ok
+STATUS t=50873 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=50873000 begin_us=50873000 enqueue_done_us=50878000
+REPLY t=51382 mode auto ok
+STATUS t=51382 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=51382000 begin_us=51382000 enqueue_done_us=51386000
+STATUS t=51708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=51882 mode auto ok
+STATUS t=51882 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=51882000 begin_us=51882000 enqueue_done_us=51886000
+REPLY t=52382 mode auto ok
+STATUS t=52382 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=52382000 begin_us=52382000 enqueue_done_us=52386000
+STATUS t=52708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=52890 mode auto ok
+STATUS t=52890 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=52890000 begin_us=52890000 enqueue_done_us=52894000
+REPLY t=53390 mode auto ok
+STATUS t=53390 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=53390000 begin_us=53390000 enqueue_done_us=53394000
+STATUS t=53708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=54708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=55708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=56708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+BUILD base=2b6659f7746d tree=c26a59c460911c2e691ed9ab4335fe250ac6bde2b2efe9431ac8a830be848395
+STAT name=pir n=648 min_us=0 avg_us=0 max_us=0 jitter_min=-3000 jitter_max=3000 skipped=0 deadline=0
+STAT name=adc n=129 min_us=0 avg_us=54 max_us=1000 jitter_min=-2000 jitter_max=2000 skipped=0 deadline=0
+STAT name=imu n=129 min_us=2000 avg_us=2480 max_us=3000 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=control n=130124 min_us=0 avg_us=49 max_us=3000 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=command n=20 min_us=4000 avg_us=4400 max_us=5000 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=export n=0 min_us=0 avg_us=0 max_us=0 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=flash n=0 min_us=0 avg_us=0 max_us=0 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=loop n=130124 min_us=0 avg_us=88 max_us=7000 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=pir_latency n=0 min_us=0 avg_us=0 max_us=0 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=init n=0 min_us=0 avg_us=0 max_us=0 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+LOAD t_us=56752000 window_us=12987000 task_permille=unavailable awake_pct=100 stack_used=1400 stack_reserve=4096 heap_sbrk=0 rx_drop=0 ore=0 tx_drop=0 rx_peak=2 tx_peak=1109 coalesced=0
+COMMAND kind=11 received_us=56731000 begin_us=56732000 enqueue_done_us=56756000
+STATUS t=57708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=58708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=59708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+SAVE t_us=60001000 result=ERROR seq=0 elapsed_us=1000 hal_error=0
+STATUS t=60708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+METRICS reset
+REPLY t=60749 mode auto ok
+STATUS t=60749 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=60748000 begin_us=60749000 enqueue_done_us=60753000
+REPLY t=60957 mode auto ok
+STATUS t=60957 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=60957000 begin_us=60957000 enqueue_done_us=60961000
+REPLY t=61166 mode auto ok
+STATUS t=61166 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=61165000 begin_us=61165000 enqueue_done_us=61170000
+REPLY t=61373 mode auto ok
+STATUS t=61373 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=61373000 begin_us=61373000 enqueue_done_us=61377000
+REPLY t=61582 mode auto ok
+STATUS t=61582 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=61581000 begin_us=61582000 enqueue_done_us=61586000
+STATUS t=61708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=61782 mode auto ok
+STATUS t=61782 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=61782000 begin_us=61782000 enqueue_done_us=61786000
+REPLY t=61982 mode auto ok
+STATUS t=61982 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=61981000 begin_us=61982000 enqueue_done_us=61986000
+REPLY t=62190 mode auto ok
+STATUS t=62190 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=62190000 begin_us=62190000 enqueue_done_us=62195000
+REPLY t=62399 mode auto ok
+STATUS t=62399 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=62398000 begin_us=62399000 enqueue_done_us=62403000
+REPLY t=62607 mode auto ok
+STATUS t=62607 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=62607000 begin_us=62607000 enqueue_done_us=62611000
+STATUS t=62708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=62815 mode auto ok
+STATUS t=62815 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=62815000 begin_us=62815000 enqueue_done_us=62820000
+REPLY t=63024 mode auto ok
+STATUS t=63024 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=63023000 begin_us=63024000 enqueue_done_us=63028000
+REPLY t=63232 mode auto ok
+STATUS t=63232 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=63232000 begin_us=63232000 enqueue_done_us=63236000
+REPLY t=63440 mode auto ok
+STATUS t=63440 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=63440000 begin_us=63440000 enqueue_done_us=63445000
+REPLY t=63657 mode auto ok
+STATUS t=63657 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=63656000 begin_us=63657000 enqueue_done_us=63661000
+STATUS t=63708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=63857 mode auto ok
+STATUS t=63857 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=63857000 begin_us=63857000 enqueue_done_us=63861000
+REPLY t=64057 mode auto ok
+STATUS t=64057 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=64057000 begin_us=64057000 enqueue_done_us=64061000
+REPLY t=64257 mode auto ok
+STATUS t=64257 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=64257000 begin_us=64257000 enqueue_done_us=64261000
+REPLY t=64465 mode auto ok
+STATUS t=64465 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=64465000 begin_us=64465000 enqueue_done_us=64469000
+REPLY t=64665 mode auto ok
+STATUS t=64665 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=64665000 begin_us=64665000 enqueue_done_us=64670000
+STATUS t=64708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=64881 mode auto ok
+STATUS t=64881 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=64881000 begin_us=64881000 enqueue_done_us=64886000
+REPLY t=65090 mode auto ok
+STATUS t=65090 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=65090000 begin_us=65090000 enqueue_done_us=65095000
+REPLY t=65282 mode auto ok
+STATUS t=65282 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=65281000 begin_us=65282000 enqueue_done_us=65286000
+REPLY t=65499 mode auto ok
+STATUS t=65499 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=65498000 begin_us=65499000 enqueue_done_us=65503000
+REPLY t=65706 mode auto ok
+STATUS t=65706 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=65706000 begin_us=65706000 enqueue_done_us=65711000
+STATUS t=65712 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=65915 mode auto ok
+STATUS t=65915 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=65915000 begin_us=65915000 enqueue_done_us=65920000
+REPLY t=66132 mode auto ok
+STATUS t=66132 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=66131000 begin_us=66132000 enqueue_done_us=66136000
+REPLY t=66340 mode auto ok
+STATUS t=66340 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=66340000 begin_us=66340000 enqueue_done_us=66345000
+REPLY t=66540 mode auto ok
+STATUS t=66540 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=66540000 begin_us=66540000 enqueue_done_us=66545000
+STATUS t=66712 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=66757 mode auto ok
+STATUS t=66757 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=66757000 begin_us=66757000 enqueue_done_us=66762000
+REPLY t=66965 mode auto ok
+STATUS t=66965 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=66965000 begin_us=66965000 enqueue_done_us=66969000
+REPLY t=67165 mode auto ok
+STATUS t=67165 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=67165000 begin_us=67165000 enqueue_done_us=67170000
+REPLY t=67374 mode auto ok
+STATUS t=67374 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=67374000 begin_us=67374000 enqueue_done_us=67378000
+REPLY t=67582 mode auto ok
+STATUS t=67582 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=67582000 begin_us=67582000 enqueue_done_us=67587000
+STATUS t=67712 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=67790 mode auto ok
+STATUS t=67790 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=67790000 begin_us=67790000 enqueue_done_us=67795000
+REPLY t=67999 mode auto ok
+STATUS t=67999 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=67999000 begin_us=67999000 enqueue_done_us=68003000
+REPLY t=68199 mode auto ok
+STATUS t=68199 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=68199000 begin_us=68199000 enqueue_done_us=68203000
+REPLY t=68415 mode auto ok
+STATUS t=68415 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=68415000 begin_us=68415000 enqueue_done_us=68420000
+REPLY t=68615 mode auto ok
+STATUS t=68615 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=68615000 begin_us=68615000 enqueue_done_us=68620000
+STATUS t=68712 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=68824 mode auto ok
+STATUS t=68824 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=68824000 begin_us=68824000 enqueue_done_us=68828000
+REPLY t=69032 mode auto ok
+STATUS t=69032 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=69032000 begin_us=69032000 enqueue_done_us=69037000
+REPLY t=69241 mode auto ok
+STATUS t=69241 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=69240000 begin_us=69241000 enqueue_done_us=69245000
+REPLY t=69441 mode auto ok
+STATUS t=69441 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=69440000 begin_us=69441000 enqueue_done_us=69445000
+REPLY t=69649 mode auto ok
+STATUS t=69649 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=69649000 begin_us=69649000 enqueue_done_us=69653000
+STATUS t=69712 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=69849 mode auto ok
+STATUS t=69849 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=69849000 begin_us=69849000 enqueue_done_us=69853000
+REPLY t=70057 mode auto ok
+STATUS t=70057 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=70056000 begin_us=70057000 enqueue_done_us=70061000
+REPLY t=70266 mode auto ok
+STATUS t=70266 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=70265000 begin_us=70266000 enqueue_done_us=70270000
+REPLY t=70474 mode auto ok
+STATUS t=70474 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=70474000 begin_us=70474000 enqueue_done_us=70478000
+REPLY t=70682 mode auto ok
+STATUS t=70682 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=70682000 begin_us=70682000 enqueue_done_us=70687000
+STATUS t=70712 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=71712 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=72712 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=73712 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+BUILD base=2b6659f7746d tree=c26a59c460911c2e691ed9ab4335fe250ac6bde2b2efe9431ac8a830be848395
+STAT name=pir n=650 min_us=0 avg_us=0 max_us=0 jitter_min=-6000 jitter_max=6000 skipped=0 deadline=0
+STAT name=adc n=130 min_us=0 avg_us=76 max_us=1000 jitter_min=-6000 jitter_max=6000 skipped=0 deadline=0
+STAT name=imu n=130 min_us=2000 avg_us=2484 max_us=3000 jitter_min=-6000 jitter_max=6000 skipped=0 deadline=0
+STAT name=control n=128717 min_us=0 avg_us=49 max_us=4000 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=command n=49 min_us=4000 avg_us=4387 max_us=5000 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=export n=0 min_us=0 avg_us=0 max_us=0 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=flash n=0 min_us=0 avg_us=0 max_us=0 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=loop n=128717 min_us=0 avg_us=91 max_us=10000 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=pir_latency n=0 min_us=0 avg_us=0 max_us=0 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=init n=0 min_us=0 avg_us=0 max_us=0 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+LOAD t_us=73776000 window_us=13035000 task_permille=unavailable awake_pct=100 stack_used=1400 stack_reserve=4096 heap_sbrk=0 rx_drop=0 ore=0 tx_drop=0 rx_peak=2 tx_peak=1117 coalesced=0
+COMMAND kind=11 received_us=73756000 begin_us=73756000 enqueue_done_us=73780000
+STATUS t=74712 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=75712 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=76712 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=77712 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+METRICS reset
+REPLY t=77774 mode auto ok
+STATUS t=77774 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=77774000 begin_us=77774000 enqueue_done_us=77778000
+REPLY t=77874 mode auto ok
+STATUS t=77874 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=77874000 begin_us=77874000 enqueue_done_us=77879000
+REPLY t=77982 mode auto ok
+STATUS t=77982 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=77982000 begin_us=77982000 enqueue_done_us=77987000
+REPLY t=78082 mode auto ok
+STATUS t=78082 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=78082000 begin_us=78082000 enqueue_done_us=78087000
+REPLY t=78190 mode auto ok
+STATUS t=78190 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=78190000 begin_us=78190000 enqueue_done_us=78194000
+REPLY t=78290 mode auto ok
+STATUS t=78290 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=78290000 begin_us=78290000 enqueue_done_us=78294000
+REPLY t=78399 mode auto ok
+STATUS t=78399 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=78399000 begin_us=78399000 enqueue_done_us=78403000
+REPLY t=78499 mode auto ok
+STATUS t=78499 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=78499000 begin_us=78499000 enqueue_done_us=78503000
+REPLY t=78607 mode auto ok
+STATUS t=78607 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=78607000 begin_us=78607000 enqueue_done_us=78611000
+REPLY t=78707 mode auto ok
+STATUS t=78707 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=78707000 begin_us=78707000 enqueue_done_us=78712000
+STATUS t=78713 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=78816 mode auto ok
+STATUS t=78816 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=78815000 begin_us=78816000 enqueue_done_us=78820000
+REPLY t=78916 mode auto ok
+STATUS t=78916 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=78915000 begin_us=78916000 enqueue_done_us=78920000
+REPLY t=79015 mode auto ok
+STATUS t=79015 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=79015000 begin_us=79015000 enqueue_done_us=79020000
+REPLY t=79123 mode auto ok
+STATUS t=79123 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=79123000 begin_us=79123000 enqueue_done_us=79128000
+REPLY t=79224 mode auto ok
+STATUS t=79224 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=79224000 begin_us=79224000 enqueue_done_us=79228000
+REPLY t=79332 mode auto ok
+STATUS t=79332 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=79331000 begin_us=79332000 enqueue_done_us=79336000
+REPLY t=79432 mode auto ok
+STATUS t=79432 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=79432000 begin_us=79432000 enqueue_done_us=79437000
+REPLY t=79532 mode auto ok
+STATUS t=79532 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=79532000 begin_us=79532000 enqueue_done_us=79537000
+REPLY t=79632 mode auto ok
+STATUS t=79632 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=79632000 begin_us=79632000 enqueue_done_us=79637000
+STATUS t=79713 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=79732 mode auto ok
+STATUS t=79732 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=79732000 begin_us=79732000 enqueue_done_us=79736000
+REPLY t=79841 mode auto ok
+STATUS t=79841 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=79841000 begin_us=79841000 enqueue_done_us=79845000
+REPLY t=79941 mode auto ok
+STATUS t=79941 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=79941000 begin_us=79941000 enqueue_done_us=79945000
+REPLY t=80048 mode auto ok
+STATUS t=80048 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=80048000 begin_us=80048000 enqueue_done_us=80053000
+REPLY t=80157 mode auto ok
+STATUS t=80157 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=80157000 begin_us=80157000 enqueue_done_us=80161000
+REPLY t=80257 mode auto ok
+STATUS t=80257 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=80257000 begin_us=80257000 enqueue_done_us=80262000
+REPLY t=80358 mode auto ok
+STATUS t=80358 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=80357000 begin_us=80358000 enqueue_done_us=80362000
+REPLY t=80466 mode auto ok
+STATUS t=80466 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=80465000 begin_us=80466000 enqueue_done_us=80470000
+REPLY t=80566 mode auto ok
+STATUS t=80566 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=80566000 begin_us=80566000 enqueue_done_us=80570000
+REPLY t=80674 mode auto ok
+STATUS t=80674 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=80674000 begin_us=80674000 enqueue_done_us=80679000
+STATUS t=80713 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=80774 mode auto ok
+STATUS t=80774 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=80774000 begin_us=80774000 enqueue_done_us=80778000
+REPLY t=80874 mode auto ok
+STATUS t=80874 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=80874000 begin_us=80874000 enqueue_done_us=80878000
+REPLY t=80983 mode auto ok
+STATUS t=80983 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=80982000 begin_us=80983000 enqueue_done_us=80987000
+REPLY t=81082 mode auto ok
+STATUS t=81082 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=81082000 begin_us=81082000 enqueue_done_us=81087000
+REPLY t=81191 mode auto ok
+STATUS t=81191 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=81191000 begin_us=81191000 enqueue_done_us=81195000
+REPLY t=81299 mode auto ok
+STATUS t=81299 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=81299000 begin_us=81299000 enqueue_done_us=81303000
+REPLY t=81399 mode auto ok
+STATUS t=81399 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=81399000 begin_us=81399000 enqueue_done_us=81404000
+REPLY t=81508 mode auto ok
+STATUS t=81508 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=81507000 begin_us=81508000 enqueue_done_us=81512000
+REPLY t=81607 mode auto ok
+STATUS t=81607 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=81607000 begin_us=81607000 enqueue_done_us=81612000
+REPLY t=81706 mode auto ok
+STATUS t=81706 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=81706000 begin_us=81706000 enqueue_done_us=81711000
+STATUS t=81713 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=81815 mode auto ok
+STATUS t=81815 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=81815000 begin_us=81815000 enqueue_done_us=81819000
+REPLY t=81916 mode auto ok
+STATUS t=81916 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=81916000 begin_us=81916000 enqueue_done_us=81920000
+REPLY t=82024 mode auto ok
+STATUS t=82024 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=82024000 begin_us=82024000 enqueue_done_us=82029000
+REPLY t=82133 mode auto ok
+STATUS t=82133 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=82132000 begin_us=82133000 enqueue_done_us=82137000
+REPLY t=82232 mode auto ok
+STATUS t=82232 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=82231000 begin_us=82232000 enqueue_done_us=82236000
+REPLY t=82341 mode auto ok
+STATUS t=82341 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=82340000 begin_us=82341000 enqueue_done_us=82345000
+REPLY t=82441 mode auto ok
+STATUS t=82441 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=82441000 begin_us=82441000 enqueue_done_us=82445000
+REPLY t=82549 mode auto ok
+STATUS t=82549 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=82549000 begin_us=82549000 enqueue_done_us=82553000
+REPLY t=82649 mode auto ok
+STATUS t=82649 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=82649000 begin_us=82649000 enqueue_done_us=82653000
+STATUS t=82713 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=82749 mode auto ok
+STATUS t=82749 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=82749000 begin_us=82749000 enqueue_done_us=82753000
+REPLY t=82849 mode auto ok
+STATUS t=82849 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=82849000 begin_us=82849000 enqueue_done_us=82854000
+REPLY t=82957 mode auto ok
+STATUS t=82957 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=82957000 begin_us=82957000 enqueue_done_us=82962000
+REPLY t=83057 mode auto ok
+STATUS t=83057 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=83057000 begin_us=83057000 enqueue_done_us=83062000
+REPLY t=83165 mode auto ok
+STATUS t=83165 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=83165000 begin_us=83165000 enqueue_done_us=83170000
+REPLY t=83269 mode auto ok
+STATUS t=83269 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=83266000 begin_us=83269000 enqueue_done_us=83273000
+REPLY t=83374 mode auto ok
+STATUS t=83374 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=83374000 begin_us=83374000 enqueue_done_us=83379000
+REPLY t=83474 mode auto ok
+STATUS t=83474 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=83474000 begin_us=83474000 enqueue_done_us=83478000
+REPLY t=83582 mode auto ok
+STATUS t=83582 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=83582000 begin_us=83582000 enqueue_done_us=83587000
+REPLY t=83682 mode auto ok
+STATUS t=83682 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=83681000 begin_us=83682000 enqueue_done_us=83686000
+STATUS t=83713 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=83783 mode auto ok
+STATUS t=83783 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=83782000 begin_us=83783000 enqueue_done_us=83787000
+REPLY t=83890 mode auto ok
+STATUS t=83890 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=83890000 begin_us=83890000 enqueue_done_us=83894000
+REPLY t=83990 mode auto ok
+STATUS t=83990 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=83990000 begin_us=83990000 enqueue_done_us=83995000
+REPLY t=84099 mode auto ok
+STATUS t=84099 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=84099000 begin_us=84099000 enqueue_done_us=84104000
+REPLY t=84199 mode auto ok
+STATUS t=84199 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=84199000 begin_us=84199000 enqueue_done_us=84204000
+REPLY t=84308 mode auto ok
+STATUS t=84308 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=84307000 begin_us=84308000 enqueue_done_us=84312000
+REPLY t=84416 mode auto ok
+STATUS t=84416 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=84416000 begin_us=84416000 enqueue_done_us=84420000
+REPLY t=84516 mode auto ok
+STATUS t=84516 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=84516000 begin_us=84516000 enqueue_done_us=84520000
+REPLY t=84616 mode auto ok
+STATUS t=84616 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=84616000 begin_us=84616000 enqueue_done_us=84620000
+STATUS t=84713 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=84724 mode auto ok
+STATUS t=84724 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=84724000 begin_us=84724000 enqueue_done_us=84729000
+REPLY t=84833 mode auto ok
+STATUS t=84833 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=84832000 begin_us=84833000 enqueue_done_us=84837000
+REPLY t=84941 mode auto ok
+STATUS t=84941 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=84941000 begin_us=84941000 enqueue_done_us=84945000
+REPLY t=85049 mode auto ok
+STATUS t=85049 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=85049000 begin_us=85049000 enqueue_done_us=85054000
+REPLY t=85149 mode auto ok
+STATUS t=85149 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=85149000 begin_us=85149000 enqueue_done_us=85154000
+REPLY t=85249 mode auto ok
+STATUS t=85249 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=85249000 begin_us=85249000 enqueue_done_us=85254000
+REPLY t=85357 mode auto ok
+STATUS t=85357 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=85357000 begin_us=85357000 enqueue_done_us=85361000
+REPLY t=85458 mode auto ok
+STATUS t=85458 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=85457000 begin_us=85458000 enqueue_done_us=85462000
+REPLY t=85558 mode auto ok
+STATUS t=85558 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=85557000 begin_us=85558000 enqueue_done_us=85562000
+REPLY t=85658 mode auto ok
+STATUS t=85658 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=85657000 begin_us=85658000 enqueue_done_us=85662000
+STATUS t=85713 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=85769 mode auto ok
+STATUS t=85769 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=85766000 begin_us=85769000 enqueue_done_us=85773000
+REPLY t=85873 mode auto ok
+STATUS t=85873 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=85873000 begin_us=85873000 enqueue_done_us=85878000
+REPLY t=85974 mode auto ok
+STATUS t=85974 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=85974000 begin_us=85974000 enqueue_done_us=85979000
+REPLY t=86074 mode auto ok
+STATUS t=86074 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=86074000 begin_us=86074000 enqueue_done_us=86079000
+REPLY t=86182 mode auto ok
+STATUS t=86182 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=86181000 begin_us=86182000 enqueue_done_us=86186000
+REPLY t=86283 mode auto ok
+STATUS t=86283 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=86282000 begin_us=86283000 enqueue_done_us=86287000
+REPLY t=86390 mode auto ok
+STATUS t=86390 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=86390000 begin_us=86390000 enqueue_done_us=86394000
+REPLY t=86490 mode auto ok
+STATUS t=86490 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=86490000 begin_us=86490000 enqueue_done_us=86494000
+REPLY t=86591 mode auto ok
+STATUS t=86591 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=86591000 begin_us=86591000 enqueue_done_us=86595000
+REPLY t=86699 mode auto ok
+STATUS t=86699 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=86699000 begin_us=86699000 enqueue_done_us=86704000
+STATUS t=86713 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=86807 mode auto ok
+STATUS t=86807 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=86807000 begin_us=86807000 enqueue_done_us=86812000
+REPLY t=86907 mode auto ok
+STATUS t=86907 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=86907000 begin_us=86907000 enqueue_done_us=86911000
+REPLY t=87016 mode auto ok
+STATUS t=87016 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=87016000 begin_us=87016000 enqueue_done_us=87020000
+REPLY t=87116 mode auto ok
+STATUS t=87116 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=87116000 begin_us=87116000 enqueue_done_us=87120000
+REPLY t=87216 mode auto ok
+STATUS t=87216 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=87216000 begin_us=87216000 enqueue_done_us=87220000
+REPLY t=87324 mode auto ok
+STATUS t=87324 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=87324000 begin_us=87324000 enqueue_done_us=87329000
+REPLY t=87432 mode auto ok
+STATUS t=87432 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=87431000 begin_us=87432000 enqueue_done_us=87436000
+REPLY t=87533 mode auto ok
+STATUS t=87533 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=87532000 begin_us=87533000 enqueue_done_us=87537000
+REPLY t=87633 mode auto ok
+STATUS t=87633 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=87632000 begin_us=87633000 enqueue_done_us=87637000
+STATUS t=87713 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=87740 mode auto ok
+STATUS t=87740 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=87740000 begin_us=87740000 enqueue_done_us=87745000
+STATUS t=88713 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=89713 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=90713 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+BUILD base=2b6659f7746d tree=c26a59c460911c2e691ed9ab4335fe250ac6bde2b2efe9431ac8a830be848395
+STAT name=pir n=649 min_us=0 avg_us=3 max_us=1000 jitter_min=-9000 jitter_max=9000 skipped=0 deadline=0
+STAT name=adc n=129 min_us=0 avg_us=54 max_us=1000 jitter_min=-6000 jitter_max=6000 skipped=0 deadline=0
+STAT name=imu n=129 min_us=2000 avg_us=2426 max_us=3000 jitter_min=-6000 jitter_max=6000 skipped=0 deadline=0
+STAT name=control n=125355 min_us=0 avg_us=49 max_us=4000 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=command n=97 min_us=4000 avg_us=4350 max_us=5000 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=export n=0 min_us=0 avg_us=0 max_us=0 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=flash n=0 min_us=0 avg_us=0 max_us=0 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=loop n=125355 min_us=0 avg_us=93 max_us=10000 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=pir_latency n=0 min_us=0 avg_us=0 max_us=0 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=init n=0 min_us=0 avg_us=0 max_us=0 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+LOAD t_us=90777000 window_us=13011000 task_permille=unavailable awake_pct=100 stack_used=1400 stack_reserve=4096 heap_sbrk=0 rx_drop=0 ore=0 tx_drop=0 rx_peak=3 tx_peak=1120 coalesced=0
+COMMAND kind=11 received_us=90757000 begin_us=90757000 enqueue_done_us=90782000
+STATUS t=91713 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=92713 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=93713 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=94713 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+METRICS reset
+REPLY t=94774 mode auto ok
+STATUS t=94774 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=94774000 begin_us=94774000 enqueue_done_us=94779000
+REPLY t=94832 mode auto ok
+STATUS t=94832 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=94832000 begin_us=94832000 enqueue_done_us=94836000
+REPLY t=94891 mode auto ok
+STATUS t=94891 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=94891000 begin_us=94891000 enqueue_done_us=94895000
+REPLY t=94949 mode auto ok
+STATUS t=94949 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=94949000 begin_us=94949000 enqueue_done_us=94954000
+REPLY t=94999 mode auto ok
+STATUS t=94999 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=94999000 begin_us=94999000 enqueue_done_us=95004000
+REPLY t=95066 mode auto ok
+STATUS t=95066 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=95066000 begin_us=95066000 enqueue_done_us=95071000
+REPLY t=95115 mode auto ok
+STATUS t=95115 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=95115000 begin_us=95115000 enqueue_done_us=95119000
+REPLY t=95166 mode auto ok
+STATUS t=95166 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=95166000 begin_us=95166000 enqueue_done_us=95171000
+REPLY t=95225 mode auto ok
+STATUS t=95225 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=95224000 begin_us=95225000 enqueue_done_us=95229000
+REPLY t=95283 mode auto ok
+STATUS t=95283 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=95282000 begin_us=95283000 enqueue_done_us=95287000
+REPLY t=95333 mode auto ok
+STATUS t=95333 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=95332000 begin_us=95333000 enqueue_done_us=95337000
+REPLY t=95391 mode auto ok
+STATUS t=95391 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=95391000 begin_us=95391000 enqueue_done_us=95395000
+REPLY t=95449 mode auto ok
+STATUS t=95449 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=95449000 begin_us=95449000 enqueue_done_us=95454000
+REPLY t=95499 mode auto ok
+STATUS t=95499 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=95499000 begin_us=95499000 enqueue_done_us=95504000
+REPLY t=95558 mode auto ok
+STATUS t=95558 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=95558000 begin_us=95558000 enqueue_done_us=95562000
+REPLY t=95616 mode auto ok
+STATUS t=95616 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=95616000 begin_us=95616000 enqueue_done_us=95620000
+REPLY t=95674 mode auto ok
+STATUS t=95674 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=95674000 begin_us=95674000 enqueue_done_us=95679000
+STATUS t=95713 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=95724 mode auto ok
+STATUS t=95724 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=95723000 begin_us=95724000 enqueue_done_us=95728000
+REPLY t=95783 mode auto ok
+STATUS t=95783 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=95783000 begin_us=95783000 enqueue_done_us=95787000
+REPLY t=95833 mode auto ok
+STATUS t=95833 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=95833000 begin_us=95833000 enqueue_done_us=95837000
+REPLY t=95891 mode auto ok
+STATUS t=95891 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=95891000 begin_us=95891000 enqueue_done_us=95896000
+REPLY t=95949 mode auto ok
+STATUS t=95949 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=95949000 begin_us=95949000 enqueue_done_us=95954000
+REPLY t=96008 mode auto ok
+STATUS t=96008 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=96008000 begin_us=96008000 enqueue_done_us=96012000
+REPLY t=96058 mode auto ok
+STATUS t=96058 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=96058000 begin_us=96058000 enqueue_done_us=96062000
+REPLY t=96115 mode auto ok
+STATUS t=96115 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=96115000 begin_us=96115000 enqueue_done_us=96120000
+REPLY t=96165 mode auto ok
+STATUS t=96165 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=96165000 begin_us=96165000 enqueue_done_us=96170000
+REPLY t=96224 mode auto ok
+STATUS t=96224 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=96224000 begin_us=96224000 enqueue_done_us=96229000
+REPLY t=96282 mode auto ok
+STATUS t=96282 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=96282000 begin_us=96282000 enqueue_done_us=96286000
+REPLY t=96332 mode auto ok
+STATUS t=96332 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=96332000 begin_us=96332000 enqueue_done_us=96337000
+REPLY t=96391 mode auto ok
+STATUS t=96391 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=96391000 begin_us=96391000 enqueue_done_us=96395000
+REPLY t=96441 mode auto ok
+STATUS t=96441 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=96441000 begin_us=96441000 enqueue_done_us=96446000
+REPLY t=96499 mode auto ok
+STATUS t=96499 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=96499000 begin_us=96499000 enqueue_done_us=96504000
+REPLY t=96558 mode auto ok
+STATUS t=96558 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=96558000 begin_us=96558000 enqueue_done_us=96562000
+REPLY t=96608 mode auto ok
+STATUS t=96608 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=96607000 begin_us=96608000 enqueue_done_us=96612000
+REPLY t=96666 mode auto ok
+STATUS t=96666 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=96666000 begin_us=96666000 enqueue_done_us=96670000
+STATUS t=96713 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=96724 mode auto ok
+STATUS t=96724 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=96724000 begin_us=96724000 enqueue_done_us=96729000
+REPLY t=96774 mode auto ok
+STATUS t=96774 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=96774000 begin_us=96774000 enqueue_done_us=96779000
+REPLY t=96832 mode auto ok
+STATUS t=96832 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=96832000 begin_us=96832000 enqueue_done_us=96836000
+REPLY t=96891 mode auto ok
+STATUS t=96891 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=96891000 begin_us=96891000 enqueue_done_us=96896000
+REPLY t=96940 mode auto ok
+STATUS t=96940 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=96940000 begin_us=96940000 enqueue_done_us=96945000
+REPLY t=96999 mode auto ok
+STATUS t=96999 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=96999000 begin_us=96999000 enqueue_done_us=97004000
+REPLY t=97050 mode auto ok
+STATUS t=97050 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=97049000 begin_us=97050000 enqueue_done_us=97054000
+REPLY t=97108 mode auto ok
+STATUS t=97108 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=97108000 begin_us=97108000 enqueue_done_us=97112000
+REPLY t=97158 mode auto ok
+STATUS t=97158 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=97158000 begin_us=97158000 enqueue_done_us=97162000
+REPLY t=97216 mode auto ok
+STATUS t=97216 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=97216000 begin_us=97216000 enqueue_done_us=97221000
+REPLY t=97275 mode auto ok
+STATUS t=97275 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=97274000 begin_us=97275000 enqueue_done_us=97279000
+REPLY t=97324 mode auto ok
+STATUS t=97324 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=97324000 begin_us=97324000 enqueue_done_us=97329000
+REPLY t=97383 mode auto ok
+STATUS t=97383 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=97383000 begin_us=97383000 enqueue_done_us=97387000
+REPLY t=97441 mode auto ok
+STATUS t=97441 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=97441000 begin_us=97441000 enqueue_done_us=97446000
+REPLY t=97500 mode auto ok
+STATUS t=97500 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=97499000 begin_us=97500000 enqueue_done_us=97504000
+REPLY t=97558 mode auto ok
+STATUS t=97558 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=97558000 begin_us=97558000 enqueue_done_us=97562000
+REPLY t=97608 mode auto ok
+STATUS t=97608 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=97608000 begin_us=97608000 enqueue_done_us=97612000
+REPLY t=97666 mode auto ok
+STATUS t=97666 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=97666000 begin_us=97666000 enqueue_done_us=97671000
+STATUS t=97713 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=97724 mode auto ok
+STATUS t=97724 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=97724000 begin_us=97724000 enqueue_done_us=97729000
+REPLY t=97774 mode auto ok
+STATUS t=97774 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=97774000 begin_us=97774000 enqueue_done_us=97779000
+REPLY t=97832 mode auto ok
+STATUS t=97832 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=97832000 begin_us=97832000 enqueue_done_us=97837000
+REPLY t=97891 mode auto ok
+STATUS t=97891 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=97891000 begin_us=97891000 enqueue_done_us=97895000
+REPLY t=97949 mode auto ok
+STATUS t=97949 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=97948000 begin_us=97949000 enqueue_done_us=97953000
+REPLY t=98008 mode auto ok
+STATUS t=98008 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=98007000 begin_us=98008000 enqueue_done_us=98012000
+REPLY t=98058 mode auto ok
+STATUS t=98058 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=98058000 begin_us=98058000 enqueue_done_us=98062000
+REPLY t=98116 mode auto ok
+STATUS t=98116 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=98116000 begin_us=98116000 enqueue_done_us=98121000
+REPLY t=98175 mode auto ok
+STATUS t=98175 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=98174000 begin_us=98175000 enqueue_done_us=98179000
+REPLY t=98233 mode auto ok
+STATUS t=98233 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=98233000 begin_us=98233000 enqueue_done_us=98237000
+REPLY t=98290 mode auto ok
+STATUS t=98290 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=98290000 begin_us=98290000 enqueue_done_us=98295000
+REPLY t=98341 mode auto ok
+STATUS t=98341 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=98341000 begin_us=98341000 enqueue_done_us=98346000
+REPLY t=98400 mode auto ok
+STATUS t=98400 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=98399000 begin_us=98400000 enqueue_done_us=98404000
+REPLY t=98458 mode auto ok
+STATUS t=98458 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=98458000 begin_us=98458000 enqueue_done_us=98462000
+REPLY t=98507 mode auto ok
+STATUS t=98507 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=98507000 begin_us=98507000 enqueue_done_us=98512000
+REPLY t=98566 mode auto ok
+STATUS t=98566 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=98566000 begin_us=98566000 enqueue_done_us=98571000
+REPLY t=98624 mode auto ok
+STATUS t=98624 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=98624000 begin_us=98624000 enqueue_done_us=98629000
+REPLY t=98674 mode auto ok
+STATUS t=98674 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=98674000 begin_us=98674000 enqueue_done_us=98679000
+STATUS t=98713 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=98733 mode auto ok
+STATUS t=98733 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=98733000 begin_us=98733000 enqueue_done_us=98737000
+REPLY t=98783 mode auto ok
+STATUS t=98783 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=98783000 begin_us=98783000 enqueue_done_us=98787000
+REPLY t=98841 mode auto ok
+STATUS t=98841 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=98841000 begin_us=98841000 enqueue_done_us=98846000
+REPLY t=98891 mode auto ok
+STATUS t=98891 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=98891000 begin_us=98891000 enqueue_done_us=98896000
+REPLY t=98949 mode auto ok
+STATUS t=98949 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=98949000 begin_us=98949000 enqueue_done_us=98954000
+REPLY t=99007 mode auto ok
+STATUS t=99007 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=99007000 begin_us=99007000 enqueue_done_us=99012000
+REPLY t=99058 mode auto ok
+STATUS t=99058 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=99058000 begin_us=99058000 enqueue_done_us=99062000
+REPLY t=99116 mode auto ok
+STATUS t=99116 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=99116000 begin_us=99116000 enqueue_done_us=99121000
+REPLY t=99166 mode auto ok
+STATUS t=99166 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=99166000 begin_us=99166000 enqueue_done_us=99171000
+REPLY t=99224 mode auto ok
+STATUS t=99224 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=99224000 begin_us=99224000 enqueue_done_us=99228000
+REPLY t=99283 mode auto ok
+STATUS t=99283 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=99283000 begin_us=99283000 enqueue_done_us=99287000
+REPLY t=99333 mode auto ok
+STATUS t=99333 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=99333000 begin_us=99333000 enqueue_done_us=99337000
+REPLY t=99391 mode auto ok
+STATUS t=99391 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=99391000 begin_us=99391000 enqueue_done_us=99396000
+REPLY t=99450 mode auto ok
+STATUS t=99450 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=99449000 begin_us=99450000 enqueue_done_us=99454000
+REPLY t=99499 mode auto ok
+STATUS t=99499 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=99498000 begin_us=99499000 enqueue_done_us=99503000
+REPLY t=99550 mode auto ok
+STATUS t=99550 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=99549000 begin_us=99550000 enqueue_done_us=99554000
+REPLY t=99608 mode auto ok
+STATUS t=99608 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=99608000 begin_us=99608000 enqueue_done_us=99612000
+REPLY t=99666 mode auto ok
+STATUS t=99666 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=99666000 begin_us=99666000 enqueue_done_us=99671000
+STATUS t=99713 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=99724 mode auto ok
+STATUS t=99724 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=99724000 begin_us=99724000 enqueue_done_us=99729000
+REPLY t=99783 mode auto ok
+STATUS t=99783 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=99783000 begin_us=99783000 enqueue_done_us=99787000
+REPLY t=99833 mode auto ok
+STATUS t=99833 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=99833000 begin_us=99833000 enqueue_done_us=99837000
+REPLY t=99891 mode auto ok
+STATUS t=99891 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=99891000 begin_us=99891000 enqueue_done_us=99896000
+REPLY t=99950 mode auto ok
+STATUS t=99950 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=99949000 begin_us=99950000 enqueue_done_us=99954000
+REPLY t=100000 mode auto ok
+STATUS t=100000 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=99999000 begin_us=100000000 enqueue_done_us=100004000
+REPLY t=100058 mode auto ok
+STATUS t=100058 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=100058000 begin_us=100058000 enqueue_done_us=100062000
+REPLY t=100116 mode auto ok
+STATUS t=100116 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=100116000 begin_us=100116000 enqueue_done_us=100121000
+REPLY t=100166 mode auto ok
+STATUS t=100166 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=100166000 begin_us=100166000 enqueue_done_us=100171000
+REPLY t=100225 mode auto ok
+STATUS t=100225 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=100224000 begin_us=100225000 enqueue_done_us=100229000
+REPLY t=100283 mode auto ok
+STATUS t=100283 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=100283000 begin_us=100283000 enqueue_done_us=100287000
+REPLY t=100333 mode auto ok
+STATUS t=100333 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=100333000 begin_us=100333000 enqueue_done_us=100337000
+REPLY t=100391 mode auto ok
+STATUS t=100391 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=100391000 begin_us=100391000 enqueue_done_us=100396000
+REPLY t=100450 mode auto ok
+STATUS t=100450 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=100449000 begin_us=100450000 enqueue_done_us=100454000
+REPLY t=100499 mode auto ok
+STATUS t=100499 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=100499000 begin_us=100499000 enqueue_done_us=100504000
+REPLY t=100558 mode auto ok
+STATUS t=100558 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=100558000 begin_us=100558000 enqueue_done_us=100562000
+REPLY t=100616 mode auto ok
+STATUS t=100616 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=100616000 begin_us=100616000 enqueue_done_us=100621000
+REPLY t=100675 mode auto ok
+STATUS t=100675 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=100674000 begin_us=100675000 enqueue_done_us=100679000
+STATUS t=100713 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=100732 mode auto ok
+STATUS t=100732 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=100732000 begin_us=100732000 enqueue_done_us=100737000
+REPLY t=100783 mode auto ok
+STATUS t=100783 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=100783000 begin_us=100783000 enqueue_done_us=100787000
+REPLY t=100849 mode auto ok
+STATUS t=100849 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=100848000 begin_us=100849000 enqueue_done_us=100853000
+REPLY t=100899 mode auto ok
+STATUS t=100899 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=100899000 begin_us=100899000 enqueue_done_us=100904000
+REPLY t=100958 mode auto ok
+STATUS t=100958 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=100958000 begin_us=100958000 enqueue_done_us=100962000
+REPLY t=101008 mode auto ok
+STATUS t=101008 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=101008000 begin_us=101008000 enqueue_done_us=101012000
+REPLY t=101065 mode auto ok
+STATUS t=101065 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=101065000 begin_us=101065000 enqueue_done_us=101070000
+REPLY t=101125 mode auto ok
+STATUS t=101125 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=101124000 begin_us=101125000 enqueue_done_us=101129000
+REPLY t=101183 mode auto ok
+STATUS t=101183 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=101183000 begin_us=101183000 enqueue_done_us=101187000
+REPLY t=101241 mode auto ok
+STATUS t=101241 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=101241000 begin_us=101241000 enqueue_done_us=101246000
+REPLY t=101291 mode auto ok
+STATUS t=101291 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=101291000 begin_us=101291000 enqueue_done_us=101296000
+REPLY t=101349 mode auto ok
+STATUS t=101349 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=101349000 begin_us=101349000 enqueue_done_us=101354000
+REPLY t=101408 mode auto ok
+STATUS t=101408 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=101408000 begin_us=101408000 enqueue_done_us=101412000
+REPLY t=101458 mode auto ok
+STATUS t=101458 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=101458000 begin_us=101458000 enqueue_done_us=101462000
+REPLY t=101516 mode auto ok
+STATUS t=101516 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=101516000 begin_us=101516000 enqueue_done_us=101521000
+REPLY t=101574 mode auto ok
+STATUS t=101574 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=101574000 begin_us=101574000 enqueue_done_us=101578000
+REPLY t=101633 mode auto ok
+STATUS t=101633 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=101633000 begin_us=101633000 enqueue_done_us=101637000
+REPLY t=101683 mode auto ok
+STATUS t=101683 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=101683000 begin_us=101683000 enqueue_done_us=101687000
+STATUS t=101713 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=101741 mode auto ok
+STATUS t=101741 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=101741000 begin_us=101741000 enqueue_done_us=101746000
+REPLY t=101799 mode auto ok
+STATUS t=101799 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=101799000 begin_us=101799000 enqueue_done_us=101804000
+REPLY t=101850 mode auto ok
+STATUS t=101850 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=101849000 begin_us=101850000 enqueue_done_us=101854000
+REPLY t=101900 mode auto ok
+STATUS t=101900 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=101899000 begin_us=101900000 enqueue_done_us=101904000
+REPLY t=101958 mode auto ok
+STATUS t=101958 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=101958000 begin_us=101958000 enqueue_done_us=101962000
+REPLY t=102015 mode auto ok
+STATUS t=102015 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=102015000 begin_us=102015000 enqueue_done_us=102020000
+REPLY t=102074 mode auto ok
+STATUS t=102074 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=102074000 begin_us=102074000 enqueue_done_us=102078000
+REPLY t=102124 mode auto ok
+STATUS t=102124 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=102124000 begin_us=102124000 enqueue_done_us=102129000
+REPLY t=102183 mode auto ok
+STATUS t=102183 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=102183000 begin_us=102183000 enqueue_done_us=102187000
+REPLY t=102241 mode auto ok
+STATUS t=102241 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=102241000 begin_us=102241000 enqueue_done_us=102246000
+REPLY t=102300 mode auto ok
+STATUS t=102300 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=102299000 begin_us=102300000 enqueue_done_us=102304000
+REPLY t=102349 mode auto ok
+STATUS t=102349 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=102348000 begin_us=102349000 enqueue_done_us=102353000
+REPLY t=102408 mode auto ok
+STATUS t=102408 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=102408000 begin_us=102408000 enqueue_done_us=102412000
+REPLY t=102466 mode auto ok
+STATUS t=102466 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=102466000 begin_us=102466000 enqueue_done_us=102471000
+REPLY t=102524 mode auto ok
+STATUS t=102524 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=102523000 begin_us=102524000 enqueue_done_us=102528000
+REPLY t=102575 mode auto ok
+STATUS t=102575 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=102574000 begin_us=102575000 enqueue_done_us=102579000
+REPLY t=102633 mode auto ok
+STATUS t=102633 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=102633000 begin_us=102633000 enqueue_done_us=102637000
+REPLY t=102682 mode auto ok
+STATUS t=102682 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=102682000 begin_us=102682000 enqueue_done_us=102686000
+STATUS t=102713 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=102741 mode auto ok
+STATUS t=102741 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=102741000 begin_us=102741000 enqueue_done_us=102746000
+REPLY t=102791 mode auto ok
+STATUS t=102791 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=102791000 begin_us=102791000 enqueue_done_us=102796000
+REPLY t=102850 mode auto ok
+STATUS t=102850 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=102849000 begin_us=102850000 enqueue_done_us=102854000
+REPLY t=102908 mode auto ok
+STATUS t=102908 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=102908000 begin_us=102908000 enqueue_done_us=102912000
+REPLY t=102966 mode auto ok
+STATUS t=102966 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=102966000 begin_us=102966000 enqueue_done_us=102971000
+REPLY t=103025 mode auto ok
+STATUS t=103025 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=103024000 begin_us=103025000 enqueue_done_us=103029000
+REPLY t=103074 mode auto ok
+STATUS t=103074 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=103074000 begin_us=103074000 enqueue_done_us=103078000
+REPLY t=103133 mode auto ok
+STATUS t=103133 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=103133000 begin_us=103133000 enqueue_done_us=103137000
+REPLY t=103191 mode auto ok
+STATUS t=103191 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=103191000 begin_us=103191000 enqueue_done_us=103196000
+REPLY t=103241 mode auto ok
+STATUS t=103241 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=103240000 begin_us=103241000 enqueue_done_us=103245000
+REPLY t=103300 mode auto ok
+STATUS t=103300 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=103299000 begin_us=103300000 enqueue_done_us=103304000
+REPLY t=103357 mode auto ok
+STATUS t=103357 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=103357000 begin_us=103357000 enqueue_done_us=103362000
+REPLY t=103408 mode auto ok
+STATUS t=103408 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=103408000 begin_us=103408000 enqueue_done_us=103412000
+REPLY t=103466 mode auto ok
+STATUS t=103466 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=103466000 begin_us=103466000 enqueue_done_us=103471000
+REPLY t=103524 mode auto ok
+STATUS t=103524 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=103524000 begin_us=103524000 enqueue_done_us=103528000
+REPLY t=103582 mode auto ok
+STATUS t=103582 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=103582000 begin_us=103582000 enqueue_done_us=103587000
+REPLY t=103633 mode auto ok
+STATUS t=103633 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=103633000 begin_us=103633000 enqueue_done_us=103637000
+REPLY t=103691 mode auto ok
+STATUS t=103691 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=103691000 begin_us=103691000 enqueue_done_us=103695000
+STATUS t=103713 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=103750 mode auto ok
+STATUS t=103750 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=103749000 begin_us=103750000 enqueue_done_us=103754000
+REPLY t=103800 mode auto ok
+STATUS t=103800 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=103799000 begin_us=103800000 enqueue_done_us=103804000
+REPLY t=103858 mode auto ok
+STATUS t=103858 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=103858000 begin_us=103858000 enqueue_done_us=103862000
+REPLY t=103916 mode auto ok
+STATUS t=103916 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=103916000 begin_us=103916000 enqueue_done_us=103921000
+REPLY t=103966 mode auto ok
+STATUS t=103966 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=103966000 begin_us=103966000 enqueue_done_us=103971000
+REPLY t=104024 mode auto ok
+STATUS t=104024 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=104024000 begin_us=104024000 enqueue_done_us=104029000
+REPLY t=104083 mode auto ok
+STATUS t=104083 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=104083000 begin_us=104083000 enqueue_done_us=104087000
+REPLY t=104141 mode auto ok
+STATUS t=104141 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=104141000 begin_us=104141000 enqueue_done_us=104146000
+REPLY t=104191 mode auto ok
+STATUS t=104191 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=104191000 begin_us=104191000 enqueue_done_us=104195000
+REPLY t=104249 mode auto ok
+STATUS t=104249 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=104248000 begin_us=104249000 enqueue_done_us=104253000
+REPLY t=104307 mode auto ok
+STATUS t=104307 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=104307000 begin_us=104307000 enqueue_done_us=104312000
+REPLY t=104358 mode auto ok
+STATUS t=104358 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=104358000 begin_us=104358000 enqueue_done_us=104362000
+REPLY t=104416 mode auto ok
+STATUS t=104416 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=104416000 begin_us=104416000 enqueue_done_us=104421000
+REPLY t=104475 mode auto ok
+STATUS t=104475 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=104474000 begin_us=104475000 enqueue_done_us=104479000
+REPLY t=104532 mode auto ok
+STATUS t=104532 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=104532000 begin_us=104532000 enqueue_done_us=104537000
+REPLY t=104591 mode auto ok
+STATUS t=104591 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=104591000 begin_us=104591000 enqueue_done_us=104596000
+REPLY t=104641 mode auto ok
+STATUS t=104641 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=104641000 begin_us=104641000 enqueue_done_us=104646000
+REPLY t=104700 mode auto ok
+STATUS t=104700 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=104699000 begin_us=104700000 enqueue_done_us=104704000
+STATUS t=104713 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=104750 mode auto ok
+STATUS t=104750 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=104749000 begin_us=104750000 enqueue_done_us=104754000
+STATUS t=105713 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=106713 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=107713 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+BUILD base=2b6659f7746d tree=c26a59c460911c2e691ed9ab4335fe250ac6bde2b2efe9431ac8a830be848395
+STAT name=pir n=649 min_us=0 avg_us=0 max_us=0 jitter_min=-6000 jitter_max=6000 skipped=0 deadline=0
+STAT name=adc n=129 min_us=0 avg_us=93 max_us=1000 jitter_min=-3000 jitter_max=3000 skipped=0 deadline=0
+STAT name=imu n=129 min_us=2000 avg_us=2457 max_us=3000 jitter_min=-4000 jitter_max=4000 skipped=0 deadline=0
+STAT name=control n=119943 min_us=0 avg_us=48 max_us=4000 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=command n=180 min_us=4000 avg_us=4422 max_us=5000 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=export n=0 min_us=0 avg_us=0 max_us=0 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=flash n=0 min_us=0 avg_us=0 max_us=0 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=loop n=119943 min_us=0 avg_us=98 max_us=9000 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=pir_latency n=0 min_us=0 avg_us=0 max_us=0 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=init n=0 min_us=0 avg_us=0 max_us=0 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+LOAD t_us=107786000 window_us=13017000 task_permille=unavailable awake_pct=100 stack_used=1400 stack_reserve=4096 heap_sbrk=0 rx_drop=0 ore=0 tx_drop=0 rx_peak=2 tx_peak=1117 coalesced=0
+COMMAND kind=11 received_us=107766000 begin_us=107766000 enqueue_done_us=107790000
+STATUS t=108713 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=109713 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=110713 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=111713 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+METRICS reset
+REPLY t=111783 mode auto ok
+STATUS t=111783 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=111782000 begin_us=111783000 enqueue_done_us=111787000
+REPLY t=111800 mode auto ok
+STATUS t=111800 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=111800000 begin_us=111800000 enqueue_done_us=111804000
+REPLY t=111825 mode auto ok
+STATUS t=111825 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=111825000 begin_us=111825000 enqueue_done_us=111829000
+REPLY t=111850 mode auto ok
+STATUS t=111850 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=111850000 begin_us=111850000 enqueue_done_us=111854000
+REPLY t=111866 mode auto ok
+STATUS t=111866 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=111866000 begin_us=111866000 enqueue_done_us=111870000
+REPLY t=111891 mode auto ok
+STATUS t=111891 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=111891000 begin_us=111891000 enqueue_done_us=111896000
+REPLY t=111908 mode auto ok
+STATUS t=111908 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=111908000 begin_us=111908000 enqueue_done_us=111913000
+REPLY t=111933 mode auto ok
+STATUS t=111933 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=111933000 begin_us=111933000 enqueue_done_us=111938000
+REPLY t=111958 mode auto ok
+STATUS t=111958 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=111958000 begin_us=111958000 enqueue_done_us=111963000
+REPLY t=111974 mode auto ok
+STATUS t=111974 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=111974000 begin_us=111974000 enqueue_done_us=111978000
+REPLY t=112000 mode auto ok
+STATUS t=112000 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=112000000 begin_us=112000000 enqueue_done_us=112004000
+REPLY t=112024 mode auto ok
+STATUS t=112024 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=112024000 begin_us=112024000 enqueue_done_us=112029000
+REPLY t=112041 mode auto ok
+STATUS t=112041 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=112041000 begin_us=112041000 enqueue_done_us=112046000
+REPLY t=112066 mode auto ok
+STATUS t=112066 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=112066000 begin_us=112066000 enqueue_done_us=112071000
+REPLY t=112083 mode auto ok
+STATUS t=112083 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=112082000 begin_us=112083000 enqueue_done_us=112087000
+REPLY t=112108 mode auto ok
+STATUS t=112108 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=112108000 begin_us=112108000 enqueue_done_us=112113000
+REPLY t=112133 mode auto ok
+STATUS t=112133 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=112133000 begin_us=112133000 enqueue_done_us=112138000
+REPLY t=112150 mode auto ok
+STATUS t=112150 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=112175 mode auto ok
+STATUS t=112175 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=112191 mode auto ok
+COMMAND kind=2 received_us=112191000 begin_us=112191000 enqueue_done_us=112195000
+REPLY t=112216 mode auto ok
+STATUS t=112216 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=112232 mode auto ok
+COMMAND kind=2 received_us=112232000 begin_us=112232000 enqueue_done_us=112236000
+REPLY t=112258 mode auto ok
+STATUS t=112258 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=112283 mode auto ok
+STATUS t=112283 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=112300 mode auto ok
+COMMAND kind=2 received_us=112300000 begin_us=112300000 enqueue_done_us=112304000
+REPLY t=112325 mode auto ok
+STATUS t=112325 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=112350 mode auto ok
+STATUS t=112350 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=112366 mode auto ok
+STATUS t=112366 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=112392 mode auto ok
+COMMAND kind=2 received_us=112391000 begin_us=112392000 enqueue_done_us=112396000
+REPLY t=112408 mode auto ok
+COMMAND kind=2 received_us=112408000 begin_us=112408000 enqueue_done_us=112412000
+REPLY t=112433 mode auto ok
+STATUS t=112433 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=112458 mode auto ok
+STATUS t=112458 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=112458000 begin_us=112458000 enqueue_done_us=112462000
+REPLY t=112475 mode auto ok
+REPLY t=112500 mode auto ok
+STATUS t=112500 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=112516 mode auto ok
+STATUS t=112516 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=112542 mode auto ok
+STATUS t=112542 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=112567 mode auto ok
+STATUS t=112567 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=112583 mode auto ok
+COMMAND kind=2 received_us=112583000 begin_us=112583000 enqueue_done_us=112587000
+REPLY t=112608 mode auto ok
+STATUS t=112608 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=112633 mode auto ok
+STATUS t=112633 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=112650 mode auto ok
+COMMAND kind=2 received_us=112650000 begin_us=112650000 enqueue_done_us=112654000
+REPLY t=112675 mode auto ok
+STATUS t=112675 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=112691 mode auto ok
+COMMAND kind=2 received_us=112691000 begin_us=112691000 enqueue_done_us=112696000
+STATUS t=112713 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=112717 mode auto ok
+REPLY t=112741 mode auto ok
+STATUS t=112741 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=112757 mode auto ok
+COMMAND kind=2 received_us=112757000 begin_us=112757000 enqueue_done_us=112761000
+REPLY t=112783 mode auto ok
+STATUS t=112783 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=112808 mode auto ok
+STATUS t=112808 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=112825 mode auto ok
+COMMAND kind=2 received_us=112825000 begin_us=112825000 enqueue_done_us=112829000
+REPLY t=112849 mode auto ok
+STATUS t=112849 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=112866 mode auto ok
+COMMAND kind=2 received_us=112866000 begin_us=112866000 enqueue_done_us=112870000
+REPLY t=112891 mode auto ok
+STATUS t=112891 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=112916 mode auto ok
+STATUS t=112916 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=112933 mode auto ok
+COMMAND kind=2 received_us=112933000 begin_us=112933000 enqueue_done_us=112937000
+REPLY t=112958 mode auto ok
+STATUS t=112958 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=112958000 begin_us=112958000 enqueue_done_us=112963000
+REPLY t=112983 mode auto ok
+COMMAND kind=2 received_us=112982000 begin_us=112983000 enqueue_done_us=112987000
+REPLY t=113000 mode auto ok
+COMMAND kind=2 received_us=113000000 begin_us=113000000 enqueue_done_us=113004000
+REPLY t=113025 mode auto ok
+STATUS t=113025 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=113049 mode auto ok
+STATUS t=113049 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=113049000 begin_us=113049000 enqueue_done_us=113053000
+REPLY t=113066 mode auto ok
+COMMAND kind=2 received_us=113066000 begin_us=113066000 enqueue_done_us=113070000
+REPLY t=113091 mode auto ok
+COMMAND kind=2 received_us=113091000 begin_us=113091000 enqueue_done_us=113095000
+REPLY t=113108 mode auto ok
+COMMAND kind=2 received_us=113108000 begin_us=113108000 enqueue_done_us=113112000
+REPLY t=113133 mode auto ok
+STATUS t=113133 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=113133000 begin_us=113133000 enqueue_done_us=113138000
+REPLY t=113150 mode auto ok
+REPLY t=113175 mode auto ok
+STATUS t=113175 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=113199 mode auto ok
+STATUS t=113199 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=113216 mode auto ok
+STATUS t=113216 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=113241 mode auto ok
+STATUS t=113241 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=113266 mode auto ok
+STATUS t=113266 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=113283 mode auto ok
+COMMAND kind=2 received_us=113283000 begin_us=113283000 enqueue_done_us=113287000
+REPLY t=113308 mode auto ok
+STATUS t=113308 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=113325 mode auto ok
+COMMAND kind=2 received_us=113325000 begin_us=113325000 enqueue_done_us=113329000
+REPLY t=113350 mode auto ok
+STATUS t=113350 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=113374 mode auto ok
+STATUS t=113374 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=113391 mode auto ok
+COMMAND kind=2 received_us=113391000 begin_us=113391000 enqueue_done_us=113395000
+REPLY t=113416 mode auto ok
+STATUS t=113416 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=113441 mode auto ok
+STATUS t=113441 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=113458 mode auto ok
+STATUS t=113458 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=113483 mode auto ok
+STATUS t=113483 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=113500 mode auto ok
+COMMAND kind=2 received_us=113500000 begin_us=113500000 enqueue_done_us=113504000
+REPLY t=113525 mode auto ok
+STATUS t=113525 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=113550 mode auto ok
+STATUS t=113550 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=113567 mode auto ok
+COMMAND kind=2 received_us=113566000 begin_us=113567000 enqueue_done_us=113571000
+REPLY t=113591 mode auto ok
+STATUS t=113591 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=113616 mode auto ok
+STATUS t=113616 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=113633 mode auto ok
+COMMAND kind=2 received_us=113633000 begin_us=113633000 enqueue_done_us=113637000
+REPLY t=113658 mode auto ok
+STATUS t=113658 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=113683 mode auto ok
+STATUS t=113683 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=113699 mode auto ok
+COMMAND kind=2 received_us=113699000 begin_us=113699000 enqueue_done_us=113703000
+REPLY t=113725 mode auto ok
+STATUS t=113725 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=113750 mode auto ok
+STATUS t=113750 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=113766 mode auto ok
+COMMAND kind=2 received_us=113766000 begin_us=113766000 enqueue_done_us=113771000
+REPLY t=113792 mode auto ok
+STATUS t=113792 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=113808 mode auto ok
+COMMAND kind=2 received_us=113808000 begin_us=113808000 enqueue_done_us=113812000
+REPLY t=113832 mode auto ok
+STATUS t=113832 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=113857 mode auto ok
+STATUS t=113857 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=113874 mode auto ok
+COMMAND kind=2 received_us=113874000 begin_us=113874000 enqueue_done_us=113878000
+REPLY t=113891 mode auto ok
+COMMAND kind=2 received_us=113891000 begin_us=113891000 enqueue_done_us=113895000
+REPLY t=113916 mode auto ok
+STATUS t=113916 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=113942 mode auto ok
+STATUS t=113942 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=113958 mode auto ok
+STATUS t=113958 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=113983 mode auto ok
+COMMAND kind=2 received_us=113983000 begin_us=113983000 enqueue_done_us=113987000
+REPLY t=114000 mode auto ok
+COMMAND kind=2 received_us=114000000 begin_us=114000000 enqueue_done_us=114004000
+REPLY t=114025 mode auto ok
+STATUS t=114025 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=114025000 begin_us=114025000 enqueue_done_us=114029000
+REPLY t=114050 mode auto ok
+STATUS t=114050 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=114067 mode auto ok
+COMMAND kind=2 received_us=114066000 begin_us=114067000 enqueue_done_us=114071000
+REPLY t=114091 mode auto ok
+STATUS t=114091 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=114116 mode auto ok
+STATUS t=114116 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=114133 mode auto ok
+COMMAND kind=2 received_us=114133000 begin_us=114133000 enqueue_done_us=114137000
+REPLY t=114158 mode auto ok
+STATUS t=114158 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=114175 mode auto ok
+COMMAND kind=2 received_us=114175000 begin_us=114175000 enqueue_done_us=114179000
+REPLY t=114200 mode auto ok
+STATUS t=114200 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=114217 mode auto ok
+COMMAND kind=2 received_us=114216000 begin_us=114217000 enqueue_done_us=114221000
+REPLY t=114242 mode auto ok
+STATUS t=114242 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=114266 mode auto ok
+STATUS t=114266 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=114291 mode auto ok
+STATUS t=114291 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=114308 mode auto ok
+COMMAND kind=2 received_us=114308000 begin_us=114308000 enqueue_done_us=114312000
+REPLY t=114333 mode auto ok
+STATUS t=114333 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=114350 mode auto ok
+COMMAND kind=2 received_us=114350000 begin_us=114350000 enqueue_done_us=114354000
+REPLY t=114375 mode auto ok
+STATUS t=114375 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=114400 mode auto ok
+STATUS t=114400 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=114416 mode auto ok
+COMMAND kind=2 received_us=114416000 begin_us=114416000 enqueue_done_us=114420000
+REPLY t=114442 mode auto ok
+STATUS t=114442 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=114441000 begin_us=114442000 enqueue_done_us=114446000
+REPLY t=114458 mode auto ok
+COMMAND kind=2 received_us=114458000 begin_us=114458000 enqueue_done_us=114462000
+REPLY t=114483 mode auto ok
+COMMAND kind=2 received_us=114483000 begin_us=114483000 enqueue_done_us=114487000
+REPLY t=114499 mode auto ok
+COMMAND kind=2 received_us=114499000 begin_us=114499000 enqueue_done_us=114503000
+REPLY t=114525 mode auto ok
+STATUS t=114525 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=114542 mode auto ok
+STATUS t=114542 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=114567 mode auto ok
+STATUS t=114567 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=114591 mode auto ok
+STATUS t=114591 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=114608 mode auto ok
+COMMAND kind=2 received_us=114608000 begin_us=114608000 enqueue_done_us=114612000
+REPLY t=114633 mode auto ok
+STATUS t=114633 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=114650 mode auto ok
+COMMAND kind=2 received_us=114650000 begin_us=114650000 enqueue_done_us=114654000
+REPLY t=114675 mode auto ok
+STATUS t=114675 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=114692 mode auto ok
+COMMAND kind=2 received_us=114691000 begin_us=114692000 enqueue_done_us=114696000
+STATUS t=114713 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=114717 mode auto ok
+REPLY t=114742 mode auto ok
+STATUS t=114742 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=114767 mode auto ok
+STATUS t=114767 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=114783 mode auto ok
+COMMAND kind=2 received_us=114783000 begin_us=114783000 enqueue_done_us=114787000
+REPLY t=114808 mode auto ok
+STATUS t=114808 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=114825 mode auto ok
+COMMAND kind=2 received_us=114825000 begin_us=114825000 enqueue_done_us=114829000
+REPLY t=114850 mode auto ok
+STATUS t=114850 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=114875 mode auto ok
+STATUS t=114875 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=114892 mode auto ok
+COMMAND kind=2 received_us=114891000 begin_us=114892000 enqueue_done_us=114896000
+REPLY t=114917 mode auto ok
+STATUS t=114917 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=114933 mode auto ok
+COMMAND kind=2 received_us=114933000 begin_us=114933000 enqueue_done_us=114937000
+REPLY t=114958 mode auto ok
+STATUS t=114958 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=114983 mode auto ok
+STATUS t=114983 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=115000 mode auto ok
+COMMAND kind=2 received_us=115000000 begin_us=115000000 enqueue_done_us=115004000
+REPLY t=115024 mode auto ok
+STATUS t=115024 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=115042 mode auto ok
+STATUS t=115042 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=115066 mode auto ok
+STATUS t=115066 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=115091 mode auto ok
+STATUS t=115091 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=115108 mode auto ok
+COMMAND kind=2 received_us=115108000 begin_us=115108000 enqueue_done_us=115112000
+REPLY t=115133 mode auto ok
+STATUS t=115133 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=115150 mode auto ok
+COMMAND kind=2 received_us=115150000 begin_us=115150000 enqueue_done_us=115154000
+REPLY t=115175 mode auto ok
+STATUS t=115175 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=115200 mode auto ok
+STATUS t=115200 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=115217 mode auto ok
+COMMAND kind=2 received_us=115216000 begin_us=115217000 enqueue_done_us=115221000
+REPLY t=115241 mode auto ok
+STATUS t=115241 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=115258 mode auto ok
+COMMAND kind=2 received_us=115258000 begin_us=115258000 enqueue_done_us=115262000
+REPLY t=115283 mode auto ok
+STATUS t=115283 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=115300 mode auto ok
+COMMAND kind=2 received_us=115300000 begin_us=115300000 enqueue_done_us=115304000
+REPLY t=115325 mode auto ok
+STATUS t=115325 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=115342 mode auto ok
+COMMAND kind=2 received_us=115341000 begin_us=115342000 enqueue_done_us=115346000
+REPLY t=115366 mode auto ok
+STATUS t=115366 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=115392 mode auto ok
+STATUS t=115392 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=115408 mode auto ok
+COMMAND kind=2 received_us=115408000 begin_us=115408000 enqueue_done_us=115412000
+REPLY t=115433 mode auto ok
+STATUS t=115433 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=115458 mode auto ok
+STATUS t=115458 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=115458000 begin_us=115458000 enqueue_done_us=115463000
+REPLY t=115475 mode auto ok
+REPLY t=115500 mode auto ok
+STATUS t=115500 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=115517 mode auto ok
+STATUS t=115517 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=115541 mode auto ok
+STATUS t=115541 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=115566 mode auto ok
+STATUS t=115566 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=115583 mode auto ok
+COMMAND kind=2 received_us=115583000 begin_us=115583000 enqueue_done_us=115587000
+REPLY t=115608 mode auto ok
+STATUS t=115608 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=115625 mode auto ok
+COMMAND kind=2 received_us=115624000 begin_us=115625000 enqueue_done_us=115629000
+REPLY t=115650 mode auto ok
+STATUS t=115650 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=115675 mode auto ok
+STATUS t=115675 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=115692 mode auto ok
+COMMAND kind=2 received_us=115691000 begin_us=115692000 enqueue_done_us=115696000
+STATUS t=115713 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=115717 mode auto ok
+REPLY t=115733 mode auto ok
+COMMAND kind=2 received_us=115733000 begin_us=115733000 enqueue_done_us=115737000
+REPLY t=115758 mode auto ok
+STATUS t=115758 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=115775 mode auto ok
+COMMAND kind=2 received_us=115774000 begin_us=115775000 enqueue_done_us=115779000
+REPLY t=115800 mode auto ok
+STATUS t=115800 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=115825 mode auto ok
+STATUS t=115825 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=115842 mode auto ok
+COMMAND kind=2 received_us=115841000 begin_us=115842000 enqueue_done_us=115846000
+REPLY t=115867 mode auto ok
+STATUS t=115867 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=115891 mode auto ok
+STATUS t=115891 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=115907 mode auto ok
+COMMAND kind=2 received_us=115907000 begin_us=115907000 enqueue_done_us=115911000
+REPLY t=115932 mode auto ok
+STATUS t=115932 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=115950 mode auto ok
+STATUS t=115950 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=115974 mode auto ok
+COMMAND kind=2 received_us=115974000 begin_us=115974000 enqueue_done_us=115978000
+REPLY t=115992 mode auto ok
+COMMAND kind=2 received_us=115991000 begin_us=115992000 enqueue_done_us=115996000
+REPLY t=116017 mode auto ok
+STATUS t=116017 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=116033 mode auto ok
+STATUS t=116033 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=116058 mode auto ok
+STATUS t=116058 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=116083 mode auto ok
+STATUS t=116083 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=116100 mode auto ok
+COMMAND kind=2 received_us=116100000 begin_us=116100000 enqueue_done_us=116104000
+REPLY t=116125 mode auto ok
+STATUS t=116125 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=116149 mode auto ok
+STATUS t=116149 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=116166 mode auto ok
+COMMAND kind=2 received_us=116165000 begin_us=116166000 enqueue_done_us=116170000
+REPLY t=116192 mode auto ok
+STATUS t=116192 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=116208 mode auto ok
+COMMAND kind=2 received_us=116208000 begin_us=116208000 enqueue_done_us=116212000
+REPLY t=116233 mode auto ok
+STATUS t=116233 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=116257 mode auto ok
+STATUS t=116257 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=116274 mode auto ok
+COMMAND kind=2 received_us=116274000 begin_us=116274000 enqueue_done_us=116278000
+REPLY t=116300 mode auto ok
+STATUS t=116300 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=116325 mode auto ok
+STATUS t=116325 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=116342 mode auto ok
+STATUS t=116342 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=116366 mode auto ok
+STATUS t=116366 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=116383 mode auto ok
+REPLY t=116407 mode auto ok
+STATUS t=116407 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=116407000 begin_us=116407000 enqueue_done_us=116412000
+REPLY t=116433 mode auto ok
+STATUS t=116433 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=116449 mode auto ok
+COMMAND kind=2 received_us=116449000 begin_us=116449000 enqueue_done_us=116453000
+REPLY t=116474 mode auto ok
+STATUS t=116474 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=116492 mode auto ok
+COMMAND kind=2 received_us=116491000 begin_us=116492000 enqueue_done_us=116496000
+REPLY t=116517 mode auto ok
+STATUS t=116517 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=116542 mode auto ok
+STATUS t=116542 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=116558 mode auto ok
+COMMAND kind=2 received_us=116558000 begin_us=116558000 enqueue_done_us=116562000
+REPLY t=116583 mode auto ok
+STATUS t=116583 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=116600 mode auto ok
+COMMAND kind=2 received_us=116600000 begin_us=116600000 enqueue_done_us=116604000
+REPLY t=116625 mode auto ok
+STATUS t=116625 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=116650 mode auto ok
+STATUS t=116650 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=116667 mode auto ok
+STATUS t=116667 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=116691 mode auto ok
+COMMAND kind=2 received_us=116691000 begin_us=116691000 enqueue_done_us=116695000
+REPLY t=116708 mode auto ok
+COMMAND kind=2 received_us=116708000 begin_us=116708000 enqueue_done_us=116712000
+REPLY t=116733 mode auto ok
+STATUS t=116733 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=116758 mode auto ok
+STATUS t=116758 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=116775 mode auto ok
+COMMAND kind=2 received_us=116775000 begin_us=116775000 enqueue_done_us=116779000
+REPLY t=116800 mode auto ok
+STATUS t=116800 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=116816 mode auto ok
+COMMAND kind=2 received_us=116816000 begin_us=116816000 enqueue_done_us=116821000
+REPLY t=116841 mode auto ok
+STATUS t=116841 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=116867 mode auto ok
+STATUS t=116867 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=116866000 begin_us=116867000 enqueue_done_us=116871000
+REPLY t=116883 mode auto ok
+REPLY t=116908 mode auto ok
+STATUS t=116908 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=116932 mode auto ok
+STATUS t=116932 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=116932000 begin_us=116932000 enqueue_done_us=116937000
+REPLY t=116950 mode auto ok
+COMMAND kind=2 received_us=116950000 begin_us=116950000 enqueue_done_us=116954000
+REPLY t=116975 mode auto ok
+COMMAND kind=2 received_us=116975000 begin_us=116975000 enqueue_done_us=116979000
+REPLY t=116991 mode auto ok
+COMMAND kind=2 received_us=116991000 begin_us=116991000 enqueue_done_us=116995000
+REPLY t=117016 mode auto ok
+STATUS t=117016 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=117033 mode auto ok
+STATUS t=117033 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=117057 mode auto ok
+STATUS t=117057 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=117074 mode auto ok
+REPLY t=117100 mode auto ok
+STATUS t=117100 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=117100000 begin_us=117100000 enqueue_done_us=117104000
+REPLY t=117125 mode auto ok
+STATUS t=117125 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=117142 mode auto ok
+COMMAND kind=2 received_us=117141000 begin_us=117142000 enqueue_done_us=117146000
+REPLY t=117167 mode auto ok
+STATUS t=117167 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=117191 mode auto ok
+STATUS t=117191 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=117208 mode auto ok
+COMMAND kind=2 received_us=117208000 begin_us=117208000 enqueue_done_us=117212000
+REPLY t=117233 mode auto ok
+STATUS t=117233 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=117250 mode auto ok
+COMMAND kind=2 received_us=117250000 begin_us=117250000 enqueue_done_us=117254000
+REPLY t=117275 mode auto ok
+STATUS t=117275 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=117300 mode auto ok
+STATUS t=117300 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=117317 mode auto ok
+COMMAND kind=2 received_us=117316000 begin_us=117317000 enqueue_done_us=117321000
+REPLY t=117342 mode auto ok
+STATUS t=117342 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=117341000 begin_us=117342000 enqueue_done_us=117346000
+REPLY t=117358 mode auto ok
+REPLY t=117383 mode auto ok
+STATUS t=117383 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=117407 mode auto ok
+STATUS t=117407 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=117425 mode auto ok
+STATUS t=117425 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=117450 mode auto ok
+STATUS t=117450 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=117466 mode auto ok
+COMMAND kind=2 received_us=117466000 begin_us=117466000 enqueue_done_us=117470000
+REPLY t=117492 mode auto ok
+STATUS t=117492 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=117516 mode auto ok
+STATUS t=117516 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=117533 mode auto ok
+COMMAND kind=2 received_us=117533000 begin_us=117533000 enqueue_done_us=117537000
+REPLY t=117558 mode auto ok
+STATUS t=117558 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=117575 mode auto ok
+COMMAND kind=2 received_us=117575000 begin_us=117575000 enqueue_done_us=117579000
+REPLY t=117600 mode auto ok
+STATUS t=117600 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=117625 mode auto ok
+STATUS t=117625 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=117642 mode auto ok
+COMMAND kind=2 received_us=117641000 begin_us=117642000 enqueue_done_us=117646000
+REPLY t=117666 mode auto ok
+STATUS t=117666 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=117666000 begin_us=117666000 enqueue_done_us=117671000
+REPLY t=117691 mode auto ok
+COMMAND kind=2 received_us=117690000 begin_us=117691000 enqueue_done_us=117695000
+REPLY t=117708 mode auto ok
+COMMAND kind=2 received_us=117708000 begin_us=117708000 enqueue_done_us=117712000
+REPLY t=117733 mode auto ok
+STATUS t=117733 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=117750 mode auto ok
+COMMAND kind=2 received_us=117750000 begin_us=117750000 enqueue_done_us=117754000
+REPLY t=117775 mode auto ok
+STATUS t=117775 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=117799 mode auto ok
+STATUS t=117799 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=117817 mode auto ok
+COMMAND kind=2 received_us=117816000 begin_us=117817000 enqueue_done_us=117821000
+REPLY t=117842 mode auto ok
+STATUS t=117842 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=117867 mode auto ok
+STATUS t=117867 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=117883 mode auto ok
+COMMAND kind=2 received_us=117883000 begin_us=117883000 enqueue_done_us=117887000
+REPLY t=117907 mode auto ok
+STATUS t=117907 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=117925 mode auto ok
+COMMAND kind=2 received_us=117925000 begin_us=117925000 enqueue_done_us=117929000
+REPLY t=117950 mode auto ok
+STATUS t=117950 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=117950000 begin_us=117950000 enqueue_done_us=117954000
+REPLY t=117967 mode auto ok
+REPLY t=117991 mode auto ok
+STATUS t=117991 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=118017 mode auto ok
+STATUS t=118017 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=118016000 begin_us=118017000 enqueue_done_us=118021000
+REPLY t=118033 mode auto ok
+COMMAND kind=2 received_us=118033000 begin_us=118033000 enqueue_done_us=118037000
+REPLY t=118058 mode auto ok
+STATUS t=118058 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=118074 mode auto ok
+REPLY t=118100 mode auto ok
+STATUS t=118100 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=118099000 begin_us=118100000 enqueue_done_us=118104000
+REPLY t=118124 mode auto ok
+STATUS t=118124 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=118141 mode auto ok
+COMMAND kind=2 received_us=118141000 begin_us=118141000 enqueue_done_us=118145000
+REPLY t=118167 mode auto ok
+STATUS t=118167 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=118183 mode auto ok
+COMMAND kind=2 received_us=118182000 begin_us=118183000 enqueue_done_us=118187000
+REPLY t=118207 mode auto ok
+STATUS t=118207 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=118225 mode auto ok
+COMMAND kind=2 received_us=118225000 begin_us=118225000 enqueue_done_us=118229000
+REPLY t=118249 mode auto ok
+STATUS t=118249 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=118275 mode auto ok
+STATUS t=118275 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=118292 mode auto ok
+COMMAND kind=2 received_us=118291000 begin_us=118292000 enqueue_done_us=118296000
+REPLY t=118317 mode auto ok
+STATUS t=118317 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=118342 mode auto ok
+STATUS t=118342 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=118358 mode auto ok
+STATUS t=118358 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=118383 mode auto ok
+COMMAND kind=2 received_us=118383000 begin_us=118383000 enqueue_done_us=118387000
+REPLY t=118400 mode auto ok
+COMMAND kind=2 received_us=118400000 begin_us=118400000 enqueue_done_us=118404000
+REPLY t=118425 mode auto ok
+STATUS t=118425 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=118449 mode auto ok
+STATUS t=118449 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=118449000 begin_us=118449000 enqueue_done_us=118454000
+REPLY t=118467 mode auto ok
+COMMAND kind=2 received_us=118466000 begin_us=118467000 enqueue_done_us=118471000
+REPLY t=118492 mode auto ok
+STATUS t=118492 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=118507 mode auto ok
+REPLY t=118533 mode auto ok
+STATUS t=118533 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=118533000 begin_us=118533000 enqueue_done_us=118538000
+REPLY t=118549 mode auto ok
+COMMAND kind=2 received_us=118549000 begin_us=118549000 enqueue_done_us=118553000
+REPLY t=118575 mode auto ok
+STATUS t=118575 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=118599 mode auto ok
+STATUS t=118599 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=118616 mode auto ok
+COMMAND kind=2 received_us=118615000 begin_us=118616000 enqueue_done_us=118620000
+REPLY t=118641 mode auto ok
+STATUS t=118641 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=118667 mode auto ok
+STATUS t=118667 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=118683 mode auto ok
+COMMAND kind=2 received_us=118683000 begin_us=118683000 enqueue_done_us=118687000
+REPLY t=118700 mode auto ok
+COMMAND kind=2 received_us=118700000 begin_us=118700000 enqueue_done_us=118704000
+REPLY t=118725 mode auto ok
+STATUS t=118725 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=118750 mode auto ok
+STATUS t=118750 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=118767 mode auto ok
+COMMAND kind=2 received_us=118766000 begin_us=118767000 enqueue_done_us=118771000
+REPLY t=118792 mode auto ok
+STATUS t=118792 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=118808 mode auto ok
+COMMAND kind=2 received_us=118808000 begin_us=118808000 enqueue_done_us=118812000
+REPLY t=118833 mode auto ok
+STATUS t=118833 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=118858 mode auto ok
+STATUS t=118858 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=118874 mode auto ok
+COMMAND kind=2 received_us=118874000 begin_us=118874000 enqueue_done_us=118878000
+REPLY t=118900 mode auto ok
+STATUS t=118900 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=118925 mode auto ok
+STATUS t=118925 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=118942 mode auto ok
+COMMAND kind=2 received_us=118941000 begin_us=118942000 enqueue_done_us=118946000
+REPLY t=118967 mode auto ok
+STATUS t=118967 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=118983 mode auto ok
+COMMAND kind=2 received_us=118983000 begin_us=118983000 enqueue_done_us=118987000
+REPLY t=119008 mode auto ok
+STATUS t=119008 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=119033 mode auto ok
+STATUS t=119033 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=119049 mode auto ok
+STATUS t=119049 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=119075 mode auto ok
+COMMAND kind=2 received_us=119074000 begin_us=119075000 enqueue_done_us=119079000
+REPLY t=119092 mode auto ok
+COMMAND kind=2 received_us=119091000 begin_us=119092000 enqueue_done_us=119096000
+REPLY t=119117 mode auto ok
+STATUS t=119117 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=119116000 begin_us=119117000 enqueue_done_us=119121000
+REPLY t=119133 mode auto ok
+REPLY t=119158 mode auto ok
+STATUS t=119158 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=119158000 begin_us=119158000 enqueue_done_us=119163000
+REPLY t=119183 mode auto ok
+STATUS t=119183 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=119200 mode auto ok
+REPLY t=119225 mode auto ok
+STATUS t=119225 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=119225000 begin_us=119225000 enqueue_done_us=119229000
+REPLY t=119250 mode auto ok
+STATUS t=119250 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=119267 mode auto ok
+COMMAND kind=2 received_us=119266000 begin_us=119267000 enqueue_done_us=119271000
+REPLY t=119292 mode auto ok
+STATUS t=119292 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=119316 mode auto ok
+STATUS t=119316 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=119333 mode auto ok
+COMMAND kind=2 received_us=119333000 begin_us=119333000 enqueue_done_us=119337000
+REPLY t=119358 mode auto ok
+STATUS t=119358 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=119383 mode auto ok
+STATUS t=119383 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=119400 mode auto ok
+COMMAND kind=2 received_us=119400000 begin_us=119400000 enqueue_done_us=119404000
+REPLY t=119425 mode auto ok
+STATUS t=119425 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=119442 mode auto ok
+STATUS t=119442 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=119466 mode auto ok
+STATUS t=119466 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=119492 mode auto ok
+STATUS t=119492 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=119508 mode auto ok
+COMMAND kind=2 received_us=119508000 begin_us=119508000 enqueue_done_us=119512000
+REPLY t=119533 mode auto ok
+STATUS t=119533 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=119558 mode auto ok
+STATUS t=119558 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=119575 mode auto ok
+COMMAND kind=2 received_us=119575000 begin_us=119575000 enqueue_done_us=119579000
+REPLY t=119600 mode auto ok
+STATUS t=119600 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=119616 mode auto ok
+COMMAND kind=2 received_us=119616000 begin_us=119616000 enqueue_done_us=119620000
+REPLY t=119642 mode auto ok
+STATUS t=119642 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=119658 mode auto ok
+COMMAND kind=2 received_us=119658000 begin_us=119658000 enqueue_done_us=119662000
+REPLY t=119683 mode auto ok
+STATUS t=119683 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=119708 mode auto ok
+STATUS t=119708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=119724 mode auto ok
+COMMAND kind=2 received_us=119724000 begin_us=119724000 enqueue_done_us=119728000
+REPLY t=119750 mode auto ok
+STATUS t=119750 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=119767 mode auto ok
+COMMAND kind=2 received_us=119766000 begin_us=119767000 enqueue_done_us=119771000
+REPLY t=119791 mode auto ok
+STATUS t=119791 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=119808 mode auto ok
+COMMAND kind=2 received_us=119808000 begin_us=119808000 enqueue_done_us=119812000
+REPLY t=119833 mode auto ok
+STATUS t=119833 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=119850 mode auto ok
+COMMAND kind=2 received_us=119850000 begin_us=119850000 enqueue_done_us=119854000
+REPLY t=119875 mode auto ok
+STATUS t=119875 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=119900 mode auto ok
+STATUS t=119900 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=119917 mode auto ok
+COMMAND kind=2 received_us=119916000 begin_us=119917000 enqueue_done_us=119921000
+REPLY t=119942 mode auto ok
+STATUS t=119942 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=119967 mode auto ok
+STATUS t=119967 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=119983 mode auto ok
+COMMAND kind=2 received_us=119983000 begin_us=119983000 enqueue_done_us=119987000
+SAVE t_us=120001000 result=ERROR seq=0 elapsed_us=1000 hal_error=0
+REPLY t=120008 mode auto ok
+COMMAND kind=2 received_us=120008000 begin_us=120008000 enqueue_done_us=120012000
+REPLY t=120033 mode auto ok
+STATUS t=120033 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=120050 mode auto ok
+COMMAND kind=2 received_us=120050000 begin_us=120050000 enqueue_done_us=120054000
+REPLY t=120075 mode auto ok
+STATUS t=120075 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=120099 mode auto ok
+STATUS t=120099 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=120117 mode auto ok
+COMMAND kind=2 received_us=120117000 begin_us=120117000 enqueue_done_us=120121000
+REPLY t=120142 mode auto ok
+STATUS t=120142 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=120158 mode auto ok
+STATUS t=120158 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=120183 mode auto ok
+COMMAND kind=2 received_us=120183000 begin_us=120183000 enqueue_done_us=120187000
+REPLY t=120208 mode auto ok
+STATUS t=120208 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=120208000 begin_us=120208000 enqueue_done_us=120213000
+REPLY t=120225 mode auto ok
+REPLY t=120250 mode auto ok
+STATUS t=120250 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=120250000 begin_us=120250000 enqueue_done_us=120254000
+REPLY t=120274 mode auto ok
+COMMAND kind=2 received_us=120274000 begin_us=120274000 enqueue_done_us=120278000
+REPLY t=120292 mode auto ok
+STATUS t=120292 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=120317 mode auto ok
+STATUS t=120317 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=120341 mode auto ok
+STATUS t=120341 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=120358 mode auto ok
+COMMAND kind=2 received_us=120358000 begin_us=120358000 enqueue_done_us=120362000
+REPLY t=120383 mode auto ok
+STATUS t=120383 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=120400 mode auto ok
+COMMAND kind=2 received_us=120399000 begin_us=120400000 enqueue_done_us=120404000
+REPLY t=120424 mode auto ok
+STATUS t=120424 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=120449 mode auto ok
+STATUS t=120449 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=120467 mode auto ok
+COMMAND kind=2 received_us=120466000 begin_us=120467000 enqueue_done_us=120471000
+REPLY t=120492 mode auto ok
+STATUS t=120492 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=120516 mode auto ok
+STATUS t=120516 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=120533 mode auto ok
+COMMAND kind=2 received_us=120533000 begin_us=120533000 enqueue_done_us=120537000
+REPLY t=120558 mode auto ok
+STATUS t=120558 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=120558000 begin_us=120558000 enqueue_done_us=120563000
+REPLY t=120574 mode auto ok
+REPLY t=120600 mode auto ok
+STATUS t=120600 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=120625 mode auto ok
+STATUS t=120625 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=120625000 begin_us=120625000 enqueue_done_us=120629000
+REPLY t=120642 mode auto ok
+COMMAND kind=2 received_us=120641000 begin_us=120642000 enqueue_done_us=120646000
+REPLY t=120667 mode auto ok
+STATUS t=120667 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=120683 mode auto ok
+REPLY t=120708 mode auto ok
+STATUS t=120708 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=120708000 begin_us=120708000 enqueue_done_us=120713000
+REPLY t=120725 mode auto ok
+REPLY t=120750 mode auto ok
+STATUS t=120750 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=120775 mode auto ok
+STATUS t=120775 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=120792 mode auto ok
+COMMAND kind=2 received_us=120791000 begin_us=120792000 enqueue_done_us=120796000
+REPLY t=120816 mode auto ok
+STATUS t=120816 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=120842 mode auto ok
+STATUS t=120842 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=120841000 begin_us=120842000 enqueue_done_us=120846000
+REPLY t=120857 mode auto ok
+COMMAND kind=2 received_us=120857000 begin_us=120857000 enqueue_done_us=120861000
+REPLY t=120883 mode auto ok
+STATUS t=120883 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=120908 mode auto ok
+STATUS t=120908 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=120925 mode auto ok
+COMMAND kind=2 received_us=120925000 begin_us=120925000 enqueue_done_us=120929000
+REPLY t=120950 mode auto ok
+STATUS t=120950 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=120974 mode auto ok
+STATUS t=120974 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=120991 mode auto ok
+COMMAND kind=2 received_us=120991000 begin_us=120991000 enqueue_done_us=120995000
+REPLY t=121017 mode auto ok
+STATUS t=121017 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=121033 mode auto ok
+COMMAND kind=2 received_us=121033000 begin_us=121033000 enqueue_done_us=121038000
+REPLY t=121058 mode auto ok
+STATUS t=121058 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=121075 mode auto ok
+COMMAND kind=2 received_us=121075000 begin_us=121075000 enqueue_done_us=121079000
+REPLY t=121099 mode auto ok
+STATUS t=121099 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=121125 mode auto ok
+STATUS t=121125 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=121141 mode auto ok
+COMMAND kind=2 received_us=121141000 begin_us=121141000 enqueue_done_us=121145000
+REPLY t=121167 mode auto ok
+STATUS t=121167 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=121166000 begin_us=121167000 enqueue_done_us=121171000
+REPLY t=121191 mode auto ok
+COMMAND kind=2 received_us=121191000 begin_us=121191000 enqueue_done_us=121195000
+REPLY t=121208 mode auto ok
+COMMAND kind=2 received_us=121208000 begin_us=121208000 enqueue_done_us=121212000
+REPLY t=121233 mode auto ok
+STATUS t=121233 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=121258 mode auto ok
+STATUS t=121258 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=121258000 begin_us=121258000 enqueue_done_us=121263000
+REPLY t=121275 mode auto ok
+REPLY t=121300 mode auto ok
+STATUS t=121300 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=121324 mode auto ok
+STATUS t=121324 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=121324000 begin_us=121324000 enqueue_done_us=121329000
+REPLY t=121342 mode auto ok
+COMMAND kind=2 received_us=121341000 begin_us=121342000 enqueue_done_us=121346000
+REPLY t=121367 mode auto ok
+STATUS t=121367 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=121383 mode auto ok
+REPLY t=121408 mode auto ok
+STATUS t=121408 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=121407000 begin_us=121408000 enqueue_done_us=121412000
+REPLY t=121434 mode auto ok
+STATUS t=121434 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=121450 mode auto ok
+COMMAND kind=2 received_us=121450000 begin_us=121450000 enqueue_done_us=121454000
+REPLY t=121475 mode auto ok
+STATUS t=121475 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=121500 mode auto ok
+STATUS t=121500 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=121517 mode auto ok
+COMMAND kind=2 received_us=121517000 begin_us=121517000 enqueue_done_us=121521000
+REPLY t=121542 mode auto ok
+STATUS t=121542 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=121558 mode auto ok
+COMMAND kind=2 received_us=121558000 begin_us=121558000 enqueue_done_us=121562000
+REPLY t=121583 mode auto ok
+STATUS t=121583 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=121608 mode auto ok
+STATUS t=121608 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=121632 mode auto ok
+STATUS t=121632 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=121650 mode auto ok
+STATUS t=121650 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=121675 mode auto ok
+COMMAND kind=2 received_us=121675000 begin_us=121675000 enqueue_done_us=121679000
+REPLY t=121700 mode auto ok
+STATUS t=121700 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=121700000 begin_us=121700000 enqueue_done_us=121704000
+REPLY t=121717 mode auto ok
+REPLY t=121741 mode auto ok
+STATUS t=121741 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=121758 mode auto ok
+COMMAND kind=2 received_us=121758000 begin_us=121758000 enqueue_done_us=121762000
+REPLY t=121783 mode auto ok
+STATUS t=121783 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=121799 mode auto ok
+COMMAND kind=2 received_us=121799000 begin_us=121799000 enqueue_done_us=121803000
+REPLY t=121825 mode auto ok
+STATUS t=121825 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=121850 mode auto ok
+STATUS t=121850 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=121850000 begin_us=121850000 enqueue_done_us=121855000
+REPLY t=121867 mode auto ok
+COMMAND kind=2 received_us=121866000 begin_us=121867000 enqueue_done_us=121871000
+REPLY t=121892 mode auto ok
+COMMAND kind=2 received_us=121892000 begin_us=121892000 enqueue_done_us=121896000
+REPLY t=121908 mode auto ok
+COMMAND kind=2 received_us=121908000 begin_us=121908000 enqueue_done_us=121912000
+REPLY t=121933 mode auto ok
+STATUS t=121933 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+REPLY t=121958 mode auto ok
+STATUS t=121958 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=121958000 begin_us=121958000 enqueue_done_us=121963000
+REPLY t=121975 mode auto ok
+REPLY t=122000 mode auto ok
+STATUS t=122000 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+COMMAND kind=2 received_us=122000000 begin_us=122000000 enqueue_done_us=122005000
+REPLY t=122025 mode auto ok
+STATUS t=122025 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=122714 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=123714 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=124714 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+BUILD base=2b6659f7746d tree=c26a59c460911c2e691ed9ab4335fe250ac6bde2b2efe9431ac8a830be848395
+STAT name=pir n=663 min_us=0 avg_us=4 max_us=1000 jitter_min=-6000 jitter_max=6000 skipped=0 deadline=0
+STAT name=adc n=132 min_us=0 avg_us=166 max_us=1000 jitter_min=-6000 jitter_max=6000 skipped=0 deadline=0
+STAT name=imu n=132 min_us=2000 avg_us=2484 max_us=3000 jitter_min=-6000 jitter_max=6000 skipped=0 deadline=0
+STAT name=control n=104414 min_us=0 avg_us=48 max_us=4000 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=command n=472 min_us=4000 avg_us=4256 max_us=5000 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=export n=0 min_us=0 avg_us=0 max_us=0 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=flash n=1 min_us=1000 avg_us=1000 max_us=1000 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=loop n=104414 min_us=0 avg_us=116 max_us=10000 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=pir_latency n=0 min_us=0 avg_us=0 max_us=0 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+STAT name=init n=0 min_us=0 avg_us=0 max_us=0 jitter_min=0 jitter_max=0 skipped=0 deadline=0
+LOAD t_us=125053000 window_us=13286000 task_permille=unavailable awake_pct=100 stack_used=1400 stack_reserve=4096 heap_sbrk=0 rx_drop=0 ore=0 tx_drop=450 rx_peak=10 tx_peak=2047 coalesced=0
+COMMAND kind=11 received_us=125033000 begin_us=125033000 enqueue_done_us=125058000
+STATUS t=125714 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=126714 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=127714 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
+STATUS t=128714 mode=idle pir=0 pir_valid=1 raw=1001 avg=1001.0 light_valid=1 dark=0 angle=0.000 imu_valid=1 norm_mg=1000 need_light=0 tilt=0 fault=0
