@@ -1,0 +1,105 @@
+--- a/firmware/Board/board.c
++++ b/firmware/Board/board.c
+@@ -362,9 +362,10 @@
+     pin.Pin=PIR_PIN; pin.Mode=GPIO_MODE_IT_RISING; pin.Pull=GPIO_PULLDOWN;
+     HAL_GPIO_Init(PIR_PORT,&pin);
+     HAL_NVIC_SetPriority(EXTI0_1_IRQn,1,0); HAL_NVIC_EnableIRQ(EXTI0_1_IRQn);
+-    pin.Pin=ADC_MARK_PIN|GPIO_PIN_1|GPIO_PIN_6|GPIO_PIN_7; pin.Mode=GPIO_MODE_OUTPUT_PP; pin.Pull=GPIO_NOPULL;
++    pin.Pin=ADC_MARK_PIN|GPIO_PIN_1|GPIO_PIN_6|GPIO_PIN_7|GPIO_PIN_8|GPIO_PIN_9; pin.Mode=GPIO_MODE_OUTPUT_PP; pin.Pull=GPIO_NOPULL;
+     HAL_GPIO_Init(ADC_MARK_PORT,&pin);
+     HAL_GPIO_WritePin(Led_GPIO_Port,Led_Pin,GPIO_PIN_RESET);
++    for(unsigned calibration=0;calibration<100;calibration++){GPIOA->BSRR=GPIO_PIN_9; GPIOA->BSRR=(uint32_t)GPIO_PIN_9<<16;}
+     adc_ready=setup_adc();
+     uint32_t now=HAL_GetTick();
+     desk_init(&state,now);
+@@ -382,17 +383,20 @@
+ {
+     uint32_t loop_began=measure_us(), began;
+     if(tx_tail!=tx_head && (USART2->ISR & USART_ISR_TXE_TXFNF)) {
+-        USART2->TDR=tx[tx_tail]; tx_tail=(tx_tail+1)&2047u;
++        GPIOA->BSRR=GPIO_PIN_8; USART2->TDR=tx[tx_tail]; tx_tail=(tx_tail+1)&2047u; GPIOA->BSRR=(uint32_t)GPIO_PIN_8<<16;
+     }
+     if(rx_overflow) {
++        GPIOA->BSRR=GPIO_PIN_8;
+         uint32_t saved=__get_PRIMASK(); __disable_irq();
+         rx_tail=rx_head; rx_overflow=false;
+         __set_PRIMASK(saved);
+         console.length=0; console.overflow=true;
++        GPIOA->BSRR=(uint32_t)GPIO_PIN_8<<16;
+     }
+     unsigned used=(rx_head-rx_tail)&127u;
+     if(used>rx_peak) rx_peak=used;
+     for(unsigned budget=0;budget<32 && rx_tail!=rx_head;budget++) {
++        GPIOA->BSRR=GPIO_PIN_8;
+         uint32_t received=rx_time[rx_tail];
+         char byte=(char)rx[rx_tail]; rx_tail=(rx_tail+1)&127u;
+         desk_command cmd=console_feed(&console,byte);
+@@ -408,11 +412,13 @@
+                 snprintf(text,sizeof text,"COMMAND kind=%u received_us=%lu begin_us=%lu enqueue_done_us=%lu\r\n",
+                     (unsigned)cmd,(unsigned long)received,(unsigned long)began,(unsigned long)measure_us()); emit(text);
+             }
+-            break;
++            GPIOA->BSRR=(uint32_t)GPIO_PIN_8<<16; break;
+         }
++        GPIOA->BSRR=(uint32_t)GPIO_PIN_8<<16;
+     }
+     uint32_t now=HAL_GetTick();
+     if(!started && (uint32_t)(now-init_due)>=100) {
++        GPIOA->BSRR=GPIO_PIN_8;
+         began=measure_us();
+         uint8_t id=0;
+         io_result result=imu_start(&imu,&id);
+@@ -423,8 +429,10 @@
+         emit(adc_ready ? "SELFTEST device=LDR result=ADC_READY\r\n" : "SELFTEST device=LDR result=ERROR\r\n");
+         emit("SELFTEST device=PIR result=GPIO_READABLE\r\n");
+         measure_add(&meter[M_INIT],measure_us()-began);
++        GPIOA->BSRR=(uint32_t)GPIO_PIN_8<<16;
+     }
+     if((int32_t)(measure_us()-meter[M_PIR].due)>=0) {
++        GPIOA->BSRR=GPIO_PIN_8;
+         began=measure_us(); measure_release(&meter[M_PIR],began,20000);
+         desk_pir(&state,HAL_GPIO_ReadPin(PIR_PORT,PIR_PIN)==GPIO_PIN_SET,HAL_GetTick());
+         if(event_pending) {
+@@ -439,8 +447,10 @@
+                 (unsigned long)edge,(unsigned long)reacted,(unsigned long)delay); emit(text);
+         }
+         measure_add(&meter[M_PIR],measure_us()-began);
++        GPIOA->BSRR=(uint32_t)GPIO_PIN_8<<16;
+     }
+     if(started && (int32_t)(measure_us()-meter[M_ADC].due)>=0) {
++        GPIOA->BSRR=GPIO_PIN_8;
+         began=measure_us(); measure_release(&meter[M_ADC],began,sensor_period);
+         if(!paused_adc) {
+             uint16_t raw=0;
+@@ -449,8 +459,10 @@
+         }
+         measure_add(&meter[M_ADC],measure_us()-began);
+         if((int32_t)(measure_us()-meter[M_ADC].due)>0) meter[M_ADC].deadline_misses++;
++        GPIOA->BSRR=(uint32_t)GPIO_PIN_8<<16;
+     }
+     if(started && (int32_t)(measure_us()-meter[M_IMU].due)>=0) {
++        GPIOA->BSRR=GPIO_PIN_8;
+         began=measure_us(); measure_release(&meter[M_IMU],began,sensor_period);
+         GPIOA->BSRR=GPIO_PIN_6;
+         if(!paused_imu) {
+@@ -465,7 +477,9 @@
+         GPIOA->BSRR=(uint32_t)GPIO_PIN_6<<16;
+         measure_add(&meter[M_IMU],measure_us()-began);
+         if((int32_t)(measure_us()-meter[M_IMU].due)>0) meter[M_IMU].deadline_misses++;
++        GPIOA->BSRR=(uint32_t)GPIO_PIN_8<<16;
+     }
++    GPIOA->BSRR=GPIO_PIN_8;
+     began=measure_us();
+     account(HAL_GetTick());
+     now=HAL_GetTick(); desk_update(&state,now);
+@@ -482,8 +496,9 @@
+         if(history_count<64) history_count++;
+     }
+     measure_add(&meter[M_CONTROL],measure_us()-began);
++    GPIOA->BSRR=(uint32_t)GPIO_PIN_8<<16;
+     if((uint32_t)(now-save_due)>=60000) {
+-        save_due=now; began=measure_us(); checkpoint(); periodic_flash_sum+=measure_us()-began;
++        GPIOA->BSRR=GPIO_PIN_8; save_due=now; began=measure_us(); checkpoint(); periodic_flash_sum+=measure_us()-began; GPIOA->BSRR=(uint32_t)GPIO_PIN_8<<16;
+     }
+     measure_add(&meter[M_LOOP],measure_us()-loop_began);
+ }

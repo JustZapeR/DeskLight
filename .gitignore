@@ -6,3 +6,8 @@ tests/build/
 tests/coverage/
 __pycache__/
 firmware/Board/build_id.h
+
+# Local authoring exports and preparation files
+**/report-source/
+/docs/lab_2/report.*
+!/docs/lab_2/report.pdf
