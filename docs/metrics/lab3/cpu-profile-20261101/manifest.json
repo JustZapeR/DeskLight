@@ -1,0 +1,70 @@
+{
+  "scenario": "Окремий профіль зайнятості foreground задач у Wokwi",
+  "base_head": "13a0c7af2c636177784b2aef4698ed32fd8236d3",
+  "frozen_s2_elf_sha256": "d4c6ed31844d8988d0530fddeb7923e3aed11502e20d534d9e1c462bf6516843",
+  "diagnostic_elf_sha256": "62c103b0855b6de9acb81f39dfa5eb166aed52ce17b94f41e2ffb1b44e53bb88",
+  "vcd_uncompressed_sha256": "99c94f24e87c60c7c9cd9ebaafc2a5441c32e06394447b14726eba0c3bb5ac48",
+  "uart_uncompressed_sha256": "5d519a0c8db6ae312ff6cf56dd572aea17ef751fb2ed6bddd845236ab381a096",
+  "files": {
+    ".gitattributes": {
+      "bytes": 20,
+      "sha256": "48cb6f2925f97934530a0567ddc74ee1aca702b488a35d63b22fbc1b0485cc33"
+    },
+    "README.md": {
+      "bytes": 3898,
+      "sha256": "1508c663964b7b980867fa2efde8eab492f556969776cb1d06d9159b025fafc7"
+    },
+    "analyze_vcd.py": {
+      "bytes": 2422,
+      "sha256": "e51dd914880c3b284855c74d6e17229c93179c2968df419cbfceb9b38edf90a9"
+    },
+    "capture.vcd.gz": {
+      "bytes": 3274658,
+      "sha256": "a393f5bf510d94c849c66816176044f848ee536392585e0d0b7dea54e71d140f"
+    },
+    "diagnostic-build-id.h": {
+      "bytes": 74,
+      "sha256": "3928b6c69287d2ce88a3a07a3eca7f9b42643d16714c3e05aa60b11b0ae3285d"
+    },
+    "diagram.json": {
+      "bytes": 2855,
+      "sha256": "587f2de7baad89b6e9660d1a30f32ec4bc10f7e0a676d3f96e548f5c65e9c8bf"
+    },
+    "firmware.elf": {
+      "bytes": 493440,
+      "sha256": "62c103b0855b6de9acb81f39dfa5eb166aed52ce17b94f41e2ffb1b44e53bb88"
+    },
+    "firmware.hex": {
+      "bytes": 79499,
+      "sha256": "e479289736d5ba595c90d773286dd5610dc6c9ddac45ef3d06cdd4618d0fc4ee"
+    },
+    "half1.json": {
+      "bytes": 648,
+      "sha256": "8c8d693d2e20012a467a4e586288feae34506520a4cfdd0f70050fb1e4f7234a"
+    },
+    "half2.json": {
+      "bytes": 651,
+      "sha256": "646877c42f36912124d67d70561e5798df9ebd128f8a0cdebe7f2eb66be45866"
+    },
+    "markers.patch": {
+      "bytes": 4902,
+      "sha256": "b57fc4c40452c77fd84f3384f7580048fdbd4dccccdce6ff0d8b71dfdd7a513f"
+    },
+    "result.json": {
+      "bytes": 648,
+      "sha256": "f25bc4c5a199757be0af4470e0e5f096e40baa9605c798adfa74a539ced1b2a6"
+    },
+    "test_analyzer.py": {
+      "bytes": 602,
+      "sha256": "cf215b756caa77e1bbafe2c3e82ea02667fe18f5695c1b61de3acc97b018be3d"
+    },
+    "uart.raw.gz": {
+      "bytes": 168,
+      "sha256": "c4d8efabd07bc9b3115f5b295389e6ba161c0edc9cbb562ee2bc3f0253a940fe"
+    },
+    "wokwi.toml": {
+      "bytes": 85,
+      "sha256": "76bf1cba9e3614ff76d9563b6843b6a0c9321a313c9fbb11c3385056db8adf83"
+    }
+  }
+}
