@@ -1,0 +1,28 @@
+--- a/firmware/Board/board.c
++++ b/firmware/Board/board.c
+@@ -81,17 +81,15 @@
+ }
+ static bool flash_erase(void *ctx,unsigned page)
+ {
+-    (void)ctx;
+-    FLASH_EraseInitTypeDef erase={0}; uint32_t error;
++    (void)ctx; FLASH_EraseInitTypeDef erase={0}; uint32_t error=0; char msg[160];
+     erase.TypeErase=FLASH_TYPEERASE_PAGES; erase.Page=14+page; erase.NbPages=1;
+-    if(HAL_FLASH_Unlock()!=HAL_OK) return false;
+-    bool ok=HAL_FLASHEx_Erase(&erase,&error)==HAL_OK;
+-    HAL_FLASH_Lock();
+-    if(ok) {
+-        const volatile uint32_t *words=(const volatile uint32_t *)(0x08007000u+page*2048u);
+-        for(unsigned i=0;i<512;i++) if(words[i]!=0xffffffffu) return false;
+-    }
+-    return ok;
++    HAL_StatusTypeDef unlock=HAL_FLASH_Unlock(), er=HAL_ERROR;
++    if(unlock==HAL_OK) er=HAL_FLASHEx_Erase(&erase,&error);
++    uint32_t halerr=HAL_FLASH_GetError(),sr=FLASH->SR; HAL_FLASH_Lock();
++    const volatile uint8_t *p=(const volatile uint8_t *)(0x08007000u+page*2048u);
++    unsigned ff=0; for(unsigned i=0;i<2048;i++)ff+=p[i]==255;
++    snprintf(msg,sizeof msg,"DIAGERASE page=%u unlock=%u hal=%u pageerr=%08lX err=%08lX sr=%08lX ff=%u first=%02X%02X%02X%02X\r\n",14+page,(unsigned)unlock,(unsigned)er,(unsigned long)error,(unsigned long)halerr,(unsigned long)sr,ff,p[0],p[1],p[2],p[3]); emit(msg);
++    return unlock==HAL_OK && er==HAL_OK && ff==2048;
+ }
+ static void account(uint32_t now)
+ {

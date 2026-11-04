@@ -1,0 +1,209 @@
+{
+  "version": 1,
+  "author": "\u0404\u0440\u043c\u0430\u043a \u041e\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440 \u0412\u0456\u0442\u0430\u043b\u0456\u0439\u043e\u0432\u0438\u0447",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "type": "board-st-nucleo-c031c6",
+      "id": "nucleo",
+      "top": 0,
+      "left": 0,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-mpu6050",
+      "id": "imu",
+      "top": -20,
+      "left": 390,
+      "attrs": {}
+    },
+    {
+      "type": "wokwi-pir-motion-sensor",
+      "id": "pir",
+      "top": 170,
+      "left": 400,
+      "attrs": {
+        "delayTime": "5",
+        "inhibitTime": "1.2"
+      }
+    },
+    {
+      "type": "wokwi-photoresistor-sensor",
+      "id": "ldr",
+      "top": 335,
+      "left": 400,
+      "attrs": {
+        "lux": "500"
+      }
+    },
+    {
+      "type": "wokwi-logic-analyzer",
+      "id": "logic",
+      "top": 450,
+      "left": 0,
+      "attrs": {
+        "bufferSize": "8000000"
+      }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "scl_pull",
+      "top": -120,
+      "left": 305,
+      "attrs": {
+        "value": "4700"
+      }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "sda_pull",
+      "top": -120,
+      "left": 370,
+      "attrs": {
+        "value": "4700"
+      }
+    },
+    {
+      "type": "chip-stim",
+      "id": "stim",
+      "top": 100,
+      "left": 520,
+      "attrs": {}
+    }
+  ],
+  "connections": [
+    [
+      "$serialMonitor:TX",
+      "nucleo:PA3",
+      "",
+      []
+    ],
+    [
+      "$serialMonitor:RX",
+      "nucleo:PA2",
+      "",
+      []
+    ],
+    [
+      "imu:VCC",
+      "nucleo:3V3.1",
+      "green",
+      []
+    ],
+    [
+      "imu:GND",
+      "nucleo:GND.1",
+      "black",
+      []
+    ],
+    [
+      "imu:AD0",
+      "nucleo:GND.1",
+      "green",
+      []
+    ],
+    [
+      "imu:SCL",
+      "nucleo:PB8",
+      "green",
+      []
+    ],
+    [
+      "imu:SDA",
+      "nucleo:PB9",
+      "green",
+      []
+    ],
+    [
+      "scl_pull:1",
+      "nucleo:3V3.1",
+      "green",
+      []
+    ],
+    [
+      "scl_pull:2",
+      "imu:SCL",
+      "green",
+      []
+    ],
+    [
+      "sda_pull:1",
+      "nucleo:3V3.1",
+      "green",
+      []
+    ],
+    [
+      "sda_pull:2",
+      "imu:SDA",
+      "green",
+      []
+    ],
+    [
+      "pir:VCC",
+      "nucleo:5V.1",
+      "green",
+      []
+    ],
+    [
+      "pir:GND",
+      "nucleo:GND.1",
+      "black",
+      []
+    ],
+    [
+      "ldr:VCC",
+      "nucleo:3V3.1",
+      "green",
+      []
+    ],
+    [
+      "ldr:GND",
+      "nucleo:GND.1",
+      "black",
+      []
+    ],
+    [
+      "ldr:AO",
+      "nucleo:PA0",
+      "green",
+      []
+    ],
+    [
+      "logic:GND",
+      "nucleo:GND.1",
+      "black",
+      []
+    ],
+    [
+      "logic:D0",
+      "nucleo:PA8",
+      "green",
+      []
+    ],
+    [
+      "logic:D1",
+      "nucleo:PA9",
+      "blue",
+      []
+    ],
+    [
+      "stim:PIR",
+      "nucleo:PB0",
+      "green",
+      []
+    ],
+    [
+      "logic:D2",
+      "nucleo:PA7",
+      "blue",
+      []
+    ],
+    [
+      "logic:D3",
+      "nucleo:PB0",
+      "green",
+      []
+    ]
+  ],
+  "dependencies": {}
+}

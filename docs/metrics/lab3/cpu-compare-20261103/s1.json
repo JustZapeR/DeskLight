@@ -1,0 +1,17 @@
+{
+  "source": "run-01/capture.vcd",
+  "sha256": "28757265d01aef1505a8171fae2277909a1b146e739e34f6e8733b8b03003a2a",
+  "capture_end_s": 185.92010195,
+  "window_s": [
+    5.0,
+    15.0
+  ],
+  "marker_high_ns": 6133421975.0,
+  "marked_fraction_pct": 61.33421975,
+  "marked_rises": 100396,
+  "calibration_pulses": 100,
+  "calibration_ns_min": 250,
+  "calibration_ns_mean": 250.0,
+  "calibration_ns_max": 250,
+  "limitations": "foreground marker includes interrupt preemption and instrumentation; excludes idle polls, exception-only execution outside markers, work outside selected scopes. Not physical CPU measurement."
+}

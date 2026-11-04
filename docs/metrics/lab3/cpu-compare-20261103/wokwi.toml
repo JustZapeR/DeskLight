@@ -1,0 +1,8 @@
+[wokwi]
+version=1
+firmware='firmware.hex'
+elf='firmware.elf'
+rfc2217ServerPort=42745
+[[chip]]
+name='stim'
+binary='stim.chip.wasm'

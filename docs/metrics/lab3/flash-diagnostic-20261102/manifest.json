@@ -1,0 +1,19 @@
+{
+  "diagnostic_scope": "Flash erase/readback on pages 14 and 15; separate instrumented ELF",
+  "parent_measured_elf_sha256": "d4c6ed31844d8988d0530fddeb7923e3aed11502e20d534d9e1c462bf6516843",
+  "commands": [
+    "journal",
+    "storage probe",
+    "save",
+    "journal"
+  ],
+  "files": {
+    "firmware.elf": "5b7ae77f5bf6295e5173ee6e3328a1b42a1ce79fde98a9c9bbe9c7c9933ee8a6",
+    "firmware.hex": "bdc017df1e929d7186cd98321fd9281595d44fa4f508a784407c9352f9fe3553",
+    "diagram.json": "4b2b9a82054e9e5ec16eb2eec505f84762d84ea7d0f500595440ed17f8edc7bc",
+    "wokwi.toml": "eb9e076fabff1e9b85cf16c0f90220c7f2845f86cea83d4a9cdabc8eda3bfec9",
+    "uart.raw": "24f6242833939dfe9550dbf97508f506604d4c59f6c4812262b6dc0458fa7121",
+    "wokwi.vcd": "8d438cdde8c3e400d4f693476b9e5bc2b58a91cf65847725152aeb1d66dbbf06"
+  },
+  "result": "HAL unlock and erase OK, page error FFFFFFFF, HAL error and SR zero; readback both pages zero FF bytes out of 2048, first 4 bytes 00000000; save rejects erase, no record programmed or CRC verified. No conclusion about exact internal simulator cause or physical hardware."
+}

@@ -2,9 +2,8 @@ CC ?= cc
 CFLAGS ?= -std=c11 -Wall -Wextra -Werror -g
 BUILD = build/$(shell uname -s)-$(shell uname -m)
 .PHONY: test clean
-test: $(BUILD)/systick_time $(BUILD)/clock_fold $(BUILD)/worklog $(BUILD)/driver $(BUILD)/desk $(BUILD)/tilt $(BUILD)/console $(BUILD)/faults
+test: $(BUILD)/systick_time $(BUILD)/worklog $(BUILD)/driver $(BUILD)/desk $(BUILD)/tilt $(BUILD)/console $(BUILD)/faults
 	$(BUILD)/systick_time
-	$(BUILD)/clock_fold
 	$(BUILD)/worklog
 	$(BUILD)/driver
 	$(BUILD)/desk
@@ -32,10 +31,6 @@ clean:
 $(BUILD)/worklog: test_worklog.c ../firmware/Desk/worklog.c
 	mkdir -p $(BUILD)
 	$(CC) $(CFLAGS) $^ -o $@
-
-$(BUILD)/clock_fold: test_clock_fold.c ../firmware/Board/clock_fold.h
-	mkdir -p $(BUILD)
-	$(CC) $(CFLAGS) $< -o $@
 
 $(BUILD)/systick_time: test_systick_time.c ../firmware/Board/systick_time.h
 	mkdir -p $(BUILD)

@@ -1,0 +1,82 @@
+[
+  {
+    "status_ms": 26009,
+    "command": "mode auto"
+  },
+  {
+    "status_ms": 26056,
+    "command": "journal"
+  },
+  {
+    "status_ms": 28026,
+    "command": "mode adjust"
+  },
+  {
+    "status_ms": 31104,
+    "command": "mode auto"
+  },
+  {
+    "status_ms": 34026,
+    "command": "journal"
+  },
+  {
+    "status_ms": 37026,
+    "command": "mode adjust"
+  },
+  {
+    "status_ms": 70087,
+    "command": "history"
+  },
+  {
+    "status_ms": 72208,
+    "command": "history"
+  },
+  {
+    "status_ms": 73007,
+    "command": "history"
+  },
+  {
+    "status_ms": 75108,
+    "command": "history"
+  },
+  {
+    "status_ms": 76208,
+    "command": "history"
+  },
+  {
+    "status_ms": 78308,
+    "command": "history"
+  },
+  {
+    "status_ms": 79107,
+    "command": "history"
+  },
+  {
+    "status_ms": 81208,
+    "command": "history"
+  },
+  {
+    "status_ms": 82007,
+    "command": "history"
+  },
+  {
+    "status_ms": 84108,
+    "command": "history"
+  },
+  {
+    "status_ms": 85208,
+    "command": "history"
+  },
+  {
+    "status_ms": 87308,
+    "command": "history"
+  },
+  {
+    "status_ms": 88086,
+    "command": "history"
+  },
+  {
+    "status_ms": 90208,
+    "command": "history"
+  }
+]
